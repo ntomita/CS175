@@ -54,8 +54,8 @@ def pretty_print(alignment, max_length=75, threshold=0.04):
 
 
 def main():
-    fasta_file = "DROME_HH_Q02936.fasta"
-    xml_file = "blast_result.xml"
+    fasta_file = os.path.join("fasta", "DROME_HH_Q02936.fasta")
+    xml_file = os.path.join("xml", "blast_result.xml")
     if not os.path.exists(xml_file):
         blast(fasta_file_path=fasta_file, xml_file_path=xml_file)
 
