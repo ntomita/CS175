@@ -6,7 +6,7 @@ def test():
     """Testing methods
     """
     fasta_file = os.path.join("fasta", "DROME_HH_Q02936.fasta")
-    xml_file = os.path.join("xml", "blast_result.xml")
+    xml_file = os.path.join("xml", "blast_{}.xml".format(os.path.splitext(os.path.basename(fasta_file))[0]))
     blast = Blast()
 
     if not os.path.exists(xml_file):
