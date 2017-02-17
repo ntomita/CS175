@@ -4,16 +4,24 @@ from pmf import PMF
 
 class Blast():
 
+    def __init__(self):
+        self.records = None  # placeholder
+
     @property
     def records_size(self):
         return len(self.records) if self.records is not None else 0
 
-    @property
     def alignments_size(self, record_index):
         try:
             return len(self.records[record_index].alignments)
         except:
             return 0
+
+    def get_record(self, record_index):
+        return self.records[record_index]
+
+    def get_alignment(self, record_index, alignment_index):
+        return self.records[record_index].alignments[alignment_index]
 
     def blast(self, fasta_file_path, xml_file_path="", hitlist_size=50,
               program='blastp', database='nr'):
