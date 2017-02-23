@@ -11,10 +11,12 @@ def test():
 
     if not os.path.exists(xml_file):
         blast.blast(fasta_file_path=fasta_file, xml_file_path=xml_file)
-    blast.open_xml(xml_file)
+    else:
+        blast.load_xml(xml_file)
+        blast.load_sequences(fasta_file)
 
     print "# of records(protein): {}".format(blast.records_size)
-
+    print "Original Sequence: {}".format(blast.sequences[0])
     # showing first alignment of first protein
     blast.pretty_print(record_index=0, alignment_index=0)
     print ""

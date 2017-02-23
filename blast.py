@@ -1,4 +1,5 @@
 from Bio.Blast import NCBIWWW, NCBIXML
+from Bio import SeqIO
 from pmf import PMF
 
 
@@ -6,6 +7,7 @@ class Blast():
 
     def __init__(self):
         self.records = None  # placeholder
+        self.sequences = None  # placeholder
 
     @property
     def records_size(self):
@@ -46,10 +48,11 @@ class Blast():
             save_file = open(xml_file_path, 'w')
             save_file.write(result_handle.read())
             save_file.close()
-        self.records = list(result_handle)
+        self.records = list(NCBIXML.parse(result_handle))
+        self.load_sequences(fasta_file_path)
         return self.records
 
-    def open_xml(self, xml_file_path):
+    def load_xml(self, xml_file_path):
         """Returns blast records stored in a xml file
         Args:
             xml_file_path (string) where a file containing a result of blast
@@ -60,6 +63,10 @@ class Blast():
         blast_records = NCBIXML.parse(result_handle)
         self.records = list(blast_records)
         return self.records
+
+    def load_sequences(self, fasta_file_path):
+        self.sequences = [str(s.seq) for s in SeqIO.parse(fasta_file_path, "fasta")]
+        return self.sequences
 
     def pretty_print(self, record_index=0, alignment_index=0,
                      alignment=None, max_length=75, threshold=0.04):
@@ -115,14 +122,19 @@ class Blast():
 
                 for i in range(len(hsp.query)):
                     if hsp.query[i] == '-':
-                        continue  # gap in query: ignore
+                        # gap in query: ignore
+                        continue
                     elif hsp.query[i] == hsp.match[i]:
+                        # identity
+                        pmf.increment(pos, hsp.sbjct[i])
                         pos += 1
-                        continue  # identity: ignore
+                        continue
                     elif hsp.sbjct[i] == '-':
+                        # gap in sbjct: ignore
                         pos += 1
-                        continue  # gap in sbjct: ignore
+                        continue
                     else:
+                        # different symbol
                         pmf.increment(pos, hsp.sbjct[i])
                         pos += 1
         self.pmf = pmf
