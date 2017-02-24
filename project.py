@@ -14,8 +14,6 @@ def probable_mutations(original,pmf,n):
         mut_string - the mutated string
     """
 
-    #print "input inside function: ", original
-    #print "pmf inside fiunction: ",pmf.get_distribution(0)
     delta_tuples = []     
     location_param_dict = {'A':-0.605,'C':-0.693,'D':-0.279,'E':-0.160,'F':-0.719
                         ,'G':-0.537,'H':-.662,'I':-0.682,'K':-0.043,'L':-0.631
@@ -36,12 +34,10 @@ def probable_mutations(original,pmf,n):
                 curr_tuple = (key, delta, itr)
 
         # Step 5: add the tuples into the corresponding index of the list of 
-        #deltas for the original string
+        # deltas for the original string
         delta_tuples.append(curr_tuple)
 
 
-    #delta_tuples.sort(key=lambda x: x[1])
-    #import pdb; pdb.set_trace()
     sorted_delta_tuples = sorted(delta_tuples, key=lambda x: x[1], reverse=True)
     
     """Mutate the original string by taking highest n values of
@@ -50,13 +46,12 @@ def probable_mutations(original,pmf,n):
     
     for i in xrange(n):
         curr_t = sorted_delta_tuples[i]
-        #print original[curr_t[2]
         list_orig[curr_t[2]] = curr_t[0]
 
     mutated_string ="".join(list_orig)
 
-    print original
-    print mutated_string
+    #print original
+    #print mutated_string
 
 def test():
     """Testing methods
