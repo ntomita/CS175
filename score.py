@@ -13,7 +13,7 @@ def generate_dictionary(score_file):
     for line in f:
         character = line.split(':')[0]
         score = line.split(':')[1]
-        print score
+        #print score
         score_dictionary[character] = float(score)
     f.close()
     return score_dictionary

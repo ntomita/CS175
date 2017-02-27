@@ -96,7 +96,8 @@ class Blast():
                 print(hsp.match[0:min(max_length, len(hsp.match))] + '...')
                 print(hsp.sbjct[0:min(max_length, len(hsp.sbjct))] + '...')
 
-    def build_positional_distributions(self, record_index=0, blast_record=None, threshold=0.04):
+    def build_positional_distributions(self, record_index=0, blast_record=None,
+                                       threshold=0.04, min_length_ratio=0.8):
         """Count possible mutation at each position and returns distributions
         Construct pmf distributions of a record at given index. If blast_record
             object is given, construct distributions based on the object instead.
@@ -104,6 +105,11 @@ class Blast():
         Args:
             record_index (int)
             blast_record (Bio.Blast.Record.Blast)
+            threshold (float): used to compare with hsp.expect
+                (but not sure how this can be effective)
+            min_length_ratio (float): value between 0 and 1, defining
+                the minimum length compared to the length of original string
+                match results should have. (we don't need a tiny sequence)
         Returns:
             (PMF) containing a list of dictionaries that represents distributions
                 of symbols at each position of protein sequence
@@ -117,6 +123,8 @@ class Blast():
         for alignment in blast_record.alignments:
             for hsp in alignment.hsps:
                 if hsp.expect > threshold:
+                    continue
+                if (hsp.query_end - hsp.query_start + 0.0) / query_length < min_length_ratio:
                     continue
                 pos = hsp.query_start - 1
 
