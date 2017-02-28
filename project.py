@@ -3,11 +3,9 @@ import os
 from mutation import probable_mutations
 from generate_blueprint import generate_blueprint
 from remodel import remodel
+from score import generate_dictionary
+from score import calculate_score
 
-flexibility_dict = {'A':-0.605,'C':-0.693,'D':-0.279,'E':-0.160,'F':-0.719
-                      ,'G':-0.537,'H':-.662,'I':-0.682,'K':-0.043,'L':-0.631
-                      ,'M':-0.626,'N':-0.381,'P':-0.271,'Q':-0.369,'R':-0.448
-                      ,'S':-0.423,'T':-0.525,'V':-0.669,'W':-0.727,'Y':-0.721}
 
 def test():
     """Testing methods
@@ -35,15 +33,24 @@ def test():
     for i in range(10):
         print "at {}: {}".format(i, pmf.get_distribution(i))  # showing first 10 distributions
 
-    (mutated, score) = probable_mutations(original_string, pmf, flexibility_dict, 4, method='min')
-    print mutated
+    # Load the dictionary.
+    stability_dict = generate_dictionary(os.path.join("data", "stabilityScoreFile.txt"))
 
+    (mutated, score) = probable_mutations(original_string, pmf, stability_dict, 4, method='min')
+    print mutated
+    print score
+
+
+    # The original score
+    original_score = calculate_score(original_string, stability_dict)
+    print original_score
 
 def extract_fasta_header(fasta_file_path):
     return open(fasta_file_path).read().split("\n")[0]
 
 
-def produce(target, num_mutate=4, method='min'):
+def produce(target, dict_path, method num_mutate=4, method='min'):
+    # 1. Blast a sequence in fasta file
     fasta_file = os.path.join("fasta", "{}.fasta".format(target))
     xml_file = os.path.join("xml", "blast_{}.xml".format(os.path.splitext(os.path.basename(fasta_file))[0]))
     blast = Blast()
@@ -54,16 +61,20 @@ def produce(target, num_mutate=4, method='min'):
         blast.load_xml(xml_file)
         blast.load_sequences(fasta_file)
     original_string = blast.sequences[0]
+    # 2. Generate a possible mutation dictionary based on blasted results
     pmf = blast.build_positional_distributions(record_index=0)
+    stability_dict = generate_dictionary(os.path.join("data", dict_path))
     print "Mutating a sequence..."
-    (mutated, score) = probable_mutations(original_string, pmf, flexibility_dict, num_mutate, method=method)
+    # 3. Apply mutation and store it in fasta file
+    (mutated, score) = probable_mutations(original_string, pmf, stability_dict, num_mutate, method=method)
     print "Score: {}".format(score)
     mutated_fasta_file = open("{}_mutated.fasta".format(target), "w")
     mutated_fasta_file.write(extract_fasta_header(fasta_file) + "\n" + mutated)
     mutated_fasta_file.close()
+    # 4. Generate a blueprint file from origianl and mutated sequences
     blueprint_path = os.path.join("blueprint", "{}.remodel".format(target))
     generate_blueprint(original_string, mutated, blueprint_path)
-
+    # 5. Run rosetta remodel to generate a mutated pdb file
     rosetta_path = open("rosetta_path.config").read()
     pdb_path = os.path.join("pdb", "{}.pdb".format(target))
     print "Start remodeling... (Will take about an hour or more)"
@@ -72,4 +83,4 @@ def produce(target, num_mutate=4, method='min'):
 
 if __name__ == '__main__':
     #test()
-    produce(target="1c20")
+    produce(target="1c20", dict_path="stabilityScoreFile.txt")
