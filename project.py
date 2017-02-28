@@ -1,11 +1,8 @@
 from blast import Blast
 import os
 from mutation import probable_mutations
-
-flexibility_dict = {'A':-0.605,'C':-0.693,'D':-0.279,'E':-0.160,'F':-0.719
-                      ,'G':-0.537,'H':-.662,'I':-0.682,'K':-0.043,'L':-0.631
-                      ,'M':-0.626,'N':-0.381,'P':-0.271,'Q':-0.369,'R':-0.448
-                      ,'S':-0.423,'T':-0.525,'V':-0.669,'W':-0.727,'Y':-0.721}
+from score import generate_dictionary
+from score import calculate_score
 
 def test():
     """Testing methods
@@ -33,9 +30,18 @@ def test():
     for i in range(10):
         print "at {}: {}".format(i, pmf.get_distribution(i))  # showing first 10 distributions
 
-    (mutated, score) = probable_mutations(original_string, pmf, flexibility_dict, 4, method='min')
-    print mutated
+    # Load the dictionary.
+    stability_dict = generate_dictionary("data/stabilityScoreFile.txt")
+    print stability_dict
 
+    (mutated, score) = probable_mutations(original_string, pmf, stability_dict, 4, method='min')
+    print mutated
+    print score
+
+
+    # The original score
+    original_score = calculate_score(original_string, stability_dict)
+    print original_score
 
 if __name__ == '__main__':
     test()
