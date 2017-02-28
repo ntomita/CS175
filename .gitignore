@@ -1,5 +1,9 @@
+# output folder
+.test.output
+
 # Rosetta Related stuff
-rosetta/
+rosetta/*
+rosetta_path.config
 
 # Mac index file
 .DS_Store
