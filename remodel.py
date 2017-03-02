@@ -41,7 +41,7 @@ def remodel(rosetta_path, pdb_path, blueprint_path):
     binary_path = os.path.join(rosetta_path, "main", "source", "bin", binary_name)
     database_path = os.path.join(rosetta_path, "main", "database")
 
-    command = "{} -database {} -s {} -remodel:blueprint {} -run:chain A -remodel:dr_cycles 3 -nstruct 1 -ex1 -ex2 -ignore_zero_occupancy false".format(
+    command = "{} -database {} -s {} -remodel:blueprint {} -run:chain A -remodel:dr_cycles 3 -nstruct 1 -overwrite -ex1 -ex2 -ignore_zero_occupancy false".format(
         '\''+binary_path+'\'',
         '\''+database_path+'\'',
         pdb_path,

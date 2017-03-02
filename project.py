@@ -36,7 +36,7 @@ def test():
     # Load the dictionary.
     stability_dict = generate_dictionary(os.path.join("data", "stabilityScoreFile.txt"))
 
-    (mutated, score) = probable_mutations(original_string, pmf, stability_dict, 4, method='min')
+    (mutated, score) = probable_mutations(original_string, pmf, stability_dict, 2, method='min')
     print mutated
     print score
 
@@ -53,7 +53,7 @@ def save_in_fasta(file_path, header, sequence):
     mutated_fasta_file.write(header + "\n" + sequence)
     mutated_fasta_file.close()
 
-def produce(target, dict_path, num_mutate=4, method='min'):
+def produce(target, dict_path, num_mutate=2, method='min'):
     """
         1. Blast a sequence in fasta file
     """
