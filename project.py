@@ -72,7 +72,7 @@ def produce(target, dict_path, num_mutate=4, method='min'):
     """
     pmf = blast.build_positional_distributions(record_index=0)
     stability_dict = generate_dictionary(os.path.join("data", dict_path))
-    
+
     """
         3. Apply mutation and store it in fasta file
     """
@@ -94,23 +94,23 @@ def produce(target, dict_path, num_mutate=4, method='min'):
     """
     rosetta_path = open("rosetta_path.config").read().strip('\n')
     pdb_path = os.path.join("pdb", "{}.pdb".format(target))
-    print "Start relaxing..."
-    relax(rosetta_path, pdb_path)
+    #print "Start relaxing..."
+    #relax(rosetta_path, pdb_path)
 
     """
         5. Run rosetta remodel to generate a mutated pdb file
     """
     # Now relaxed pdb file generated is stored at root named with 0001
-    pdb_path = os.path.join("{}_0001.pdb".format(target))
+    #pdb_path = os.path.join("{}_0001.pdb".format(target))
     print "Start remodeling... (Will take about an hour or more)"
     remodel(rosetta_path, pdb_path, blueprint_path)
 
     """
         5.5 Relax the remodeled pdb
     """
-    pdb_path = os.path.join("pdb", "{}_0001_0001.pdb".format(target))
-    print "Start relaxing..."
-    relax(rosetta_path, pdb_path)
+    #pdb_path = os.path.join("pdb", "{}_0001_0001.pdb".format(target))
+    #print "Start relaxing..."
+    #relax(rosetta_path, pdb_path)
 
 
 if __name__ == '__main__':
