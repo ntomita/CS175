@@ -1,4 +1,6 @@
 import operator
+from score import calculate_score
+
 
 def probable_mutations(original, pmf, location_param_dict, n, method='min'):
     """Based on hsp sequences and Location parameters values of Amino acids,
@@ -19,8 +21,8 @@ def probable_mutations(original, pmf, location_param_dict, n, method='min'):
     delta_tuples = []
     # Step 1: traverse through the original string to carry out the mutations
     for itr in xrange(0, len(original)):
-        #Step 2: for every character of the original string, look at the corresponding
-        #dictionary in the PMF
+        # Step 2: for every character of the original string, look at the corresponding
+        # dictionary in the PMF
         pmf_dict = pmf.get_distribution(itr)
         str_char = original[itr]
         if method == 'min':
@@ -64,8 +66,5 @@ def probable_mutations(original, pmf, location_param_dict, n, method='min'):
         list_orig[curr_t[2]] = curr_t[0]
 
     mutated_string ="".join(list_orig)
-
-    #print original
-    #print mutated_string
-    score = 0 # calculate_score(mutated_string, location_param_dict)
+    score = calculate_score(mutated_string, location_param_dict)
     return (mutated_string, score)
