@@ -3,7 +3,7 @@ import os
 from sys import platform as _platform
 
 
-def relax(rosetta_path, pdb_path):
+def relax(rosetta_path, pdb_path, outfolder='./rosetta_out'):
     if _platform == "linux" or _platform == "linux2":
         # linux
         binary_name = "relax.linuxgccrelease"
@@ -17,17 +17,19 @@ def relax(rosetta_path, pdb_path):
     binary_path = os.path.join(rosetta_path, "main", "source", "bin", binary_name)
     database_path = os.path.join(rosetta_path, "main", "database")
 
-    command = "{} -database {} -s {} -ignore_unrecognized_res -overwrite -nstruct 1 -relax:constrain_relax_to_start_coords".format(
+    command = "{} -database {} -s {} -ignore_unrecognized_res -overwrite -nstruct 1 -relax:constrain_relax_to_start_coords -out:path:pdb {} -out:path:score {}".format(
         '\''+binary_path+'\'',
         '\''+database_path+'\'',
-        pdb_path)
+        '\''+pdb_path+'\'',
+        '\''+outfolder+'\'',
+        '\''+outfolder+'\'')
     print command
     subprocess.check_output(command,
                             stderr=subprocess.STDOUT,
                             shell=True)
 
 
-def remodel(rosetta_path, pdb_path, blueprint_path):
+def remodel(rosetta_path, pdb_path, blueprint_path, outfolder='./rosetta_out'):
     if _platform == "linux" or _platform == "linux2":
         # linux
         binary_name = "remodel.linuxgccrelease"
@@ -41,11 +43,13 @@ def remodel(rosetta_path, pdb_path, blueprint_path):
     binary_path = os.path.join(rosetta_path, "main", "source", "bin", binary_name)
     database_path = os.path.join(rosetta_path, "main", "database")
 
-    command = "{} -database {} -s {} -remodel:blueprint {} -run:chain A -remodel:dr_cycles 3 -nstruct 1 -ex1 -ex2 -ignore_zero_occupancy false".format(
+    command = "{} -database {} -s {} -remodel:blueprint {} -run:chain A -remodel:dr_cycles 3 -nstruct 1 -ex1 -ex2 -ignore_zero_occupancy false -out:path:pdb {} -out:path:score {}".format(
         '\''+binary_path+'\'',
         '\''+database_path+'\'',
-        pdb_path,
-        blueprint_path)
+        '\''+pdb_path+'\'',
+        '\''+blueprint_path+'\'',
+        '\''+outfolder+'\'',
+        '\''+outfolder+'\'')
     print command
     #remodel:dr_cycles 3
     #ex1

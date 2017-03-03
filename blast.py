@@ -48,8 +48,7 @@ class Blast():
             save_file = open(xml_file_path, 'w')
             save_file.write(result_handle.read())
             save_file.close()
-        # TODO: NEED FIX: after read the handle, it's empty
-        self.records = list(NCBIXML.parse(result_handle))
+        self.records = list(self.load_xml(xml_file_path))
         self.load_sequences(fasta_file_path)
         return self.records
 
