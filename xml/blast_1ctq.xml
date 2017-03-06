@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_168073</BlastOutput_query-ID>
+  <BlastOutput_query-def>1CTQ:A|PDBID|CHAIN|SEQUENCE</BlastOutput_query-def>
+  <BlastOutput_query-len>166</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_168073</Iteration_query-ID>
+  <Iteration_query-def>1CTQ:A|PDBID|CHAIN|SEQUENCE</Iteration_query-def>
+  <Iteration_query-len>166</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|68533980|gb|AAH99130.1|</Hit_id>
+  <Hit_def>Hras protein, partial [Rattus norvegicus]</Hit_def>
+  <Hit_accession>AAH99130</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.206</Hsp_bit-score>
+      <Hsp_score>892</Hsp_score>
+      <Hsp_evalue>2.64253e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|38303987|gb|AAH61885.1|</Hit_id>
+  <Hit_def>Hras1 protein, partial [Mus musculus]</Hit_def>
+  <Hit_accession>AAH61885</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.051</Hsp_bit-score>
+      <Hsp_score>889</Hsp_score>
+      <Hsp_evalue>5.47822e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|231226|pdb|6Q21|A</Hit_id>
+  <Hit_def>Chain A, Molecular Switch For Signal Transduction: Structural Differences Between Active And Inactive Forms Of Protooncogenic Ras Proteins &gt;gi|231227|pdb|6Q21|B Chain B, Molecular Switch For Signal Transduction: Structural Differences Between Active And Inactive Forms Of Protooncogenic Ras Proteins &gt;gi|231228|pdb|6Q21|C Chain C, Molecular Switch For Signal Transduction: Structural Differences Between Active And Inactive Forms Of Protooncogenic Ras Proteins &gt;gi|231229|pdb|6Q21|D Chain D, Molecular Switch For Signal Transduction: Structural Differences Between Active And Inactive Forms Of Protooncogenic Ras Proteins &gt;gi|15988032|pdb|1IOZ|A Chain A, Crystal Structure Of The C-Ha-Ras Protein Prepared By The Cell-Free Synthesis &gt;gi|157829765|pdb|1AA9|A Chain A, Human C-Ha-Ras(1-171)(Dot)gdp, Nmr, Minimized Average Structure &gt;gi|157833599|pdb|1Q21|A Chain A, Crystal Structures At 2.2 Angstroms Resolution Of The Catalytic Domains Of Normal Ras Protein And An Oncogenic Mutant Complexed With Gsp</Hit_def>
+  <Hit_accession>6Q21_A</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.354</Hsp_bit-score>
+      <Hsp_score>882</Hsp_score>
+      <Hsp_evalue>5.87062e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|55778655|gb|AAH86608.1|</Hit_id>
+  <Hit_def>Hras protein, partial [Rattus norvegicus]</Hit_def>
+  <Hit_accession>AAH86608</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.051</Hsp_bit-score>
+      <Hsp_score>889</Hsp_score>
+      <Hsp_evalue>6.74693e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|3402129|pdb|1WQ1|R</Hit_id>
+  <Hit_def>Chain R, Ras-Rasgap Complex &gt;gi|4389273|pdb|1BKD|R Chain R, Complex Of Human H-Ras With Human Sos-1 &gt;gi|6573397|pdb|1CTQ|A Chain A, Structure Of P21ras In Complex With Gppnhp At 100 K &gt;gi|6573669|pdb|1QRA|A Chain A, Structure Of P21ras In Complex With Gtp At 100 K &gt;gi|20150727|pdb|1K8R|A Chain A, Crystal Structure Of Ras-Bry2rbd Complex &gt;gi|29726773|pdb|1NVV|R Chain R, Structural Evidence For Feedback Activation By Rasgtp Of The Ras-specific Nucleotide Exchange Factor Sos &gt;gi|29726775|pdb|1NVW|Q Chain Q, Structural Evidence For Feedback Activation By Rasgtp Of The Ras-specific Nucleotide Exchange Factor Sos &gt;gi|29726776|pdb|1NVW|R Chain R, Structural Evidence For Feedback Activation By Rasgtp Of The Ras-specific Nucleotide Exchange Factor Sos &gt;gi|34810863|pdb|1P2S|A Chain A, H-Ras 166 In 50% 2,2,2 Triflouroethanol &gt;gi|34810864|pdb|1P2T|A Chain A, H-Ras 166 In Aqueous Mother Liqour, Rt &gt;gi|34810865|pdb|1P2U|A Chain A, H-Ras In 50% Isopropanol &gt;gi|34810866|pdb|1P2V|A Chain A, H-Ras 166 In 60 % 1,6 Hexanediol &gt;gi|56554475|pdb|1XD2|B Chain B, Crystal Structure Of A Ternary Ras:sos:ras*gdp Complex &gt;gi|157829549|pdb|121P|A Chain A, Struktur Und Guanosintriphosphat-Hydrolysemechanismus Des C- Terminal Verkuerzten Menschlichen Krebsproteins P21-H-Ras &gt;gi|157830696|pdb|1CRP|A Chain A, The Solution Structure And Dynamics Of Ras P21. Gdp Determined By Heteronuclear Three And Four Dimensional Nmr Spectroscopy &gt;gi|157830697|pdb|1CRQ|A Chain A, The Solution Structure And Dynamics Of Ras P21. Gdp Determined By Heteronuclear Three And Four Dimensional Nmr Spectroscopy &gt;gi|157830698|pdb|1CRR|A Chain A, The Solution Structure And Dynamics Of Ras P21. Gdp Determined By Heteronuclear Three And Four Dimensional Nmr Spectroscopy &gt;gi|157831216|pdb|1GNP|A Chain A, X-Ray Crystal Structure Analysis Of The Catalytic Domain Of The Oncogene Product P21h-Ras Complexed With Caged Gtp And Mant Dgppnhp &gt;gi|157831217|pdb|1GNQ|A Chain A, X-Ray Crystal Structure Analysis Of The Catalytic Domain Of The Oncogene Product P21h-Ras Complexed With Caged Gtp And Mant Dgppnhp &gt;gi|157831218|pdb|1GNR|A Chain A, X-Ray Crystal Structure Analysis Of The Catalytic Domain Of The Oncogene Product P21h-Ras Complexed With Caged Gtp And Mant Dgppnhp &gt;gi|157837061|pdb|5P21|A Chain A, Refined Crystal Structure Of The Triphosphate Conformation Of H-Ras P21 At 1.35 Angstroms Resolution: Implications For The Mechanism Of Gtp Hydrolysis &gt;gi|163310971|pdb|2RGE|A Chain A, Crystal Structure Of H-Ras-Gppnhp &gt;gi|290560305|pdb|3K8Y|A Chain A, Allosteric Modulation Of H-Ras Gtpase &gt;gi|290560472|pdb|3LBH|A Chain A, Ras Soaked In Calcium Acetate &gt;gi|290560473|pdb|3LBI|A Chain A, Ras Soaked In Magnesium Acetate And Back Soaked In Calcium A &gt;gi|290560474|pdb|3LBN|A Chain A, Ras Soaked In Magnesium Acetate &gt;gi|291463609|pdb|3KUD|A Chain A, Complex Of Ras-Gdp With Rafrbd(A85k) &gt;gi|316983223|pdb|3L8Y|A Chain A, Complex Of Ras With Cyclen &gt;gi|316983224|pdb|3L8Z|A Chain A, H-Ras Wildtype New Crystal Form &gt;gi|347447540|pdb|3RRY|A Chain A, H-Ras Crosslinked Control, Soaked In Aqueous Solution: One Of 10 In Mscs Set &gt;gi|347447541|pdb|3RRZ|A Chain A, H-Ras In 70% Glycerol: One Of 10 In Mscs Set &gt;gi|347447542|pdb|3RS0|A Chain A, H-Ras Soaked In Neat Cyclopentanol: One Of 10 In Mscs Set &gt;gi|347447543|pdb|3RS2|A Chain A, H-Ras Soaked In 50% 2,2,2-Trifluoroethanol: One Of 10 In Mscs Set &gt;gi|347447544|pdb|3RS3|A Chain A, H-Ras Soaked In Neat Hexane: 1 Of 10 In Mscs Set &gt;gi|347447545|pdb|3RS4|A Chain A, H-Ras Soaked In 60% 1,6-Hexanediol: 1 Of 10 In Mscs Set &gt;gi|347447546|pdb|3RS5|A Chain A, H-Ras Soaked In 55% Dimethylformamide: 1 Of 10 In Mscs Set &gt;gi|347447547|pdb|3RS7|A Chain A, H-Ras Soaked In 50% Isopropanol: 1 Of 10 In Mscs Set &gt;gi|347447548|pdb|3RSL|A Chain A, H-Ras Soaked In 90% R,S,R-Bisfuranol: One Of 10 In Mscs Set &gt;gi|347447549|pdb|3RSO|A Chain A, H-Ras Soaked In 20% S,R,S-Bisfuranol: 1 Of 10 In Mscs Set &gt;gi|350610722|pdb|3TGP|A Chain A, Room Temperature H-Ras &gt;gi|400260804|pdb|4DLS|A Chain A, H-Ras Set 1 Cacl2 &apos;mixed&apos; &gt;gi|400260805|pdb|4DLT|A Chain A, H-Ras Set 2 Ca(Oac)2, On &gt;gi|400260806|pdb|4DLU|A Chain A, H-Ras Set 1 Ca(Oac)2, On &gt;gi|400260808|pdb|4DLW|A Chain A, H-Ras Set 2 Ca(Oac)2DTT, ON &gt;gi|524933858|pdb|4G0N|A Chain A, Crystal Structure Of Wt H-ras-gppnhp Bound To The Rbd Of Raf Kinase &gt;gi|594148642|pdb|4NYJ|R Chain R, Approach For Targeting Ras With Small Molecules That Activate Sos- Mediated Nucleotide Exchange &gt;gi|594148645|pdb|4NYM|R Chain R, Approach For Targeting Ras With Small Molecules That Activate Sos- Mediated Nucleotide Exchange &gt;gi|946926022|pdb|4RSG|A Chain A, Neutron Crystal Structure Of Ras Bound To The Gtp Analogue Gppnhp</Hit_def>
+  <Hit_accession>1WQ1_R</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.969</Hsp_bit-score>
+      <Hsp_score>881</Hsp_score>
+      <Hsp_evalue>7.31226e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1046841600|ref|XP_017444495.1|</Hit_id>
+  <Hit_def>PREDICTED: GTPase HRas isoform X1 [Rattus norvegicus] &gt;gi|1046841602|ref|XP_017444496.1| PREDICTED: GTPase HRas isoform X1 [Rattus norvegicus] &gt;gi|1046841604|ref|XP_006230597.3| PREDICTED: GTPase HRas isoform X1 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>XP_017444495</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.591</Hsp_bit-score>
+      <Hsp_score>893</Hsp_score>
+      <Hsp_evalue>7.94169e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1096115939|pdb|5E95|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Mb(ns1)/h-ras Complex</Hit_def>
+  <Hit_accession>5E95_A</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.969</Hsp_bit-score>
+      <Hsp_score>881</Hsp_score>
+      <Hsp_evalue>8.47021e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|594148639|pdb|4NYI|R</Hit_id>
+  <Hit_def>Chain R, Approach For Targeting Ras With Small Molecules That Activate Sos- Mediated Nucleotide Exchange</Hit_def>
+  <Hit_accession>4NYI_R</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.584</Hsp_bit-score>
+      <Hsp_score>880</Hsp_score>
+      <Hsp_evalue>9.64166e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|387766392|pdb|4EFL|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of H-ras Wt In Complex With Gppnhp (state 1) &gt;gi|1033647377|pdb|5B2Z|A Chain A, H-ras Wt In Complex With Gppnhp (state 2*) Before Structural Transition By Humidity Control &gt;gi|1033647378|pdb|5B30|A Chain A, H-ras Wt In Complex With Gppnhp (state 1) After Structural Transition By Humidity Control</Hit_def>
+  <Hit_accession>4EFL_A</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.199</Hsp_bit-score>
+      <Hsp_score>879</Hsp_score>
+      <Hsp_evalue>1.49218e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|14488521|pdb|1IAQ|A</Hit_id>
+  <Hit_def>Chain A, C-H-Ras P21 Protein Mutant With Thr 35 Replaced By Ser (T35s) Complexed With Guanosine-5&apos;-[b,G-Imido] Triphosphate &gt;gi|14488522|pdb|1IAQ|B Chain B, C-H-Ras P21 Protein Mutant With Thr 35 Replaced By Ser (T35s) Complexed With Guanosine-5&apos;-[b,G-Imido] Triphosphate &gt;gi|14488523|pdb|1IAQ|C Chain C, C-H-Ras P21 Protein Mutant With Thr 35 Replaced By Ser (T35s) Complexed With Guanosine-5&apos;-[b,G-Imido] Triphosphate</Hit_def>
+  <Hit_accession>1IAQ_A</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.813</Hsp_bit-score>
+      <Hsp_score>878</Hsp_score>
+      <Hsp_evalue>1.96355e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPSIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDP+IEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|764091160|pdb|4URU|R</Hit_id>
+  <Hit_def>Chain R, The Crystal Structure Of H-ras And Sos In Complex With Ligands &gt;gi|764091162|pdb|4URV|R Chain R, The Crystal Structure Of H-ras And Sos In Complex With Ligands &gt;gi|764091164|pdb|4URW|R Chain R, The Crystal Structure Of H-ras And Sos In Complex With Ligands &gt;gi|764091166|pdb|4URX|R Chain R, The Crystal Structure Of H-ras And Sos In Complex With Ligands &gt;gi|764091168|pdb|4URY|R Chain R, The Crystal Structure Of H-ras And Sos In Complex With Ligands &gt;gi|764091170|pdb|4URZ|R Chain R, The Crystal Structure Of H-ras And Sos In Complex With Ligands &gt;gi|764091172|pdb|4US0|R Chain R, The Crystal Structure Of H-ras And Sos In Complex With Ligands &gt;gi|764091174|pdb|4US1|R Chain R, The Crystal Structure Of H-ras And Sos In Complex With Ligands &gt;gi|764091176|pdb|4US2|R Chain R, The Crystal Structure Of H-ras And Sos In Complex With Ligands</Hit_def>
+  <Hit_accession>4URU_R</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.584</Hsp_bit-score>
+      <Hsp_score>880</Hsp_score>
+      <Hsp_evalue>2.02554e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|835019088|pdb|4XVR|A</Hit_id>
+  <Hit_def>Chain A, H-ras Y137f</Hit_def>
+  <Hit_accession>4XVR_A</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.813</Hsp_bit-score>
+      <Hsp_score>878</Hsp_score>
+      <Hsp_evalue>2.21551e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSFGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARS+GIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|290560306|pdb|3K9N|A</Hit_id>
+  <Hit_def>Chain A, Allosteric Modulation Of H-Ras Gtpase &gt;gi|310942688|pdb|3K9L|A Chain A, Allosteric Modulation Of H-Ras Gtpase &gt;gi|310942689|pdb|3K9L|B Chain B, Allosteric Modulation Of H-Ras Gtpase &gt;gi|310942690|pdb|3K9L|C Chain C, Allosteric Modulation Of H-Ras Gtpase</Hit_def>
+  <Hit_accession>3K9N_A</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.813</Hsp_bit-score>
+      <Hsp_score>878</Hsp_score>
+      <Hsp_evalue>2.21551e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEFDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDE+DPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|4930054|pdb|1LFD|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of The Active Ras Protein Complexed With The Ras-interacting Domain Of Ralgds &gt;gi|4930056|pdb|1LFD|D Chain D, Crystal Structure Of The Active Ras Protein Complexed With The Ras-interacting Domain Of Ralgds</Hit_def>
+  <Hit_accession>1LFD_B</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.813</Hsp_bit-score>
+      <Hsp_score>878</Hsp_score>
+      <Hsp_evalue>2.29459e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDKYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVD+YDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|157834476|pdb|221P|A</Hit_id>
+  <Hit_def>Chain A, Three-Dimensional Structures Of H-Ras P21 Mutants: Molecular Basis For Their Inability To Function As Signal Switch Molecules</Hit_def>
+  <Hit_accession>221P_A</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.428</Hsp_bit-score>
+      <Hsp_score>877</Hsp_score>
+      <Hsp_evalue>2.58348e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEESYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIE+SYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|162330070|pdb|2QUZ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Activating H-Rask117r Mutant In Costello Syndrome, Bound To Mg-Gdp</Hit_def>
+  <Hit_accession>2QUZ_A</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.428</Hsp_bit-score>
+      <Hsp_score>877</Hsp_score>
+      <Hsp_evalue>2.61199e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNRCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGN+CDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|400260646|pdb|3V4F|A</Hit_id>
+  <Hit_def>Chain A, H-Ras Peg 400CACL2, ORDERED OFF &gt;gi|400260803|pdb|4DLR|A Chain A, H-Ras Peg 400CA(OAC)2, ORDERED OFF &gt;gi|400260807|pdb|4DLV|A Chain A, H-Ras Set 2 Cacl2DTT, ORDERED OFF &gt;gi|400260809|pdb|4DLX|A Chain A, H-Ras Set 1 Cacl2DTE, ORDERED OFF &gt;gi|400260810|pdb|4DLY|A Chain A, Set 1 Cacl2DTT, ORDERED OFF &gt;gi|400260811|pdb|4DLZ|A Chain A, H-Ras Set 2 Ca(Oac)2DTE, ORDERED OFF</Hit_def>
+  <Hit_accession>3V4F_A</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.428</Hsp_bit-score>
+      <Hsp_score>877</Hsp_score>
+      <Hsp_evalue>2.64082e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDEYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRD+YMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|290560551|pdb|3LO5|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Dominant Negative S17n Mutant Of Ras &gt;gi|290560552|pdb|3LO5|C Chain C, Crystal Structure Of The Dominant Negative S17n Mutant Of Ras &gt;gi|290560553|pdb|3LO5|E Chain E, Crystal Structure Of The Dominant Negative S17n Mutant Of Ras</Hit_def>
+  <Hit_accession>3LO5_A</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.428</Hsp_bit-score>
+      <Hsp_score>877</Hsp_score>
+      <Hsp_evalue>2.8517e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKNALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGK+ALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1048435920|ref|XP_017534296.1|</Hit_id>
+  <Hit_def>PREDICTED: GTPase HRas isoform X1 [Manis javanica]</Hit_def>
+  <Hit_accession>XP_017534296</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.199</Hsp_bit-score>
+      <Hsp_score>879</Hsp_score>
+      <Hsp_evalue>2.93585e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|163310968|pdb|2RGB|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of H-Rasq61k-Gppnhp</Hit_def>
+  <Hit_accession>2RGB_A</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.428</Hsp_bit-score>
+      <Hsp_score>877</Hsp_score>
+      <Hsp_evalue>2.94716e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGKEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAG+EEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|206559|gb|AAA42009.1|</Hit_id>
+  <Hit_def>c-ras-H-1 protein [Rattus norvegicus]</Hit_def>
+  <Hit_accession>AAA42009</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.199</Hsp_bit-score>
+      <Hsp_score>879</Hsp_score>
+      <Hsp_evalue>3.00099e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|507540435|ref|XP_004654222.1|</Hit_id>
+  <Hit_def>PREDICTED: GTPase HRas [Jaculus jaculus]</Hit_def>
+  <Hit_accession>XP_004654222</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.199</Hsp_bit-score>
+      <Hsp_score>879</Hsp_score>
+      <Hsp_evalue>3.06757e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|4885425|ref|NP_005334.1|</Hit_id>
+  <Hit_def>GTPase HRas isoform 1 [Homo sapiens] &gt;gi|194363762|ref|NP_001123914.1| GTPase HRas isoform 1 [Homo sapiens] &gt;gi|194363764|ref|NP_001123915.1| GTPase HRas isoform 1 [Mus musculus] &gt;gi|194394148|ref|NP_001091711.1| GTPase HRas precursor [Rattus norvegicus] &gt;gi|194394150|ref|NP_001123913.1| GTPase HRas precursor [Rattus norvegicus] &gt;gi|194440734|ref|NP_032310.2| GTPase HRas isoform 1 [Mus musculus] &gt;gi|388454300|ref|NP_001253350.1| GTPase HRas [Macaca mulatta] &gt;gi|296219126|ref|XP_002755736.1| PREDICTED: GTPase HRas isoform X1 [Callithrix jacchus] &gt;gi|297687752|ref|XP_002821367.1| PREDICTED: GTPase HRas [Pongo abelii] &gt;gi|524919987|ref|XP_005064275.1| PREDICTED: GTPase HRas [Mesocricetus auratus] &gt;gi|532015585|ref|XP_005351557.1| PREDICTED: GTPase HRas [Microtus ochrogaster] &gt;gi|532114004|ref|XP_005341674.1| PREDICTED: GTPase HRas isoform X2 [Ictidomys tridecemlineatus] &gt;gi|544483350|ref|XP_005576789.1| PREDICTED: GTPase HRas isoform X1 [Macaca fascicularis] &gt;gi|589928899|ref|XP_006977267.1| PREDICTED: GTPase HRas [Peromyscus maniculatus bairdii] &gt;gi|625216348|ref|XP_007648571.1| PREDICTED: GTPase HRas isoform X1 [Cricetulus griseus] &gt;gi|635010941|ref|XP_008016433.1| PREDICTED: GTPase HRas isoform X1 [Chlorocebus sabaeus] &gt;gi|640782541|ref|XP_008046914.1| PREDICTED: GTPase HRas isoform X5 [Carlito syrichta] &gt;gi|640782543|ref|XP_008046915.1| PREDICTED: GTPase HRas isoform X5 [Carlito syrichta] &gt;gi|674089268|ref|XP_008852607.1| PREDICTED: GTPase HRas isoform X1 [Nannospalax galili] &gt;gi|675683864|ref|XP_008975852.1| PREDICTED: GTPase HRas isoform X1 [Pan paniscus] &gt;gi|675704084|ref|XP_009007028.1| PREDICTED: GTPase HRas isoform X1 [Callithrix jacchus] &gt;gi|685584224|ref|XP_009183458.1| PREDICTED: GTPase HRas isoform X1 [Papio anubis] &gt;gi|724796293|ref|XP_010352136.1| PREDICTED: GTPase HRas isoform X1 [Rhinopithecus roxellana] &gt;gi|725605795|ref|XP_010329501.1| PREDICTED: GTPase HRas isoform X1 [Saimiri boliviensis boliviensis] &gt;gi|731251582|ref|XP_010638626.1| PREDICTED: GTPase HRas [Fukomys damarensis] &gt;gi|731251584|ref|XP_010638628.1| PREDICTED: GTPase HRas [Fukomys damarensis] &gt;gi|755523867|ref|XP_006536222.2| PREDICTED: GTPase HRas isoform X1 [Mus musculus] &gt;gi|795208275|ref|XP_011849201.1| PREDICTED: GTPase HRas isoform X1 [Mandrillus leucophaeus] &gt;gi|795208282|ref|XP_011849202.1| PREDICTED: GTPase HRas isoform X1 [Mandrillus leucophaeus] &gt;gi|795357007|ref|XP_011785378.1| PREDICTED: GTPase HRas isoform X1 [Colobus angolensis palliatus] &gt;gi|795357013|ref|XP_011785379.1| PREDICTED: GTPase HRas isoform X1 [Colobus angolensis palliatus] &gt;gi|795430532|ref|XP_011760577.1| PREDICTED: GTPase HRas isoform X1 [Macaca nemestrina] &gt;gi|795498502|ref|XP_011896347.1| PREDICTED: GTPase HRas isoform X2 [Cercocebus atys] &gt;gi|817282643|ref|XP_012311497.1| PREDICTED: GTPase HRas isoform X1 [Aotus nancymaae] &gt;gi|817282645|ref|XP_012311498.1| PREDICTED: GTPase HRas isoform X1 [Aotus nancymaae] &gt;gi|852798792|ref|XP_012888857.1| PREDICTED: GTPase HRas isoform X2 [Dipodomys ordii] &gt;gi|852798795|ref|XP_012888858.1| PREDICTED: GTPase HRas isoform X2 [Dipodomys ordii] &gt;gi|966983023|ref|XP_014968663.1| PREDICTED: GTPase HRas isoform X1 [Macaca mulatta] &gt;gi|984133833|ref|XP_015358890.1| PREDICTED: GTPase HRas isoform X2 [Marmota marmota marmota] &gt;gi|1032930122|ref|XP_016820822.1| PREDICTED: GTPase HRas isoform X3 [Cricetulus griseus] &gt;gi|1034085846|ref|XP_016775457.1| PREDICTED: GTPase HRas isoform X1 [Pan troglodytes] &gt;gi|1034085848|ref|XP_009457906.2| PREDICTED: GTPase HRas isoform X1 [Pan troglodytes] &gt;gi|1044423758|ref|XP_017363369.1| PREDICTED: GTPase HRas isoform X1 [Cebus capucinus imitator] &gt;gi|1044423760|ref|XP_017363370.1| PREDICTED: GTPase HRas isoform X1 [Cebus capucinus imitator] &gt;gi|1044423762|ref|XP_017363371.1| PREDICTED: GTPase HRas isoform X1 [Cebus capucinus imitator] &gt;gi|1059186575|ref|XP_017749507.1| PREDICTED: GTPase HRas isoform X1 [Rhinopithecus bieti] &gt;gi|1059186577|ref|XP_017749508.1| PREDICTED: GTPase HRas isoform X1 [Rhinopithecus bieti] &gt;gi|1059186579|ref|XP_017749509.1| PREDICTED: GTPase HRas isoform X1 [Rhinopithecus bieti] &gt;gi|1060530879|ref|XP_017803605.1| PREDICTED: GTPase HRas isoform X1 [Papio anubis] &gt;gi|1060530881|ref|XP_017803606.1| PREDICTED: GTPase HRas isoform X1 [Papio anubis] &gt;gi|131869|sp|P01112.1|RASH_HUMAN RecName: Full=GTPase HRas; AltName: Full=H-Ras-1; AltName: Full=Ha-Ras; AltName: Full=Transforming protein p21; AltName: Full=c-H-ras; AltName: Full=p21ras; Contains: RecName: Full=GTPase HRas, N-terminally processed; Flags: Precursor &gt;gi|341941795|sp|Q61411.2|RASH_MOUSE RecName: Full=GTPase HRas; AltName: Full=H-Ras-1; AltName: Full=Transforming protein p21; AltName: Full=c-H-ras; AltName: Full=p21ras; Contains: RecName: Full=GTPase HRas, N-terminally processed; Flags: Precursor &gt;gi|341941798|sp|P20171.2|RASH_RAT RecName: Full=GTPase HRas; AltName: Full=H-Ras-1; AltName: Full=Transforming protein p21; AltName: Full=c-H-ras; AltName: Full=p21ras; Contains: RecName: Full=GTPase HRas, N-terminally processed; Flags: Precursor &gt;gi|157836990|pdb|4Q21|A Chain A, Molecular Switch For Signal Transduction: Structural Differences Between Active And Inactive Forms Of Protooncogenic Ras Proteins &gt;gi|20147725|gb|AAM12630.1|AF493916_1 Ras family small GTP binding protein H-Ras [Homo sapiens] &gt;gi|190891|gb|AAB02605.1| c-Ha-ras1 p21 protein [Homo sapiens] &gt;gi|21040217|dbj|BAB88314.1| c-Ha-ras p21 protein [synthetic construct] &gt;gi|21040218|dbj|BAB88315.1| c-Ha-ras p21 protein [synthetic construct] &gt;gi|21040219|dbj|BAB88316.1| c-Ha-ras p21 protein [synthetic construct] &gt;gi|34732779|gb|AAQ81319.1| HRAS1 [Mus musculus] &gt;gi|49168642|emb|CAG38816.1| HRAS [Homo sapiens] &gt;gi|49457536|emb|CAG47067.1| HRAS, partial [Homo sapiens] &gt;gi|54695712|gb|AAV38228.1| v-Ha-ras Harvey rat sarcoma viral oncogene homolog [Homo sapiens] &gt;gi|60816024|gb|AAX36367.1| v-Ha-ras Harvey rat sarcoma viral oncogene-like [synthetic construct] &gt;gi|61358002|gb|AAX41485.1| v-Ha-ras Harvey rat sarcoma viral oncogene-like [synthetic construct] &gt;gi|61358250|gb|AAX41535.1| v-Ha-ras Harvey rat sarcoma viral oncogene-like [synthetic construct] &gt;gi|66267608|gb|AAH95471.1| V-Ha-ras Harvey rat sarcoma viral oncogene homolog [Homo sapiens] &gt;gi|119622742|gb|EAX02337.1| v-Ha-ras Harvey rat sarcoma viral oncogene homolog, isoform CRA_a [Homo sapiens] &gt;gi|119622744|gb|EAX02339.1| v-Ha-ras Harvey rat sarcoma viral oncogene homolog, isoform CRA_a [Homo sapiens] &gt;gi|119622745|gb|EAX02340.1| v-Ha-ras Harvey rat sarcoma viral oncogene homolog, isoform CRA_a [Homo sapiens] &gt;gi|119622746|gb|EAX02341.1| v-Ha-ras Harvey rat sarcoma viral oncogene homolog, isoform CRA_a [Homo sapiens] &gt;gi|148686061|gb|EDL18008.1| Harvey rat sarcoma virus oncogene 1, isoform CRA_b [Mus musculus] &gt;gi|148686062|gb|EDL18009.1| Harvey rat sarcoma virus oncogene 1, isoform CRA_b [Mus musculus] &gt;gi|149061564|gb|EDM11987.1| rCG48194, isoform CRA_a [Rattus norvegicus] &gt;gi|149061565|gb|EDM11988.1| rCG48194, isoform CRA_a [Rattus norvegicus] &gt;gi|197692373|dbj|BAG70150.1| v-Ha-ras Harvey rat sarcoma viral oncogene homolog isoform 1 [Homo sapiens] &gt;gi|197692671|dbj|BAG70299.1| v-Ha-ras Harvey rat sarcoma viral oncogene homolog isoform 1, partial [Homo sapiens] &gt;gi|261858700|dbj|BAI45872.1| v-Ha-ras Harvey rat sarcoma viral oncogene homolog, partial [synthetic construct] &gt;gi|344249426|gb|EGW05530.1| GTPase HRas [Cricetulus griseus] &gt;gi|355566150|gb|EHH22529.1| Transforming protein p21 [Macaca mulatta] &gt;gi|537204387|gb|ERE79692.1| GTPase HRas-like protein [Cricetulus griseus] &gt;gi|608785341|gb|AHW56507.1| Harvey rat sarcoma viral oncoprotein isoform A, partial [Homo sapiens] &gt;gi|608785343|gb|AHW56508.1| Harvey rat sarcoma viral oncoprotein isoform A, partial [Homo sapiens] &gt;gi|676271328|gb|KFO26387.1| GTPase HRas [Fukomys damarensis]</Hit_def>
+  <Hit_accession>NP_005334</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.199</Hsp_bit-score>
+      <Hsp_score>879</Hsp_score>
+      <Hsp_evalue>3.10141e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|61368381|gb|AAX43167.1|</Hit_id>
+  <Hit_def>v-Ha-ras Harvey rat sarcoma viral oncogene-like, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAX43167</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.199</Hsp_bit-score>
+      <Hsp_score>879</Hsp_score>
+      <Hsp_evalue>3.10846e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|562873209|ref|XP_006164513.1|</Hit_id>
+  <Hit_def>PREDICTED: GTPase HRas isoform X1 [Tupaia chinensis]</Hit_def>
+  <Hit_accession>XP_006164513</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.199</Hsp_bit-score>
+      <Hsp_score>879</Hsp_score>
+      <Hsp_evalue>3.2052e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|559146628|ref|NP_001273998.1|</Hit_id>
+  <Hit_def>GTPase HRas isoform 1 [Canis lupus familiaris] &gt;gi|194218615|ref|XP_001489690.2| PREDICTED: GTPase HRas isoform X1 [Equus caballus] &gt;gi|410974865|ref|XP_003993860.1| PREDICTED: GTPase HRas isoform X1 [Felis catus] &gt;gi|472368587|ref|XP_004403818.1| PREDICTED: GTPase HRas isoform X1 [Odobenus rosmarus divergens] &gt;gi|472368589|ref|XP_004403819.1| PREDICTED: GTPase HRas isoform X1 [Odobenus rosmarus divergens] &gt;gi|478533944|ref|XP_004441109.1| PREDICTED: GTPase HRas isoform X1 [Ceratotherium simum simum] &gt;gi|511923944|ref|XP_004781132.1| PREDICTED: GTPase HRas isoform X1 [Mustela putorius furo] &gt;gi|554528989|ref|XP_005859299.1| PREDICTED: GTPase HRas isoform X2 [Myotis brandtii] &gt;gi|664769295|ref|XP_008542191.1| PREDICTED: GTPase HRas isoform X1 [Equus przewalskii] &gt;gi|958810395|ref|XP_014687017.1| PREDICTED: GTPase HRas isoform X1 [Equus asinus] &gt;gi|1016709077|ref|XP_016075129.1| PREDICTED: GTPase HRas isoform X1 [Miniopterus natalensis] &gt;gi|521021574|gb|EPQ03362.1| GTPase HRas [Myotis brandtii]</Hit_def>
+  <Hit_accession>NP_001273998</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.199</Hsp_bit-score>
+      <Hsp_score>879</Hsp_score>
+      <Hsp_evalue>3.46108e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|283806806|pdb|2X1V|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Activating H-Ras I163f Mutant In Costello Syndrome, Bound To Mg-Gdp</Hit_def>
+  <Hit_accession>2X1V_A</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.043</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>3.67058e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREFRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVRE RQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1124021965|ref|XP_019570292.1|</Hit_id>
+  <Hit_def>PREDICTED: GTPase HRas isoform X1 [Rhinolophus sinicus]</Hit_def>
+  <Hit_accession>XP_019570292</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.813</Hsp_bit-score>
+      <Hsp_score>878</Hsp_score>
+      <Hsp_evalue>3.90507e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|60827692|gb|AAX36809.1|</Hit_id>
+  <Hit_def>v-Ha-ras Harvey rat sarcoma viral oncogene-like, partial [synthetic construct] &gt;gi|60827720|gb|AAX36810.1| v-Ha-ras Harvey rat sarcoma viral oncogene-like, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAX36809</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.813</Hsp_bit-score>
+      <Hsp_score>878</Hsp_score>
+      <Hsp_evalue>4.00076e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1012009898|ref|XP_015993640.1|</Hit_id>
+  <Hit_def>PREDICTED: GTPase HRas isoform X2 [Rousettus aegyptiacus]</Hit_def>
+  <Hit_accession>XP_015993640</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.813</Hsp_bit-score>
+      <Hsp_score>878</Hsp_score>
+      <Hsp_evalue>4.21682e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|586551982|ref|XP_006911012.1|</Hit_id>
+  <Hit_def>PREDICTED: GTPase HRas isoform X3 [Pteropus alecto] &gt;gi|671013956|ref|XP_008697816.1| PREDICTED: GTPase HRas isoform X1 [Ursus maritimus] &gt;gi|989935311|ref|XP_015444128.1| PREDICTED: GTPase HRas isoform X2 [Pteropus alecto] &gt;gi|1126294035|ref|XP_019665744.1| PREDICTED: GTPase HRas isoform X1 [Ailuropoda melanoleuca] &gt;gi|281344856|gb|EFB20440.1| hypothetical protein PANDA_019720, partial [Ailuropoda melanoleuca]</Hit_def>
+  <Hit_accession>XP_006911012</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.813</Hsp_bit-score>
+      <Hsp_score>878</Hsp_score>
+      <Hsp_evalue>4.91697e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|24987567|pdb|1LF0|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Rasa59g In The Gtp-Bound Form &gt;gi|24987571|pdb|1LF5|A Chain A, Crystal Structure Of Rasa59g In The Gdp-Bound Form &gt;gi|29726769|pdb|1NVU|Q Chain Q, Structural Evidence For Feedback Activation By Rasgtp Of The Ras-Specific Nucleotide Exchange Factor Sos &gt;gi|29726770|pdb|1NVU|R Chain R, Structural Evidence For Feedback Activation By Rasgtp Of The Ras-Specific Nucleotide Exchange Factor Sos &gt;gi|29726778|pdb|1NVX|Q Chain Q, Structural Evidence For Feedback Activation By Rasgtp Of The Ras-Specific Nucleotide Exchange Factor Sos &gt;gi|29726779|pdb|1NVX|R Chain R, Structural Evidence For Feedback Activation By Rasgtp Of The Ras-Specific Nucleotide Exchange Factor Sos</Hit_def>
+  <Hit_accession>1LF0_A</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>341.658</Hsp_bit-score>
+      <Hsp_score>875</Hsp_score>
+      <Hsp_evalue>5.27265e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTGGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDT GQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|157837082|pdb|621P|A</Hit_id>
+  <Hit_def>Chain A, Three-Dimensional Structures Of H-Ras P21 Mutants: Molecular Basis For Their Inability To Function As Signal Switch Molecules</Hit_def>
+  <Hit_accession>621P_A</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>341.658</Hsp_bit-score>
+      <Hsp_score>875</Hsp_score>
+      <Hsp_evalue>5.33084e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGHEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAG EEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|281500778|pdb|3I3S|R</Hit_id>
+  <Hit_def>Chain R, Crystal Structure Of H-Ras With Thr50 Replaced By Isoleucine</Hit_def>
+  <Hit_accession>3I3S_R</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>341.658</Hsp_bit-score>
+      <Hsp_score>875</Hsp_score>
+      <Hsp_evalue>5.88429e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGEICLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGE CLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|298508405|pdb|3KKM|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of H-ras T35s In Complex With Gppnhp &gt;gi|298508406|pdb|3KKN|A Chain A, Crystal Structure Of H-ras T35s In Complex With Gppnhp &gt;gi|347948470|pdb|2LCF|A Chain A, Solution Structure Of Gppnhp-Bound H-Rast35s Mutant Protein &gt;gi|507042722|pdb|2LWI|A Chain A, Solution Structure Of H-rast35s Mutant Protein In Complex With Kobe2601 &gt;gi|859065890|pdb|2N42|A Chain A, Ec-nmr Structure Of Human H-rast35s Mutant Protein Determined By Combining Evolutionary Couplings (ec) And Sparse Nmr Data &gt;gi|859065896|pdb|2N46|A Chain A, Ec-nmr Structure Of Human H-rast35s Mutant Protein Determined By Combining Evolutionary Couplings (ec) And Sparse Nmr Data</Hit_def>
+  <Hit_accession>3KKM_A</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>341.658</Hsp_bit-score>
+      <Hsp_score>875</Hsp_score>
+      <Hsp_evalue>6.0932e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPSIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDP+IEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|280937|pir||A43816</Hit_id>
+  <Hit_def>transforming protein ras - rabbit</Hit_def>
+  <Hit_accession>A43816</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.428</Hsp_bit-score>
+      <Hsp_score>877</Hsp_score>
+      <Hsp_evalue>6.46884e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGVPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYG+PYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|759180251|ref|XP_011379078.1|</Hit_id>
+  <Hit_def>PREDICTED: GTPase HRas isoform X2 [Pteropus vampyrus] &gt;gi|759180257|ref|XP_011379080.1| PREDICTED: GTPase HRas isoform X2 [Pteropus vampyrus]</Hit_def>
+  <Hit_accession>XP_011379078</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.043</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>7.79531e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYVETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPY+ETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|157837129|pdb|721P|A</Hit_id>
+  <Hit_def>Chain A, Three-Dimensional Structures Of H-Ras P21 Mutants: Molecular Basis For Their Inability To Function As Signal Switch Molecules &gt;gi|163310970|pdb|2RGD|A Chain A, Crystal Structure Of H-Rasq61l-Gppnhp &gt;gi|313754426|pdb|3OIU|A Chain A, H-Rasq61l With Allosteric Switch In The &quot;on&quot; State &gt;gi|524933923|pdb|4G3X|A Chain A, Crystal Structure Of Q61l H-ras-gppnhp Bound To The Rbd Of Raf Kinase</Hit_def>
+  <Hit_accession>721P_A</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>341.273</Hsp_bit-score>
+      <Hsp_score>874</Hsp_score>
+      <Hsp_evalue>8.83189e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGLEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAG EEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|163310969|pdb|2RGC|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of H-Rasq61v-Gppnhp</Hit_def>
+  <Hit_accession>2RGC_A</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>341.273</Hsp_bit-score>
+      <Hsp_score>874</Hsp_score>
+      <Hsp_evalue>8.83189e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGVEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAG EEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|667335334|ref|XP_008592888.1|</Hit_id>
+  <Hit_def>PREDICTED: GTPase HRas isoform X1 [Galeopterus variegatus] &gt;gi|667335338|ref|XP_008592889.1| PREDICTED: GTPase HRas isoform X1 [Galeopterus variegatus]</Hit_def>
+  <Hit_accession>XP_008592888</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.043</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>8.99043e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLSRSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDL+RSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|640782537|ref|XP_008046912.1|</Hit_id>
+  <Hit_def>PREDICTED: GTPase HRas isoform X3 [Carlito syrichta]</Hit_def>
+  <Hit_accession>XP_008046912</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.125</Hsp_bit-score>
+      <Hsp_score>884</Hsp_score>
+      <Hsp_evalue>9.03727e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|29726772|pdb|1NVV|Q</Hit_id>
+  <Hit_def>Chain Q, Structural Evidence For Feedback Activation By Rasgtp Of The Ras-specific Nucleotide Exchange Factor Sos &gt;gi|56554474|pdb|1XD2|A Chain A, Crystal Structure Of A Ternary Ras:sos:ras*gdp Complex &gt;gi|594148641|pdb|4NYJ|Q Chain Q, Approach For Targeting Ras With Small Molecules That Activate Sos- Mediated Nucleotide Exchange &gt;gi|594148644|pdb|4NYM|Q Chain Q, Approach For Targeting Ras With Small Molecules That Activate Sos- Mediated Nucleotide Exchange</Hit_def>
+  <Hit_accession>1NVV_Q</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>341.273</Hsp_bit-score>
+      <Hsp_score>874</Hsp_score>
+      <Hsp_evalue>9.12752e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEASAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEE SAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|157829866|pdb|1AGP|A</Hit_id>
+  <Hit_def>Chain A, Three-Dimensional Structures And Properties Of A Transforming And A Nontransforming Gly-12 Mutant Of P21-H-Ras</Hit_def>
+  <Hit_accession>1AGP_A</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>1.02987e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGADGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGA GVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|795498492|ref|XP_011896345.1|</Hit_id>
+  <Hit_def>PREDICTED: GTPase HRas isoform X1 [Cercocebus atys] &gt;gi|795498497|ref|XP_011896346.1| PREDICTED: GTPase HRas isoform X1 [Cercocebus atys]</Hit_def>
+  <Hit_accession>XP_011896345</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.969</Hsp_bit-score>
+      <Hsp_score>881</Hsp_score>
+      <Hsp_evalue>1.04362e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|560909577|ref|XP_006181097.1|</Hit_id>
+  <Hit_def>PREDICTED: GTPase HRas [Camelus ferus] &gt;gi|560994277|ref|XP_006219247.1| PREDICTED: GTPase HRas isoform X2 [Vicugna pacos] &gt;gi|743697781|ref|XP_010954518.1| PREDICTED: GTPase HRas isoform X2 [Camelus bactrianus] &gt;gi|946631574|ref|XP_014411627.1| PREDICTED: GTPase HRas [Camelus ferus] &gt;gi|946631577|ref|XP_014411628.1| PREDICTED: GTPase HRas [Camelus ferus] &gt;gi|946631580|ref|XP_014411629.1| PREDICTED: GTPase HRas [Camelus ferus] &gt;gi|528764221|gb|EPY83880.1| GTPase HRas-like isoform 1 [Camelus ferus]</Hit_def>
+  <Hit_accession>XP_006181097</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.043</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>1.04832e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVEARQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVE+RQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|5107569|pdb|1CLU|A</Hit_id>
+  <Hit_def>Chain A, H-Ras Complexed With Diaminobenzophenone-Beta,Gamma-Imido- Gtp &gt;gi|157831533|pdb|1JAI|A Chain A, H-Ras P21 Protein Mutant G12p, Complexed With Guanosine-5&apos;- [beta,Gamma-Methylene] Triphosphate And Manganese &gt;gi|157833519|pdb|1PLJ|A Chain A, Crystallographic Studies On P21h-Ras Using Synchrotron Laue Method: Improvement Of Crystal Quality And Monitoring Of The Gtpase Reaction At Different Time Points &gt;gi|157833521|pdb|1PLL|A Chain A, Crystallographic Studies On P21h-Ras Using Synchrotron Laue Method: Improvement Of Crystal Quality And Monitoring Of The Gtpase Reaction At Different Time Points &gt;gi|157837163|pdb|821P|A Chain A, Three-Dimensional Structures And Properties Of A Transforming And A Nontransforming Glycine-12 Mutant Of P21h-Ras</Hit_def>
+  <Hit_accession>1CLU_A</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>1.06435e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAPGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGA GVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|194320091|pdb|3DDC|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Nore1a In Complex With Ras</Hit_def>
+  <Hit_accession>3DDC_A</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>1.12439e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVEKYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFV++YDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|163310967|pdb|2RGA|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of H-Rasq61i-Gppnhp &gt;gi|163310972|pdb|2RGG|A Chain A, Crystal Structure Of H-Rasq61i-Gppnhp, Trigonal Crystal Form</Hit_def>
+  <Hit_accession>2RGA_A</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>1.1368e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGIEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAG EEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|835019086|pdb|4XVQ|A</Hit_id>
+  <Hit_def>Chain A, H-ras Y137e</Hit_def>
+  <Hit_accession>4XVQ_A</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>1.16202e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSEGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARS GIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|109157351|pdb|2CLD|X</Hit_id>
+  <Hit_def>Chain X, Crystal Structure Analysis Of A Fluorescent Form Of H-ras P21 In Complex With Gdp (2)</Hit_def>
+  <Hit_accession>2CLD_X</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>1.17485e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKSDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNK DLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>115041592</Statistics_db-num>
+      <Statistics_db-len>42171959272</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

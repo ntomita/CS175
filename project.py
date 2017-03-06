@@ -53,7 +53,7 @@ def save_in_fasta(file_path, header, sequence):
     mutated_fasta_file.write(header + "\n" + sequence)
     mutated_fasta_file.close()
 
-def produce(target, dict_path, num_mutate=2, method='min'):
+def produce(target, dict_path, num_mutate=2, method='min', output_path='rosetta_out'):
     """
         1. Blast a sequence in fasta file
     """
@@ -80,7 +80,7 @@ def produce(target, dict_path, num_mutate=2, method='min'):
     (mutated, score) = probable_mutations(original_string, pmf, stability_dict, num_mutate, method=method)
     print "Score: {}".format(score)
 
-    save_in_fasta("{}_mutated.fasta".format(target),
+    save_in_fasta(os.path.join(output_path, target, "{}_mutated.fasta".format(target)),
                   extract_fasta_header(fasta_file),
                   mutated)
     """
@@ -94,25 +94,32 @@ def produce(target, dict_path, num_mutate=2, method='min'):
     """
     rosetta_path = open("rosetta_path.config").read().strip('\n')
     pdb_path = os.path.join("pdb", "{}.pdb".format(target))
-    #print "Start relaxing..."
-    #relax(rosetta_path, pdb_path)
+    print "Start relaxing..."
+    relax(rosetta_path, pdb_path, outfolder=os.path.join(output_path, target))
 
     """
         5. Run rosetta remodel to generate a mutated pdb file
     """
     # Now relaxed pdb file generated is stored at root named with 0001
-    #pdb_path = os.path.join("{}_0001.pdb".format(target))
+    pdb_path = os.path.join(output_path, target, "{}_0001.pdb".format(target))
     print "Start remodeling... (Will take about an hour or more)"
-    remodel(rosetta_path, pdb_path, blueprint_path)
+    remodel(rosetta_path, pdb_path, blueprint_path, outfolder=os.path.join(output_path, target))
 
     """
         5.5 Relax the remodeled pdb
     """
-    #pdb_path = os.path.join("pdb", "{}_0001_0001.pdb".format(target))
-    #print "Start relaxing..."
-    #relax(rosetta_path, pdb_path)
+    pdb_path = os.path.join(output_path, target, "{}_0001_0001.pdb".format(target))
+    print "Start relaxing..."
+    relax(rosetta_path, pdb_path, outfolder=os.path.join(output_path, target))
 
 
 if __name__ == '__main__':
-    #test()
-    produce(target="1c20", dict_path="stabilityScoreFile.txt")
+    #target = "1c20"
+    #target = "1a7s"
+    #target = "1b9o"
+    #target = "1bkr"
+    #target = "1ctq"
+    #target = "1jsf"
+    target = "1mfm"
+    produce(target=target, dict_path="stabilityScoreFile.txt")
+

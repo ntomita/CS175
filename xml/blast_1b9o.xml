@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_115853</BlastOutput_query-ID>
+  <BlastOutput_query-def>1B9O:A|PDBID|CHAIN|SEQUENCE</BlastOutput_query-def>
+  <BlastOutput_query-len>123</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_115853</Iteration_query-ID>
+  <Iteration_query-def>1B9O:A|PDBID|CHAIN|SEQUENCE</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|4699575|pdb|1B9O|A</Hit_id>
+  <Hit_def>Chain A, Human Alpha-Lactalbumin, Low Temperature Form</Hit_def>
+  <Hit_accession>1B9O_A</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.136</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>1.72672e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|578823715|ref|XP_006719458.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin isoform X1 [Homo sapiens]</Hit_def>
+  <Hit_accession>XP_006719458</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>2.18362e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENNESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVEN+ESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|60832429|gb|AAX37010.1|</Hit_id>
+  <Hit_def>lactalbumin alpha, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAX37010</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.136</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>2.98839e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENNESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVEN+ESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|4504947|ref|NP_002280.1|</Hit_id>
+  <Hit_def>alpha-lactalbumin precursor [Homo sapiens] &gt;gi|426372370|ref|XP_004053098.1| PREDICTED: alpha-lactalbumin [Gorilla gorilla gorilla] &gt;gi|126001|sp|P00709.1|LALBA_HUMAN RecName: Full=Alpha-lactalbumin; AltName: Full=Lactose synthase B protein; AltName: Full=Lysozyme-like protein 7; Flags: Precursor &gt;gi|157831352|pdb|1HML|A Chain A, Alpha_lactalbumin Possesses A Distinct Zinc Binding Site &gt;gi|296662|emb|CAA28799.1| alpha-lactalbumin precursor [Homo sapiens] &gt;gi|307104|gb|AAA60345.1| alpha-lactalbumin [Homo sapiens] &gt;gi|22093539|dbj|BAC06860.1| alpha-lactalbumin [Homo sapiens] &gt;gi|46575612|gb|AAH69103.1| Lactalbumin, alpha- [Homo sapiens] &gt;gi|49456927|emb|CAG46784.1| LALBA [Homo sapiens] &gt;gi|49456987|emb|CAG46814.1| LALBA, partial [Homo sapiens] &gt;gi|60821447|gb|AAX36575.1| alpha-lactalbumin [synthetic construct] &gt;gi|85566991|gb|AAI12319.1| Lactalbumin, alpha- [Homo sapiens] &gt;gi|85567733|gb|AAI12317.1| Lactalbumin, alpha-, precursor [Homo sapiens] &gt;gi|119578394|gb|EAW57990.1| lactalbumin, alpha- [Homo sapiens] &gt;gi|307686045|dbj|BAJ20953.1| lactalbumin, alpha-, partial [synthetic construct] &gt;gi|313882660|gb|ADR82816.1| lactalbumin, alpha, partial [synthetic construct] &gt;gi|649101162|gb|AIC49118.1| LALBA, partial [synthetic construct] &gt;gi|674274717|tpe|CDM98741.1| TPA: lysozyme G [Homo sapiens] &gt;gi|1147672443|emb|SJX26088.1| unnamed protein product, partial [Human ORFeome Gateway entry vector]</Hit_def>
+  <Hit_accession>NP_002280</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.136</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>3.01925e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENNESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVEN+ESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|550545087|pdb|4L41|A</Hit_id>
+  <Hit_def>Chain A, Human Lactose Synthase: A 2:1 Complex Between Human Alpha-lactalbumin And Human Beta1,4-galactosyltransferase &gt;gi|550545089|pdb|4L41|B Chain B, Human Lactose Synthase: A 2:1 Complex Between Human Alpha-lactalbumin And Human Beta1,4-galactosyltransferase</Hit_def>
+  <Hit_accession>4L41_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.366</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>3.52571e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENNESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVEN+ESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|390980751|pdb|3B0I|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Recombinant Human Alpha Lactalbumin</Hit_def>
+  <Hit_accession>3B0I_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.98</Hsp_bit-score>
+      <Hsp_score>637</Hsp_score>
+      <Hsp_evalue>4.29597e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENNESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVEN+ESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|157829683|pdb|1A4V|A</Hit_id>
+  <Hit_def>Chain A, Alpha-Lactalbumin &gt;gi|1335200|emb|CAA28800.1| mature alpha-lactalbumin, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>1A4V_A</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.98</Hsp_bit-score>
+      <Hsp_score>637</Hsp_score>
+      <Hsp_evalue>4.6377e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENNESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVEN+ESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|397510954|ref|XP_003825848.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Pan paniscus] &gt;gi|1034100083|ref|XP_016780300.1| PREDICTED: alpha-lactalbumin [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_003825848</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.595</Hsp_bit-score>
+      <Hsp_score>636</Hsp_score>
+      <Hsp_evalue>1.23015e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENNESTEYGLFQISNKLWCKSSQVPHSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVEN+ESTEYGLFQISNKLWCKSSQVP SRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|390980754|pdb|3B0O|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Alpha-lactalbumin &gt;gi|390980755|pdb|3B0O|B Chain B, Crystal Structure Of Alpha-lactalbumin</Hit_def>
+  <Hit_accession>3B0O_A</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.44</Hsp_bit-score>
+      <Hsp_score>633</Hsp_score>
+      <Hsp_evalue>1.76986e-83</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>QFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>QFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENNESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>QFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVEN+ESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|332206362|ref|XP_003252260.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Nomascus leucogenys] &gt;gi|674274745|tpe|CDM98755.1| TPA: lysozyme G [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>XP_003252260</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.825</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>2.10617e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQLLKDIDGYGGIALPELICTIFHTSGYDTQAIVENSESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQLLKDIDGYGGIALPELICT+FHTSGYDTQAIVEN ESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1059188173|ref|XP_017750214.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin isoform X1 [Rhinopithecus bieti]</Hit_def>
+  <Hit_accession>XP_017750214</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.98</Hsp_bit-score>
+      <Hsp_score>637</Hsp_score>
+      <Hsp_evalue>2.24322e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQLLKDIDGYGGIALPEFICTMFHTSGYDTQAIVENNGSTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQLLKDIDGYGGIALPE ICTMFHTSGYDTQAIVEN+ STEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|724952828|ref|XP_010352474.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Rhinopithecus roxellana] &gt;gi|1059188175|ref|XP_017750215.1| PREDICTED: alpha-lactalbumin isoform X2 [Rhinopithecus bieti]</Hit_def>
+  <Hit_accession>XP_010352474</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.284</Hsp_bit-score>
+      <Hsp_score>630</Hsp_score>
+      <Hsp_evalue>8.67566e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQLLKDIDGYGGIALPEFICTMFHTSGYDTQAIVENNGSTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQLLKDIDGYGGIALPE ICTMFHTSGYDTQAIVEN+ STEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|297691686|ref|XP_002823206.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Pongo abelii]</Hit_def>
+  <Hit_accession>XP_002823206</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.128</Hsp_bit-score>
+      <Hsp_score>627</Hsp_score>
+      <Hsp_evalue>3.09844e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQLLKDIDGYGGIALPELICTVFHTSGYDTQAIAENNESMEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQLLKDIDGYGGIALPELICT+FHTSGYDTQAI EN+ES EYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|795229528|ref|XP_011851479.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Mandrillus leucophaeus]</Hit_def>
+  <Hit_accession>XP_011851479</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.743</Hsp_bit-score>
+      <Hsp_score>626</Hsp_score>
+      <Hsp_evalue>3.77509e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQLLKDIDGYGGIALPEIICTMFHTSGYDTQAIVESNGSTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQLLKDIDGYGGIALPE+ICTMFHTSGYDTQAIVE++ STEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|109096369|ref|XP_001102116.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Macaca mulatta] &gt;gi|402885820|ref|XP_003906343.1| PREDICTED: alpha-lactalbumin [Papio anubis] &gt;gi|544469541|ref|XP_005570769.1| PREDICTED: alpha-lactalbumin [Macaca fascicularis] &gt;gi|635064979|ref|XP_008001255.1| PREDICTED: alpha-lactalbumin [Chlorocebus sabaeus] &gt;gi|795418551|ref|XP_011758581.1| PREDICTED: alpha-lactalbumin [Macaca nemestrina] &gt;gi|355564178|gb|EHH20678.1| Lactose synthase B protein [Macaca mulatta] &gt;gi|355786052|gb|EHH66235.1| Lactose synthase B protein [Macaca fascicularis] &gt;gi|674274757|tpe|CDM98761.1| TPA: lysozyme G [Macaca mulatta]</Hit_def>
+  <Hit_accession>XP_001102116</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.358</Hsp_bit-score>
+      <Hsp_score>625</Hsp_score>
+      <Hsp_evalue>5.3633e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQLLKDIDGYGGIALPEFICTMFHTSGYDTQAIVESNGSTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQLLKDIDGYGGIALPE ICTMFHTSGYDTQAIVE++ STEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|795136210|ref|XP_011791630.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Colobus angolensis palliatus]</Hit_def>
+  <Hit_accession>XP_011791630</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.358</Hsp_bit-score>
+      <Hsp_score>625</Hsp_score>
+      <Hsp_evalue>6.60666e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQLLKDIDGYGGIALPEFICTIFHTSGYDTQAIVENNGSTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQLLKDIDGYGGIALPE ICT+FHTSGYDTQAIVEN+ STEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|795538083|ref|XP_011903875.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Cercocebus atys]</Hit_def>
+  <Hit_accession>XP_011903875</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.202</Hsp_bit-score>
+      <Hsp_score>622</Hsp_score>
+      <Hsp_evalue>1.66075e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQLLKDIDGYGGIALPEFICTMFHTSGYDTQAIVESNGSTEYGLFQISNKFWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQLLKDIDGYGGIALPE ICTMFHTSGYDTQAIVE++ STEYGLFQISNK WCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|157829945|pdb|1ALC|A</Hit_id>
+  <Hit_def>Chain A, Refined Structure Of Baboon Alpha-Lactalbumin At 1.7 Angstroms Resolution. Comparison With C-Type Lysozyme</Hit_def>
+  <Hit_accession>1ALC_A</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.113</Hsp_bit-score>
+      <Hsp_score>601</Hsp_score>
+      <Hsp_evalue>1.22063e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEK</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQNLYDIDGYGRIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNALWCKSSQSPQSRNICDITCDKFLDDDITDDIMCAKKILDIKGIDYWIAHKALCTEKLEQWLCEK</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ L DIDGYG IALPELICTMFHTSGYDTQAIVENDESTEYGLFQISN LWCKSSQ PQSRNICDI+CDKFLDDDITDDIMCAKKILDIKGIDYW+AHKALCTEKLEQWLCEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|126004|sp|P12065.1|LALBA_PAPCY</Hit_id>
+  <Hit_def>RecName: Full=Alpha-lactalbumin; AltName: Full=Lactose synthase B protein</Hit_def>
+  <Hit_accession>P12065</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.958</Hsp_bit-score>
+      <Hsp_score>598</Hsp_score>
+      <Hsp_evalue>4.03793e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEK</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQNLYDIDGYGRIALPELICTMFHTSGYDTQAIVENNESTEYGLFQISNALWCKSSQSPQSRNICDITCDKFLDDDITDDIMCAKKILDIKGIDYWIAHKALCTEKLEQWLCEK</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ L DIDGYG IALPELICTMFHTSGYDTQAIVEN+ESTEYGLFQISN LWCKSSQ PQSRNICDI+CDKFLDDDITDDIMCAKKILDIKGIDYW+AHKALCTEKLEQWLCEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|817342893|ref|XP_012296905.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Aotus nancymaae] &gt;gi|817342895|ref|XP_012296906.1| PREDICTED: alpha-lactalbumin [Aotus nancymaae] &gt;gi|817342897|ref|XP_012296907.1| PREDICTED: alpha-lactalbumin [Aotus nancymaae] &gt;gi|817342899|ref|XP_012296908.1| PREDICTED: alpha-lactalbumin [Aotus nancymaae]</Hit_def>
+  <Hit_accession>XP_012296905</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.254</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>7.70293e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQELKALDGYRGISLPEFICTMFHSSGYDTQAIVENKGSTEYGLFQISNKHWCKSNQIPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTDNLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ LK +DGY GI+LPE ICTMFH+SGYDTQAIVEN  STEYGLFQISNK WCKS+Q+PQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCT+ LEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1044392842|ref|XP_017401371.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Cebus capucinus imitator]</Hit_def>
+  <Hit_accession>XP_017401371</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.254</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>9.38459e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQELKALDGYRGISLPEFICTMFHTSGYDTQAMVENKGSTEYGLFQISNKHWCKSNQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCSDNLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ LK +DGY GI+LPE ICTMFHTSGYDTQA+VEN  STEYGLFQISNK WCKS+QVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALC++ LEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|296211522|ref|XP_002752446.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Callithrix jacchus] &gt;gi|674274773|tpe|CDM98769.1| TPA: lysozyme G [Callithrix jacchus]</Hit_def>
+  <Hit_accession>XP_002752446</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.713</Hsp_bit-score>
+      <Hsp_score>574</Hsp_score>
+      <Hsp_evalue>3.13685e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQELKAMDGYRGISLPEFICTMFHTSGYDTRAIAENKGSTEYGLFQISNKHWCKSNQIPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTDNLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ LK +DGY GI+LPE ICTMFHTSGYDT+AI EN  STEYGLFQISNK WCKS+Q+PQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCT+ LEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|403271864|ref|XP_003927822.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Saimiri boliviensis boliviensis]</Hit_def>
+  <Hit_accession>XP_003927822</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>1.91881e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQELKALDGYRGISLPEFICTVFHTSGYDTQAIGENKGSTEYGLFQINNKHWCKSNQIPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCADNLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ LK +DGY GI+LPE ICT+FHTSGYDTQAI EN  STEYGLFQI+NK WCKS+Q+PQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALC + LEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1147390779|ref|XP_020044011.1|</Hit_id>
+  <Hit_def>alpha-lactalbumin [Castor canadensis]</Hit_def>
+  <Hit_accession>XP_020044011</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>2.79405e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>EQLTKCELPHVLKDLNDYGGITLPEWACILFHTSGYDTQAIVKNNGSTEYGLFQISNKLWCGSSQIPQSRNICDISCDKFLDDDLTDDIMCVKKILDIRGIGYWLAHKALCSEKLEQWRCETL</Hsp_hseq>
+      <Hsp_midline>+Q TKCEL  +LKD++ YGGI LPE  C +FHTSGYDTQAIV+N+ STEYGLFQISNKLWC SSQ+PQSRNICDISCDKFLDDD+TDDIMC KKILDI+GI YWLAHKALC+EKLEQW CE L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|640824077|ref|XP_008069093.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Carlito syrichta]</Hit_def>
+  <Hit_accession>XP_008069093</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.305</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>3.88257e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>EQLTTCEVSRLLKEMDNYRGIPLPELVCTIFHTSGYDTQAIVKNNESTEYGLFQISNKLWCRSDQIPQSENICDISCDKFLDGELTDDIACAKKILDIKGIDYWLAHEALCSENLEQWRCEEL</Hsp_hseq>
+      <Hsp_midline>+Q T CE+S+LLK++D Y GI LPEL+CT+FHTSGYDTQAIV+N+ESTEYGLFQISNKLWC+S Q+PQS NICDISCDKFLD ++TDDI CAKKILDIKGIDYWLAH+ALC+E LEQW CE+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|671023824|ref|XP_008702738.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Ursus maritimus]</Hit_def>
+  <Hit_accession>XP_008702738</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.92</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>6.7183e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQVLKDMDGFGGIALSEWICTIFHTSGYDTQTIVNNNGSTEYGLFQINNKFWCRDNQILQSRNICDISCDKFLDDDLTDDMICAKKILDKEGIDYWLAHKPLCSEKLEQWHCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ+LKD+DG+GGIAL E ICT+FHTSGYDTQ IV N+ STEYGLFQI+NK WC+ +Q+ QSRNICDISCDKFLDDD+TDD++CAKKILD +GIDYWLAHK LC+EKLEQW CEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|586946349|ref|NP_001276999.1|</Hit_id>
+  <Hit_def>alpha-lactalbumin precursor [Leptonychotes weddellii] &gt;gi|154849948|gb|ABS88304.1| alpha-lactalbumin [Leptonychotes weddellii] &gt;gi|154849960|gb|ABS88310.1| alpha-lactalbumin [Leptonychotes weddellii]</Hit_def>
+  <Hit_accession>NP_001276999</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.534</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>7.57965e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQVLKDMDGFGGIALPEWICTIFHTSGYDTQTIVSNNGSTEYGLFQINNKCWCRDNQILQSRNICDISCDKFLDDDLTDDMICVKKILDKEGIDYWLAHKPLCSEKLEQWHCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ+LKD+DG+GGIALPE ICT+FHTSGYDTQ IV N+ STEYGLFQI+NK WC+ +Q+ QSRNICDISCDKFLDDD+TDD++C KKILD +GIDYWLAHK LC+EKLEQW CEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|674274887|tpe|CDM98826.1|</Hit_id>
+  <Hit_def>TPA: lysozyme G [Canis lupus familiaris]</Hit_def>
+  <Hit_accession>CDM98826</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>1.06486e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQVLKDMDGFGGIALPEWICTIFHTSGYDTQTIVNNNGGTDYGLFQISNKFWCKDDQNLQSRNICDISCDKFLDDDLTDDMICAKKILDKEGIDYWLAHKPLCSEKLEQWRCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ+LKD+DG+GGIALPE ICT+FHTSGYDTQ IV N+  T+YGLFQISNK WCK  Q  QSRNICDISCDKFLDDD+TDD++CAKKILD +GIDYWLAHK LC+EKLEQW CEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|301783681|ref|XP_002927252.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Ailuropoda melanoleuca] &gt;gi|281343729|gb|EFB19313.1| hypothetical protein PANDA_017019 [Ailuropoda melanoleuca]</Hit_def>
+  <Hit_accession>XP_002927252</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>1.34063e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQVLKDMDGFGGIALSEWICTIFHTSGYDTQTIVNNNGSTEYGLFQINNKFWCRDNQILQSRNICDISCDKFLDDDLTDDMICAKKILDKEGIDYWLAHKPLCSEKLEQWHCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ+LKD+DG+GGIAL E ICT+FHTSGYDTQ IV N+ STEYGLFQI+NK WC+ +Q+ QSRNICDISCDKFLDDD+TDD++CAKKILD +GIDYWLAHK LC+EKLEQW CEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|826277015|ref|XP_012493897.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Propithecus coquereli]</Hit_def>
+  <Hit_accession>XP_012493897</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.764</Hsp_bit-score>
+      <Hsp_score>530</Hsp_score>
+      <Hsp_evalue>1.4797e-67</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>QFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>QFTKCEMFHLLKDMNGYRDFTLPELICTLFHASAYDTQAIVENDGSTEYGLFQISNKHWCRSDQIPESRDICGISCDKFLDDDLTDDIMCTKKILDIKGIDYWLAHKALCTDKLEQWNCEKL</Hsp_hseq>
+      <Hsp_midline>QFTKCE+  LLKD++GY    LPELICT+FH S YDTQAIVEND STEYGLFQISNK WC+S Q+P+SR+IC ISCDKFLDDD+TDDIMC KKILDIKGIDYWLAHKALCT+KLEQW CEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|471413554|ref|XP_004388323.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Trichechus manatus latirostris]</Hit_def>
+  <Hit_accession>XP_004388323</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.764</Hsp_bit-score>
+      <Hsp_score>530</Hsp_score>
+      <Hsp_evalue>1.80261e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQVLKDMAGYGGITLPEFICTIFHISGYDTQTIVDNNGSTEYGLFQISNKYWCRDHQIPQSKNTCDISCDKFLDDDLTDDMICAKKILDSEGIGYWPAHKPLCSEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ+LKD+ GYGGI LPE ICT+FH SGYDTQ IV+N+ STEYGLFQISNK WC+  Q+PQS+N CDISCDKFLDDD+TDD++CAKKILD +GI YW AHK LC+EKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|410964241|ref|XP_003988664.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Felis catus] &gt;gi|961722190|ref|XP_014921356.1| PREDICTED: alpha-lactalbumin [Acinonyx jubatus]</Hit_def>
+  <Hit_accession>XP_003988664</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.764</Hsp_bit-score>
+      <Hsp_score>530</Hsp_score>
+      <Hsp_evalue>1.82249e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQVLKDMDGYGGIALSEWICTIFHTSGYDTQTIVNNNGSTEYGLFQINNKFWCRDNQILQSRNICDISCDKFLDDDLTDDMICAKKILDKEGIDYWLAHKPLCSEKLEQWHCEML</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ+LKD+DGYGGIAL E ICT+FHTSGYDTQ IV N+ STEYGLFQI+NK WC+ +Q+ QSRNICDISCDKFLDDD+TDD++CAKKILD +GIDYWLAHK LC+EKLEQW CE L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|472362725|ref|XP_004400946.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin isoform X1 [Odobenus rosmarus divergens]</Hit_def>
+  <Hit_accession>XP_004400946</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.994</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>3.67681e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQVLNDMDGFGGIALPEWICTVFHTSGYDTQTIVSNNGSTEYGLFQINNKFWCRDNQILQSRNICDISCDKFLDNDLTDDMICAKKILDKEGIDYWWAHKPLCSEKLEQWHCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ+L D+DG+GGIALPE ICT+FHTSGYDTQ IV N+ STEYGLFQI+NK WC+ +Q+ QSRNICDISCDKFLD+D+TDD++CAKKILD +GIDYW AHK LC+EKLEQW CEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|50978848|ref|NP_001003129.1|</Hit_id>
+  <Hit_def>alpha-lactalbumin precursor [Canis lupus familiaris] &gt;gi|27923790|sp|Q9N2G9.1|LALBA_CANFA RecName: Full=Alpha-lactalbumin; AltName: Full=Lactose synthase B protein; Flags: Precursor &gt;gi|7959046|dbj|BAA95930.1| alpha-lactalbumin [Canis lupus familiaris]</Hit_def>
+  <Hit_accession>NP_001003129</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.608</Hsp_bit-score>
+      <Hsp_score>527</Hsp_score>
+      <Hsp_evalue>5.89195e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELPQVLKDMDGFGGIALPEWICTIFHTSGYDTQTIVNNNGGTDYGLFQISNKFWCKDDQNLQSRNICDISCDKFLDDDLTDDMICAKKILDKEGIDYWLAHKPLCSEKLEQWRCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCEL Q+LKD+DG+GGIALPE ICT+FHTSGYDTQ IV N+  T+YGLFQISNK WCK  Q  QSRNICDISCDKFLDDD+TDD++CAKKILD +GIDYWLAHK LC+EKLEQW CEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|167643009|gb|ABZ89948.1|</Hit_id>
+  <Hit_def>alpha-lactalbumin [Pusa hispida]</Hit_def>
+  <Hit_accession>ABZ89948</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>1.26949e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFRKCELSQVLKDMDGFRGIALPKWICTIFHTSGYDTQTIVSNNGSTEYGLFQINNKFWCRDNQILQSRNICDISCDKFLDDDLTDDMICAKKILDKEGIDYWLAHKPLCSEKLEQWHCEKL</Hsp_hseq>
+      <Hsp_midline>KQF KCELSQ+LKD+DG+ GIALP+ ICT+FHTSGYDTQ IV N+ STEYGLFQI+NK WC+ +Q+ QSRNICDISCDKFLDDD+TDD++CAKKILD +GIDYWLAHK LC+EKLEQW CEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|641700565|ref|XP_008138833.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Eptesicus fuscus]</Hit_def>
+  <Hit_accession>XP_008138833</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.068</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>1.72604e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQVLKDMDGYGGVTLPEWICNIFHISGYDTQTIVNNNGKTEYGLFQINNKLWCRDNQI-QSRNICDISCDKFLDDDITDDMICAKKILDSEGIDYWLPHKPLCSEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ+LKD+DGYGG+ LPE IC +FH SGYDTQ IV N+  TEYGLFQI+NKLWC+ +Q+ QSRNICDISCDKFLDDDITDD++CAKKILD +GIDYWL HK LC+EKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|586521757|ref|XP_006916898.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Pteropus alecto] &gt;gi|431901388|gb|ELK08414.1| Alpha-lactalbumin [Pteropus alecto]</Hit_def>
+  <Hit_accession>XP_006916898</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.912</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>5.05454e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQVLKDMDGYGGITLPEWICTIFHSSGYDTETIINNNGKREYGLFQINNKLWCRDNRKLQSRNICDISCDKFLDDDLTDDVICAKKILDSEGIDYWLAHKPLCSEKLEQWRCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ+LKD+DGYGGI LPE ICT+FH+SGYDT+ I+ N+   EYGLFQI+NKLWC+ ++  QSRNICDISCDKFLDDD+TDD++CAKKILD +GIDYWLAHK LC+EKLEQW CEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|558137247|ref|XP_006091554.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Myotis lucifugus] &gt;gi|674274899|tpe|CDM98832.1| TPA: lysozyme G [Myotis lucifugus]</Hit_def>
+  <Hit_accession>XP_006091554</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>7.33984e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQVLKDMDGYGGVTLPEWICNIFHVSGYDTQTMVNNNGKTEYGLFQINNKLWCRDNQI-QSRNICDISCDKFLDDDLTDDMICAKKILDSEGIDYWLPHKPLCSEKLEQWLCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ+LKD+DGYGG+ LPE IC +FH SGYDTQ +V N+  TEYGLFQI+NKLWC+ +Q+ QSRNICDISCDKFLDDD+TDD++CAKKILD +GIDYWL HK LC+EKLEQWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|167643013|gb|ABZ89950.1|</Hit_id>
+  <Hit_def>alpha-lactalbumin [Phoca vitulina]</Hit_def>
+  <Hit_accession>ABZ89950</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>8.18877e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSLVLKDVYGFRGIALPEWICTIFHTSGYDTQTIVSNNGSTEYGLFQINNKFWCRDNQILQSRNICDISCDKFLDDDLTDDMICAKKILDKEGIDYWLAHKPLCSEKLEQWHCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELS +LKD+ G+ GIALPE ICT+FHTSGYDTQ IV N+ STEYGLFQI+NK WC+ +Q+ QSRNICDISCDKFLDDD+TDD++CAKKILD +GIDYWLAHK LC+EKLEQW CEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|759143455|ref|XP_011366527.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Pteropus vampyrus]</Hit_def>
+  <Hit_accession>XP_011366527</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>9.44336e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQVLKDMDGYGGITLPEWICTIFHSSGYDTKTIINNNGKREYGLFQINNKLWCRDNRKLQSRNICGISCDKFLDDDLTDDVMCAKKILDSEGIDYWLAHKPLCSEKLEQWRCEKL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ+LKD+DGYGGI LPE ICT+FH+SGYDT+ I+ N+   EYGLFQI+NKLWC+ ++  QSRNIC ISCDKFLDDD+TDD+MCAKKILD +GIDYWLAHK LC+EKLEQW CEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|674274935|tpe|CDM98850.1|</Hit_id>
+  <Hit_def>TPA: lysozyme G [Procavia capensis]</Hit_def>
+  <Hit_accession>CDM98850</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>1.12544e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEK</Hsp_qseq>
+      <Hsp_hseq>RQLTKCEVSQVLKDMNGYAGIIMSELICTVFHSSAFDTQAIVNNSDSTEYGLFQISNKLWCRDHQIPQSRNICGISCDKFVDDDITDDIMCAKKILDSEGIDYWPAHRPLCSEKLEQWQCEK</Hsp_hseq>
+      <Hsp_midline>+Q TKCE+SQ+LKD++GY GI + ELICT+FH+S +DTQAIV N +STEYGLFQISNKLWC+  Q+PQSRNIC ISCDKF+DDDITDDIMCAKKILD +GIDYW AH+ LC+EKLEQW CEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|125991|sp|P08334.2|LALB1_HORSE</Hit_id>
+  <Hit_def>RecName: Full=Alpha-lactalbumin A; AltName: Full=Lactose synthase B protein</Hit_def>
+  <Hit_accession>P08334</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.371</Hsp_bit-score>
+      <Hsp_score>516</Hsp_score>
+      <Hsp_evalue>1.42541e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQVLKSMDGYKGVTLPEWICTIFHSSGYDTQTIVKNNGKTEYGLFQINNKMWCRDNQILPSRNICGISCDKFLDDDLTDDVMCAKKILDSEGIDYWLAHKPLCSEKLEQWLCEEL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ+LK +DGY G+ LPE ICT+FH+SGYDTQ IV+N+  TEYGLFQI+NK+WC+ +Q+  SRNIC ISCDKFLDDD+TDD+MCAKKILD +GIDYWLAHK LC+EKLEQWLCE+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|194211931|ref|XP_001915824.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Equus caballus] &gt;gi|664759414|ref|XP_008537271.1| PREDICTED: alpha-lactalbumin [Equus przewalskii] &gt;gi|958728078|ref|XP_014705618.1| PREDICTED: alpha-lactalbumin [Equus asinus] &gt;gi|674274875|tpe|CDM98820.1| TPA: lysozyme G [Equus caballus]</Hit_def>
+  <Hit_accession>XP_001915824</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.371</Hsp_bit-score>
+      <Hsp_score>516</Hsp_score>
+      <Hsp_evalue>1.99044e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQVLKSMDGYKGVTLPEWICTIFHSSGYDTQTIVKNNGKTEYGLFQINNKMWCRDNQILPSRNICGISCNKFLDDDLTDDVMCAKKILDSEGIDYWLAHKPLCSEKLEQWLCEEL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ+LK +DGY G+ LPE ICT+FH+SGYDTQ IV+N+  TEYGLFQI+NK+WC+ +Q+  SRNIC ISC+KFLDDD+TDD+MCAKKILD +GIDYWLAHK LC+EKLEQWLCE+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|126000|sp|P28546.1|LALBA_EQUAS</Hit_id>
+  <Hit_def>RecName: Full=Alpha-lactalbumin; AltName: Full=Lactose synthase B protein &gt;gi|262063|gb|AAB24573.1| alpha-lactalbumin [Equus asinus=donkeys, milk, Peptide, 123 aa]</Hit_def>
+  <Hit_accession>P28546</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>4.13112e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>KQFTKCELSQVLKSMDGYKGVTLPEWICTIFHSSGYDTQTIVKNNGKTEYGLFQINNKMWCRDNQILPSRNICGISCNKFLDDDLTDDVMCAKKILDSEGIDYWLAHKPLCSEKLEQWLCEEL</Hsp_hseq>
+      <Hsp_midline>KQFTKCELSQ+LK +DGY G+ LPE ICT+FH+SGYDTQ IV+N+  TEYGLFQI+NK+WC+ +Q+  SRNIC ISC+KFLDDD+TDD+MCAKKILD +GIDYWLAHK LC+EKLEQWLCE+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|550822107|ref|NP_001272564.1|</Hit_id>
+  <Hit_def>alpha-lactalbumin precursor [Capra hircus] &gt;gi|125998|sp|P00712.1|LALBA_CAPHI RecName: Full=Alpha-lactalbumin; AltName: Full=Lactose synthase B protein; Flags: Precursor &gt;gi|980|emb|CAA28797.1| alpha-lactalbumin [Capra hircus] &gt;gi|147744652|gb|ABQ51193.1| prealpha-lactalbumin [Capra hircus] &gt;gi|575526210|gb|AHG99152.1| alpha-lactalbumin [Capra hircus] &gt;gi|357581|prf||1303278A lactalbumin alpha</Hit_def>
+  <Hit_accession>NP_001272564</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.601</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>5.57925e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>EQLTKCEVFQKLKDLKDYGGVSLPEWVCTAFHTSGYDTQAIVQNNDSTEYGLFQINNKIWCKDDQNPHSRNICNISCDKFLDDDLTDDIVCAKKILDKVGINYWLAHKALCSEKLDQWLCEKL</Hsp_hseq>
+      <Hsp_midline>+Q TKCE+ Q LKD+  YGG++LPE +CT FHTSGYDTQAIV+N++STEYGLFQI+NK+WCK  Q P SRNIC+ISCDKFLDDD+TDDI+CAKKILD  GI+YWLAHKALC+EKL+QWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|556771781|ref|XP_005981064.1|</Hit_id>
+  <Hit_def>PREDICTED: alpha-lactalbumin [Pantholops hodgsonii]</Hit_def>
+  <Hit_accession>XP_005981064</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>6.50493e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>EQLTKCEVFQKLKDLKDYGGVSLPEWVCTAFHTSGYDTQAIVQNNDSTEYGLFQINNKIWCKDDQNPHSRNICNISCDKFLDDDLTDDIVCAKKILDKVGINYWLAHKALCSEKLDQWLCEKL</Hsp_hseq>
+      <Hsp_midline>+Q TKCE+ Q LKD+  YGG++LPE +CT FHTSGYDTQAIV+N++STEYGLFQI+NK+WCK  Q P SRNIC+ISCDKFLDDD+TDDI+CAKKILD  GI+YWLAHKALC+EKL+QWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|27923977|sp|P09462.2|LALBA_SHEEP</Hit_id>
+  <Hit_def>RecName: Full=Alpha-lactalbumin; AltName: Full=Lactose synthase B protein; Flags: Precursor &gt;gi|11610599|dbj|BAB18926.1| alpha lactalbumin [Ovis aries]</Hit_def>
+  <Hit_accession>P09462</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>6.72246e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>EQLTKCEVFQELKDLKDYGGVSLPEWVCTAFHTSGYDTQAIVQNNDSTEYGLFQINNKIWCKDDQNPHSRNICNISCDKFLDDDLTDDIMCVKKILDKVGINYWLAHKALCSEKLDQWLCEKL</Hsp_hseq>
+      <Hsp_midline>+Q TKCE+ Q LKD+  YGG++LPE +CT FHTSGYDTQAIV+N++STEYGLFQI+NK+WCK  Q P SRNIC+ISCDKFLDDD+TDDIMC KKILD  GI+YWLAHKALC+EKL+QWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|6573358|pdb|1HMK|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Goat Alpha-Lactalbumin</Hit_def>
+  <Hit_accession>1HMK_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>7.38505e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>EQLTKCEVFQKLKDLKDYGGVSLPEWVCTAFHTSGYDTQAIVQNNDSTEYGLFQINNKIWCKDDQNPHSRNICNISCDKFLDDDLTDDIVCAKKILDKVGINYWLAHKALCSEKLDQWLCEKL</Hsp_hseq>
+      <Hsp_midline>+Q TKCE+ Q LKD+  YGG++LPE +CT FHTSGYDTQAIV+N++STEYGLFQI+NK+WCK  Q P SRNIC+ISCDKFLDDD+TDDI+CAKKILD  GI+YWLAHKALC+EKL+QWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|2392356|pdb|1HFY|A</Hit_id>
+  <Hit_def>Chain A, Alpha-Lactalbumin &gt;gi|2392357|pdb|1HFY|B Chain B, Alpha-Lactalbumin</Hit_def>
+  <Hit_accession>1HFY_A</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>8.33626e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>EQLTKCEVFQKLKDLKDYGGVSLPEWVCTAFHTSGYDTQAIVQNNDSTEYGLFQINNKIWCKDDQNPHSRNICNISCDKFLDDDLTDDIVCAKKILDKVGINYWLAHKALCSEKLDQWLCEKL</Hsp_hseq>
+      <Hsp_midline>+Q TKCE+ Q LKD+  YGG++LPE +CT FHTSGYDTQAIV+N++STEYGLFQI+NK+WCK  Q P SRNIC+ISCDKFLDDD+TDDI+CAKKILD  GI+YWLAHKALC+EKL+QWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|390980752|pdb|3B0K|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Alpha-lactalbumin &gt;gi|390980753|pdb|3B0K|B Chain B, Crystal Structure Of Alpha-lactalbumin</Hit_def>
+  <Hit_accession>3B0K_A</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>9.30276e-65</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>QFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENDESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL</Hsp_qseq>
+      <Hsp_hseq>QLTKCEVFQKLKDLKDYGGVSLPEWVCTAFHTSGYDTQAIVQNNDSTEYGLFQINNKIWCKDDQNPHSRNICNISCDKFLDDDLTDDIVCAKKILDKVGINYWLAHKALCSEKLDQWLCEKL</Hsp_hseq>
+      <Hsp_midline>Q TKCE+ Q LKD+  YGG++LPE +CT FHTSGYDTQAIV+N++STEYGLFQI+NK+WCK  Q P SRNIC+ISCDKFLDDD+TDDI+CAKKILD  GI+YWLAHKALC+EKL+QWLCEKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>115041592</Statistics_db-num>
+      <Statistics_db-len>42171959272</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
