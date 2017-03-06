@@ -11,11 +11,13 @@ def generate_dictionary(score_file):
     f = open(score_file, "r")
     score_dictionary = {}
     for line in f:
-        character = line.split(':')[0]
-        score = line.split(':')[1]
+        if line.strip():
+            character = line.split(':')[0]
+            score = line.split(':')[1]
         #print score
-        score_dictionary[character] = float(score)
+            score_dictionary[character] = float(score)
     f.close()
+
     return score_dictionary
 
  # A generic function to calculate score for a given sequence and dictionary based on a feature.
@@ -44,7 +46,7 @@ def test():
     original_string = blast.sequences[0]
     print "our original: ",original_string
 
-    stability_dictionary = generate_dictionary("stabilityScoreFile")
+    stability_dictionary = generate_dictionary("./data/stabilityScoreFile.txt")
     calculate_score(original_string, stability_dictionary)
 
 
