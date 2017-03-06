@@ -49,6 +49,8 @@ def extract_fasta_header(fasta_file_path):
     return open(fasta_file_path).read().split("\n")[0]
 
 def save_in_fasta(file_path, header, sequence):
+    if not os.path.exists(os.path.dirname(file_path)):
+        os.makedirs(os.path.dirname(file_path))
     mutated_fasta_file = open(file_path, "w")
     mutated_fasta_file.write(header + "\n" + sequence)
     mutated_fasta_file.close()
