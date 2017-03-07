@@ -66,6 +66,6 @@ def remodel(rosetta_path, pdb_path, blueprint_path, outfolder='./rosetta_out'):
 if __name__ == '__main__':
     # config file just contain a absolute path to the root of rosetta
     rosetta_path = open("rosetta_path.config").read().strip('\n')
-    pdb_path = os.path.join("pdb", "1c20.pdb")
-    blueprint_path = os.path.join("blueprint", "1c20.remodel")
+    pdb_path = os.path.join("pdb", "2y29.pdb")
+    blueprint_path = os.path.join("blueprint", "2y29.remodel")
     remodel(rosetta_path, pdb_path, blueprint_path)

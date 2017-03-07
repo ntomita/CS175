@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_202723</BlastOutput_query-ID>
+  <BlastOutput_query-def>1MLM:A|PDBID|CHAIN|SEQUENCE</BlastOutput_query-def>
+  <BlastOutput_query-len>154</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_202723</Iteration_query-ID>
+  <Iteration_query-def>1MLM:A|PDBID|CHAIN|SEQUENCE</Iteration_query-def>
+  <Iteration_query-len>154</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|157831998|pdb|1MLM|A</Hit_id>
+  <Hit_def>Chain A, Structural And Functional Effects Of Apolar Mutations Of Val68(E11) In Myoglobin &gt;gi|157831999|pdb|1MLN|A Chain A, Structural And Functional Effects Of Apolar Mutations Of Val68(E11) In Myoglobin &gt;gi|157832000|pdb|1MLO|A Chain A, Structural And Functional Effects Of Apolar Mutations Of Val68(E11) In Myoglobin</Hit_def>
+  <Hit_accession>1MLM_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.686</Hsp_bit-score>
+      <Hsp_score>792</Hsp_score>
+      <Hsp_evalue>9.10473e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|16975345|pdb|1JW8|A</Hit_id>
+  <Hit_def>Chain A, 1.3 Angstrom Resolution Crystal Structure Of P6 Form Of Myoglobin &gt;gi|39654088|pdb|1J52|A Chain A, Recombinant Sperm Whale Myoglobin In The Presence Of 7atm Xenon &gt;gi|157829536|pdb|109M|A Chain A, Sperm Whale Myoglobin D122n Ethyl Isocyanide At Ph 9.0 &gt;gi|157829538|pdb|110M|A Chain A, Sperm Whale Myoglobin D122n Methyl Isocyanide At Ph 9.0 &gt;gi|157829540|pdb|111M|A Chain A, Sperm Whale Myoglobin D122n N-Butyl Isocyanide At Ph 9.0 &gt;gi|157829542|pdb|112M|A Chain A, Sperm Whale Myoglobin D122n N-Propyl Isocyanide At Ph 9.0 &gt;gi|157829787|pdb|1ABS|A Chain A, Photolysed Carbonmonoxy-Myoglobin At 20 K &gt;gi|157833925|pdb|1TES|A Chain A, Oxygen Binding Muscle Protein &gt;gi|157835336|pdb|2MBW|A Chain A, Recombinant Sperm Whale Myoglobin (Met) &gt;gi|157835356|pdb|2MGK|A Chain A, High Resolution Crystal Structures Of Five Distal Histidine Mutants Of Sperm Whale Myoglobin &gt;gi|157835357|pdb|2MGL|A Chain A, High Resolution Crystal Structures Of Five Distal Histidine Mutants Of Sperm Whale Myoglobin &gt;gi|157835358|pdb|2MGM|A Chain A, High Resolution Crystal Structures Of Five Distal Histidine Mutants Of Sperm Whale Myoglobin &gt;gi|330689363|pdb|3ASE|A Chain A, Crystal Structure Of Zinc Myoglobin Soaked With Ru3o Cluster &gt;gi|1059271613|pdb|5JOM|A Chain A, X-ray Structure Of Co-bound Sperm Whale Myoglobin Using A Fixed Target Crystallography Chip &gt;gi|1115234238|pdb|5M3R|A Chain A, Low-dose Fixed Target Serial Synchrotron Crystallography Structure Of Sperm Whale Myoglobin &gt;gi|1115234239|pdb|5M3S|A Chain A, Low-dose Fixed Target Serial Synchrotron Crystallography Structure Of Metmyoglobin &gt;gi|1147220152|pdb|5KKK|A Chain A, 1.7-angstrom In Situ Mylar Structure Of Sperm Whale Myoglobin (swmb- Co) At 100 K &gt;gi|209564|gb|AAA72199.1| synthetic myoglobin [synthetic construct]</Hit_def>
+  <Hit_accession>1JW8_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.301</Hsp_bit-score>
+      <Hsp_score>791</Hsp_score>
+      <Hsp_evalue>1.38163e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|4930006|pdb|1CIO|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Sperm Whale Myoglobin I99v Mutant (Met)</Hit_def>
+  <Hit_accession>1CIO_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.916</Hsp_bit-score>
+      <Hsp_score>790</Hsp_score>
+      <Hsp_evalue>2.07371e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKVPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHK+PIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|157832001|pdb|1MLQ|A</Hit_id>
+  <Hit_def>Chain A, Structural And Functional Effects Of Apolar Mutations Of Val68(E11) In Myoglobin &gt;gi|157832002|pdb|1MLR|A Chain A, Structural And Functional Effects Of Apolar Mutations Of Val68(E11) In Myoglobin &gt;gi|157832003|pdb|1MLS|A Chain A, Structural And Functional Effects Of Apolar Mutations Of Val68(E11) In Myoglobin</Hit_def>
+  <Hit_accession>1MLQ_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.916</Hsp_bit-score>
+      <Hsp_score>790</Hsp_score>
+      <Hsp_evalue>2.4448e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTLLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|5542208|pdb|1CO9|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Sperm Whale Myoglobin L104v Mutant (Met)</Hit_def>
+  <Hit_accession>1CO9_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.531</Hsp_bit-score>
+      <Hsp_score>789</Hsp_score>
+      <Hsp_evalue>3.28804e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYVEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKY+EFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|157836367|pdb|2SPO|A</Hit_id>
+  <Hit_def>Chain A, A Novel Site-directed Mutant Of Myoglobin With An Unusually High O2 Affinity And Low Autooxidation Rate</Hit_def>
+  <Hit_accession>2SPO_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.531</Hsp_bit-score>
+      <Hsp_score>789</Hsp_score>
+      <Hsp_evalue>3.28804e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDIVIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDI+IRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|157831967|pdb|1MGN|A</Hit_id>
+  <Hit_def>Chain A, His64(E7)-&gt; Tyr Apomyoglobin As A Reagent For Measuring Rates Of Hemin Dissociation</Hit_def>
+  <Hit_accession>1MGN_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.145</Hsp_bit-score>
+      <Hsp_score>788</Hsp_score>
+      <Hsp_evalue>4.62055e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKYGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKK+GVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|157829530|pdb|106M|A</Hit_id>
+  <Hit_def>Chain A, Sperm Whale Myoglobin V68f Ethyl Isocyanide At Ph 9.0 &gt;gi|157829532|pdb|107M|A Chain A, Sperm Whale Myoglobin V68f N-Butyl Isocyanide At Ph 9.0 &gt;gi|157829534|pdb|108M|A Chain A, Sperm Whale Myoglobin V68f N-Butyl Isocyanide At Ph 7.0 &gt;gi|157831995|pdb|1MLJ|A Chain A, Structural And Functional Effects Of Apolar Mutations Of Val68(E11) In Myoglobin &gt;gi|157831996|pdb|1MLK|A Chain A, Structural And Functional Effects Of Apolar Mutations Of Val68(E11) In Myoglobin &gt;gi|157831997|pdb|1MLL|A Chain A, Structural And Functional Effects Of Apolar Mutations Of Val68(E11) In Myoglobin</Hit_def>
+  <Hit_accession>106M_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>5.88238e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTFLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|157831982|pdb|1MLF|A</Hit_id>
+  <Hit_def>Chain A, Structural And Functional Effects Of Apolar Mutations Of Val68(E11) In Myoglobin &gt;gi|157831983|pdb|1MLG|A Chain A, Structural And Functional Effects Of Apolar Mutations Of Val68(E11) In Myoglobin &gt;gi|157831984|pdb|1MLH|A Chain A, Structural And Functional Effects Of Apolar Mutations Of Val68(E11) In Myoglobin</Hit_def>
+  <Hit_accession>1MLF_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>6.63717e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTALTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|110591512|pdb|2G0R|A</Hit_id>
+  <Hit_def>Chain A, Unphotolyzed Co-bound L29f Myoglobin &gt;gi|110591513|pdb|2G0S|A Chain A, Unphotolyzed Co-bound L29f Myoglobin, Crystal 2 &gt;gi|110591514|pdb|2G0V|A Chain A, Photolyzed Co L29f Myoglobin: 100ps &gt;gi|110591515|pdb|2G0X|A Chain A, Photolyzed Co L29f Myoglobin: 316ps &gt;gi|110591516|pdb|2G0Z|A Chain A, Photolyzed Co L29f Myoglobin: 1ns &gt;gi|110591517|pdb|2G10|A Chain A, Photolyzed Co L29f Myoglobin: 3.16ns &gt;gi|110591518|pdb|2G11|A Chain A, Photolyzed Co L29f Myoglobin: 31.6ns &gt;gi|110591519|pdb|2G12|A Chain A, Photolyzed Co L29f Myoglobin: 316ns &gt;gi|110591520|pdb|2G14|A Chain A, Photolyzed Co L29f Myoglobin: 3.16us &gt;gi|157831541|pdb|1JDO|A Chain A, Sperm Whale Myoglobin (Ferrous, Nitric Oxide Bound) &gt;gi|157832023|pdb|1MOA|A Chain A, A Novel Site-Directed Mutant Of Myoglobin With An Unusually High O2 Affinity And Low Autooxidation Rate &gt;gi|157836364|pdb|2SPL|A Chain A, A Novel Site-Directed Mutant Of Myoglobin With An Unusually High O2 Affinity And Low Autooxidation Rate &gt;gi|157836365|pdb|2SPM|A Chain A, A Novel Site-Directed Mutant Of Myoglobin With An Unusually High O2 Affinity And Low Autooxidation Rate &gt;gi|157836366|pdb|2SPN|A Chain A, A Novel Site-Directed Mutant Of Myoglobin With An Unusually High O2 Affinity And Low Autooxidation Rate</Hit_def>
+  <Hit_accession>2G0R_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>7.01156e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDIFIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDI IRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|5542213|pdb|1CP5|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Sperm Whale Myoglobin L104f Mutant (Met)</Hit_def>
+  <Hit_accession>1CP5_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>7.01156e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYFEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKY EFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|4929991|pdb|1CH2|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Sperm Whale Myoglobin L89f Mutant (Met)</Hit_def>
+  <Hit_accession>1CH2_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>7.01156e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPFAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKP AQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|157832051|pdb|1MTI|A</Hit_id>
+  <Hit_def>Chain A, Phe46(Cd4) Orients The Distal Histidine For Hydrogen Bonding To Bound Ligands In Sperm Whale Myoglobin</Hit_def>
+  <Hit_accession>1MTI_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>8.26627e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRLKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDR KHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|595582078|ref|NP_001277651.1|</Hit_id>
+  <Hit_def>myoglobin [Physeter catodon] &gt;gi|118595805|sp|P02185.2|MYG_PHYCD RecName: Full=Myoglobin &gt;gi|49259352|pdb|1UFP|A Chain A, Crystal Structure Of An Artificial Metalloprotein:fe(Iii)(3, 3&apos;-Me2-Salophen)APO-Wild Type Myoglobin &gt;gi|145579858|pdb|2JHO|A Chain A, Cyanomet Sperm Whale Myoglobin At 1.4a Resolution &gt;gi|151567563|pdb|2EB8|A Chain A, Crystal Structure Of Cu(Ii)(Sal-Phe)APO-Myoglobin &gt;gi|151567564|pdb|2EB9|A Chain A, Crystal Structure Of Cu(ii)(sal-leu)/apo-myoglobin &gt;gi|228311816|pdb|2W6W|A Chain A, Crystal Structure Of Recombinant Sperm Whale Myoglobin Under 1atm Of Xenon &gt;gi|428697997|pdb|3U3E|A Chain A, Complex Of Wild Type Myoglobin With Phenol In Its Proximal Cavity &gt;gi|694270081|pdb|4NXA|A Chain A, Sperm Whale Myoglobin Under Xenon Pressure 30 Bar &gt;gi|694270084|pdb|4NXC|A Chain A, Sperm Whale Myoglobin Under 30 Bar Nitrous Oxide &gt;gi|704360566|pdb|4PNJ|A Chain A, Recombinant Sperm Whale P6 Myoglobin Solved With Single Pulse Free Electron Laser Data &gt;gi|113374037|dbj|BAF03579.1| myoglobin [Physeter catodon]</Hit_def>
+  <Hit_accession>NP_001277651</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>9.02486e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPG+FGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|5542207|pdb|1CO8|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Sperm Whale Myoglobin L104a Mutant (Met)</Hit_def>
+  <Hit_accession>1CO8_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>9.22514e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYAEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKY EFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|4930005|pdb|1CIK|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Sperm Whale Myoglobin I99a Mutant (Met)</Hit_def>
+  <Hit_accession>1CIK_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>9.85305e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKAPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHK PIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|157829523|pdb|101M|A</Hit_id>
+  <Hit_def>Chain A, Sperm Whale Myoglobin F46v N-Butyl Isocyanide At Ph 9.0 &gt;gi|157832052|pdb|1MTJ|A Chain A, Phe46(Cd4) Orients The Distal Histidine For Hydrogen Bonding To Bound Ligands In Sperm Whale Myoglobin &gt;gi|157832053|pdb|1MTK|A Chain A, Phe46(cd4) Orients The Distal Histidine For Hydrogen Bonding To Bound Ligands In Sperm Whale Myoglobin &gt;gi|157832071|pdb|1MYM|A Chain A, Structural Determinants Of Co Stretching Vibration Frequencies In Myoglobin</Hit_def>
+  <Hit_accession>101M_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.99</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>1.02952e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRVKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDR KHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|157835351|pdb|2MGF|A</Hit_id>
+  <Hit_def>Chain A, High Resolution Crystal Structures Of Five Distal Histidine Mutants Of Sperm Whale Myoglobin &gt;gi|157835352|pdb|2MGG|A Chain A, High Resolution Crystal Structures Of Five Distal Histidine Mutants Of Sperm Whale Myoglobin &gt;gi|157835353|pdb|2MGH|A Chain A, High Resolution Crystal Structures Of Five Distal Histidine Mutants Of Sperm Whale Myoglobin &gt;gi|1069428665|pdb|5ILP|A Chain A, H64q Sperm Whale Myoglobin With A Fe-tolyl Moiety &gt;gi|1069428666|pdb|5ILR|A Chain A, H64q Sperm Whale Myoglobin With A Fe-chlorophenyl Moiety</Hit_def>
+  <Hit_accession>2MGF_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.99</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>1.04088e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKQGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKK GVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|4930000|pdb|1CH9|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Sperm Whale Myoglobin H97q Mutant (met)</Hit_def>
+  <Hit_accession>1CH9_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.99</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>1.04088e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKQKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATK KIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|157832025|pdb|1MOC|A</Hit_id>
+  <Hit_def>Chain A, High-Resolution Crystal Structures Of Distal Histidine Mutants Of Sperm Whale Myoglobin &gt;gi|157832026|pdb|1MOD|A Chain A, High-Resolution Crystal Structures Of Distal Histidine Mutants Of Sperm Whale Myoglobin &gt;gi|157835354|pdb|2MGI|A Chain A, High Resolution Crystal Structures Of Five Distal Histidine Mutants Of Sperm Whale Myoglobin</Hit_def>
+  <Hit_accession>1MOC_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.99</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>1.43095e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKTGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKK GVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|126031597|pdb|2OHA|A</Hit_id>
+  <Hit_def>Chain A, Myoglobin Cavity Mutant F138w</Hit_def>
+  <Hit_accession>2OHA_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.99</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>1.44674e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELWRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALEL+RKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|229491|prf||742482A</Hit_id>
+  <Hit_def>myoglobin</Hit_def>
+  <Hit_accession>742482A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>1.50924e-105</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|5542220|pdb|1CPW|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Sperm Whale Myoglobin L104w Mutant (Met)</Hit_def>
+  <Hit_accession>1CPW_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>1.52835e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYWEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKY EFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|157831891|pdb|1LTW|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Sperm Whale Myoglobin 29w Mutant (oxy)</Hit_def>
+  <Hit_accession>1LTW_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>1.52835e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDIWIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDI IRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|4929992|pdb|1CH3|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Sperm Whale Myoglobin L89w Mutant (Met)</Hit_def>
+  <Hit_accession>1CH3_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>1.52835e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPWAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKP AQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|126031596|pdb|2OH9|A</Hit_id>
+  <Hit_def>Chain A, Myoglobin Cavity Mutant V68w</Hit_def>
+  <Hit_accession>2OH9_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>1.52835e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTWLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|4929999|pdb|1CH7|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Sperm Whale Myoglobin H97f Mutant (Met)</Hit_def>
+  <Hit_accession>1CH7_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>1.72446e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKFKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATK KIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|5542212|pdb|1CP0|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Sperm Whale Myoglobin L104n Mutant (Met)</Hit_def>
+  <Hit_accession>1CP0_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>1.78218e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYNEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKY EFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|157829525|pdb|102M|A</Hit_id>
+  <Hit_def>Chain A, Sperm Whale Myoglobin H64a Aquomet At Ph 9.0 &gt;gi|157829527|pdb|103M|A Chain A, Sperm Whale Myoglobin H64a N-Butyl Isocyanide At Ph 9.0 &gt;gi|1069428663|pdb|5ILE|A Chain A, H64a Sperm Whale Myoglobin With A Fe-tolyl Moiety &gt;gi|1069428664|pdb|5ILM|A Chain A, H64a Sperm Whale Myoglobin With A Fe-chlorophenyl Moiety</Hit_def>
+  <Hit_accession>102M_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>1.86216e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKAGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKK GVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|6980845|pdb|1DTI|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Sperm Whale Myoglobin H97d, D122n Mutant (Met)</Hit_def>
+  <Hit_accession>1DTI_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>1.88271e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKDKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATK KIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|157835355|pdb|2MGJ|A</Hit_id>
+  <Hit_def>Chain A, High Resolution Crystal Structures Of Five Distal Histidine Mutants Of Sperm Whale Myoglobin</Hit_def>
+  <Hit_accession>2MGJ_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.22</Hsp_bit-score>
+      <Hsp_score>783</Hsp_score>
+      <Hsp_evalue>2.45004e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKVGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKK GVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|4929997|pdb|1CH5|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Sperm Whale Myoglobin H97v Mutant (Met)</Hit_def>
+  <Hit_accession>1CH5_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.22</Hsp_bit-score>
+      <Hsp_score>783</Hsp_score>
+      <Hsp_evalue>2.45004e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKVKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATK KIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|157832024|pdb|1MOB|A</Hit_id>
+  <Hit_def>Chain A, High-Resolution Crystal Structures Of Distal Histidine Mutants Of Sperm Whale Myoglobin &gt;gi|157835346|pdb|2MGA|A Chain A, High Resolution Crystal Structures Of Five Distal Histidine Mutants Of Sperm Whale Myoglobin &gt;gi|157835347|pdb|2MGB|A Chain A, High Resolution Crystal Structures Of Five Distal Histidine Mutants Of Sperm Whale Myoglobin</Hit_def>
+  <Hit_accession>1MOB_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.22</Hsp_bit-score>
+      <Hsp_score>783</Hsp_score>
+      <Hsp_evalue>2.45004e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKGGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKK GVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|126031595|pdb|2OH8|A</Hit_id>
+  <Hit_def>Chain A, Myoglobin Cavity Mutant I28w</Hit_def>
+  <Hit_accession>2OH8_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.22</Hsp_bit-score>
+      <Hsp_score>783</Hsp_score>
+      <Hsp_evalue>2.47707e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDWLIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQD LIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|126031598|pdb|2OHB|A</Hit_id>
+  <Hit_def>Chain A, Myoglobin Cavity Mutant I107w</Hit_def>
+  <Hit_accession>2OHB_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.22</Hsp_bit-score>
+      <Hsp_score>783</Hsp_score>
+      <Hsp_evalue>2.47707e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFWSEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEF SEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|749197295|pdb|4QAU|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of F43y Mutant Of Sperm Whale Myoglobin</Hit_def>
+  <Hit_accession>4QAU_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.22</Hsp_bit-score>
+      <Hsp_score>783</Hsp_score>
+      <Hsp_evalue>2.53205e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKYDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEK+DRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPG+FGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|157835348|pdb|2MGC|A</Hit_id>
+  <Hit_def>Chain A, High Resolution Crystal Structures Of Five Distal Histidine Mutants Of Sperm Whale Myoglobin &gt;gi|157835349|pdb|2MGD|A Chain A, High Resolution Crystal Structures Of Five Distal Histidine Mutants Of Sperm Whale Myoglobin &gt;gi|157835350|pdb|2MGE|A Chain A, High Resolution Crystal Structures Of Five Distal Histidine Mutants Of Sperm Whale Myoglobin</Hit_def>
+  <Hit_accession>2MGC_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.22</Hsp_bit-score>
+      <Hsp_score>783</Hsp_score>
+      <Hsp_evalue>2.70439e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKLGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKK GVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|4929990|pdb|1CH1|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Sperm Whale Myoglobin L89g Mutatnt (Met)</Hit_def>
+  <Hit_accession>1CH1_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.22</Hsp_bit-score>
+      <Hsp_score>783</Hsp_score>
+      <Hsp_evalue>2.88846e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPGAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKP AQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|300508776|pdb|3NML|A</Hit_id>
+  <Hit_def>Chain A, Sperm Whale Myoglobin Mutant H64w Carbonmonoxy-Form &gt;gi|306440716|pdb|3OGB|A Chain A, Sperm Whale Myoglobin Mutant H64w Deoxy-Form</Hit_def>
+  <Hit_accession>3NML_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.449</Hsp_bit-score>
+      <Hsp_score>781</Hsp_score>
+      <Hsp_evalue>4.68146e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKWGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKK GVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|49258311|pdb|1J3F|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of An Artificial Metalloprotein:cr(iii)(3, 3&apos;-me2-salophen)/apo-a71g Myoglobin &gt;gi|49259351|pdb|1UFJ|A Chain A, Crystal Structure Of An Artificial Metalloprotein:fe(Iii)(3, 3&apos;-Me2-Salophen)APO-A71g Myoglobin &gt;gi|67464164|pdb|1V9Q|A Chain A, Crystal Structure Of An Artificial Metalloprotein:mn(iii)(3, 3&apos;-me2-salophen)/apo-a71g Myoglobin &gt;gi|158428300|pdb|2EF2|A Chain A, Crystal Structure Of An Artificial Metalloprotein:rh(Phebox- Ph)APO-A71g Myoglobin</Hit_def>
+  <Hit_accession>1J3F_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.449</Hsp_bit-score>
+      <Hsp_score>781</Hsp_score>
+      <Hsp_evalue>4.83816e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTGLGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LT LGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPG+FGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|290560063|pdb|3A2G|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of K102c-Myoglobin Conjugated With Fluorescein</Hit_def>
+  <Hit_accession>3A2G_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.064</Hsp_bit-score>
+      <Hsp_score>780</Hsp_score>
+      <Hsp_evalue>6.65121e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPICYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPI YLEFISEAIIHVLHSRHPG+FGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|726968900|pdb|4OOD|A</Hit_id>
+  <Hit_def>Chain A, Structure Of K42y Mutant Of Sperm Whale Myoglobin</Hit_def>
+  <Hit_accession>4OOD_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.064</Hsp_bit-score>
+      <Hsp_score>780</Hsp_score>
+      <Hsp_evalue>7.10391e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEYFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLE FDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPG+FGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|422920060|pdb|4H07|A</Hit_id>
+  <Hit_def>Chain A, Complex Of G65t Myoglobin With Phenol In Its Proximal Cavity &gt;gi|422920061|pdb|4H0B|A Chain A, Complex Of G65t Myoglobin With Dmso In Its Distal Cavity</Hit_def>
+  <Hit_accession>4H07_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.064</Hsp_bit-score>
+      <Hsp_score>780</Hsp_score>
+      <Hsp_evalue>7.75581e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHTVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKH VT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPG+FGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|38492411|pdb|1H1X|A</Hit_id>
+  <Hit_def>Chain A, Sperm Whale Myoglobin Mutant T67r S92d</Hit_def>
+  <Hit_accession>1H1X_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.064</Hsp_bit-score>
+      <Hsp_score>780</Hsp_score>
+      <Hsp_evalue>7.8414e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVRVLTALGAILKKKGHHEAELKPLAQDHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGV +LTALGAILKKKGHHEAELKPLAQ HATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|38492425|pdb|1LUE|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Sperm Whale Myoglobin H64d/v68a/d122n Mutant (met)</Hit_def>
+  <Hit_accession>1LUE_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.679</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>8.94516e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKDGVTALTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKK GVT LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|3891450|pdb|1BZ6|A</Hit_id>
+  <Hit_def>Chain A, Atomic Resolution Crystal Structure Aquomet-Myoglobin From Sperm Whale At Room Temperature &gt;gi|5107537|pdb|1BZP|A Chain A, Atomic Resolution Crystal Structure Analysis Of Native Deoxy And Co Myoglobin From Sperm Whale At Room Temperature &gt;gi|5107538|pdb|1BZR|A Chain A, Atomic Resolution Crystal Structure Analysis Of Native Deoxy And Co Myoglobin From Sperm Whale At Room Temperature &gt;gi|5822050|pdb|1EBC|A Chain A, Sperm Whale Met-Myoglobin:cyanide Complex &gt;gi|9257175|pdb|1DUK|A Chain A, Wild-Type Recombinant Sperm Whale Metaquomyoglobin &gt;gi|9955166|pdb|1F6H|A Chain A, Combined Rietveld And Stereochemical Restraint Refinement Of A Protein &gt;gi|18655862|pdb|1JP6|A Chain A, Sperm Whale Met-Myoglobin (Room Temperature; Room Pressure) &gt;gi|18655863|pdb|1JP8|A Chain A, Sperm Whale Met-Myoglobin (Room Temperature; High Pressure) &gt;gi|18655864|pdb|1JP9|A Chain A, Sperm Whale Met-Myoglobin (Low Temperature; High Pressure) &gt;gi|18655865|pdb|1JPB|A Chain A, Sperm Whale Met-Myoglobin (Low Temperature; High Pressure) &gt;gi|23200312|pdb|1L2K|A Chain A, Neutron Structure Determination Of Sperm Whale Met-Myoglobin At 1.5a Resolution. &gt;gi|73535344|pdb|1U7R|A Chain A, Crystal Structure Of Native Sperm Whale Myoglobin From Low Ionic Strength Enviroment (form2 ) &gt;gi|73535345|pdb|1U7S|A Chain A, Crystal Structure Of Native Sperm Whale Myoglobin From Low Ionic Strength Enviroment (form 1) &gt;gi|118137497|pdb|2D6C|A Chain A, Crystal Structure Of Myoglobin Reconstituted With Iron Porphycene &gt;gi|118137498|pdb|2D6C|B Chain B, Crystal Structure Of Myoglobin Reconstituted With Iron Porphycene &gt;gi|157829528|pdb|104M|A Chain A, Sperm Whale Myoglobin N-Butyl Isocyanide At Ph 7.0 &gt;gi|157829529|pdb|105M|A Chain A, Sperm Whale Myoglobin N-Butyl Isocyanide At Ph 9.0 &gt;gi|157829908|pdb|1AJG|A Chain A, Carbonmonoxy Myoglobin At 40 K &gt;gi|157829909|pdb|1AJH|A Chain A, Photoproduct Of Carbonmonoxy Myoglobin At 40 K &gt;gi|157830479|pdb|1BVC|A Chain A, Structure Of A Biliverdin Apomyoglobin Complex (Form D) At 118 K &gt;gi|157830480|pdb|1BVD|A Chain A, Structure Of A Biliverdin Apomyoglobin Complex (Form B) At 98 K &gt;gi|157831341|pdb|1HJT|A Chain A, Sperm Whale Myoglobin (Ferrous, Nitric Oxide Bound) &gt;gi|157831484|pdb|1IOP|A Chain A, Incorporation Of A Hemin With The Shortest Acid Side-Chains Into Myoglobin &gt;gi|157831941|pdb|1MBC|A Chain A, X-Ray Structure And Refinement Of Carbon-Monoxy (Fe Ii)- Myoglobin At 1.5 Angstroms Resolution &gt;gi|157831942|pdb|1MBD|A Chain A, Neutron Diffraction Reveals Oxygen-Histidine Hydrogen Bond In Oxymyoglobin &gt;gi|157831947|pdb|1MBI|A Chain A, X-Ray Crystal Structure Of The Ferric Sperm Whale Myoglobin: Imidazole Complex At 2.0 Angstroms Resolution &gt;gi|157831950|pdb|1MBN|A Chain A, The Stereochemistry Of The Protein Myoglobin &gt;gi|157831951|pdb|1MBO|A Chain A, Structure And Refinement Of Oxymyoglobin At 1.6 Angstroms Resolution &gt;gi|157833845|pdb|1SPE|A Chain A, Sperm Whale Native Co Myoglobin At Ph 4.0, Temp 4c &gt;gi|157833884|pdb|1SWM|A Chain A, X-Ray Crystal Structure Of The Ferric Sperm Whale Myoglobin: Imidazole Complex At 2.0 Angstroms Resolution &gt;gi|157834177|pdb|1VXA|A Chain A, Native Sperm Whale Myoglobin &gt;gi|157834178|pdb|1VXB|A Chain A, Native Sperm Whale Myoglobin &gt;gi|157834179|pdb|1VXC|A Chain A, Native Sperm Whale Myoglobin &gt;gi|157834180|pdb|1VXD|A Chain A, Native Sperm Whale Myoglobin &gt;gi|157834181|pdb|1VXE|A Chain A, Native Sperm Whale Myoglobin &gt;gi|157834182|pdb|1VXF|A Chain A, Native Sperm Whale Myoglobin &gt;gi|157834183|pdb|1VXG|A Chain A, Native Sperm Whale Myoglobin &gt;gi|157834184|pdb|1VXH|A Chain A, Native Sperm Whale Myoglobin &gt;gi|157834321|pdb|1YOG|A Chain A, Cobalt Myoglobin (Deoxy) &gt;gi|157834322|pdb|1YOH|A Chain A, Cobalt Myoglobin (Met) &gt;gi|157834323|pdb|1YOI|A Chain A, Cobalt Myoglobin (Oxy) &gt;gi|157834756|pdb|2CMM|A Chain A, Structural Analysis Of The Myoglobin Reconstituted With Iron Porphine &gt;gi|157834927|pdb|2EKT|A Chain A, Crystal Structure Of Myoglobin Reconstituted With 6-Methyl-6- Depropionatehemin &gt;gi|157834928|pdb|2EKU|A Chain A, Crystal Structure Of Myoglobin Reconstituted With 7-Methyl-7- Depropionatehemin &gt;gi|157835368|pdb|2MYA|A Chain A, High Resolution X-Ray Structures Of Myoglobin-And Hemoglobin-Alkyl Isocyanide Complexes &gt;gi|157835369|pdb|2MYB|A Chain A, High Resolution X-Ray Structures Of Myoglobin-And Hemoglobin-Alkyl Isocyanide Complexes &gt;gi|157835370|pdb|2MYC|A Chain A, High Resolution X-Ray Structures Of Myoglobin-And Hemoglobin-Alkyl Isocyanide Complexes &gt;gi|157835371|pdb|2MYD|A Chain A, High Resolution X-ray Structures Of Myoglobin-and Hemoglobin-alkyl Isocyanide Complexes &gt;gi|157835372|pdb|2MYE|A Chain A, High Resolution X-Ray Structures Of Myoglobin-And Hemoglobin-Alkyl Isocyanide Complexes &gt;gi|157836970|pdb|4MBN|A Chain A, Refinement Of Myoglobin And Cytochrome C &gt;gi|157837055|pdb|5MBN|A Chain A, Refinement Of Myoglobin And Cytochrome C &gt;gi|159162722|pdb|1MYF|A Chain A, Solution Structure Of Carbonmonoxy Myoglobin Determined From Nmr Distance And Chemical Shift Constraints &gt;gi|160286412|pdb|2Z6S|A Chain A, Crystal Structure Of The Oxy Myoglobin Free From X-ray- Induced Photoreduction &gt;gi|160286413|pdb|2Z6T|A Chain A, Crystal Structure Of The Ferric Peroxo Myoglobin &gt;gi|224036233|pdb|2ZSN|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 100 K: Laser On [300 Min] &gt;gi|224036234|pdb|2ZSO|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 100 K: Laser On [450 Min] &gt;gi|224036235|pdb|2ZSP|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 120 K: Laser On [300 Min] &gt;gi|224036236|pdb|2ZSQ|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 140 K: Laser On [150 Min] &gt;gi|224036237|pdb|2ZSR|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 120 K: Laser On [450 Min] &gt;gi|224036238|pdb|2ZSS|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 140 K: Laser On [300 Min] &gt;gi|224036239|pdb|2ZST|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 140 K: Laser On [450 Min] &gt;gi|224036240|pdb|2ZSX|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 140 K: Laser On [600 Min] &gt;gi|224036241|pdb|2ZSY|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 140 K: Laser On [750 Min] &gt;gi|224036242|pdb|2ZSZ|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 100 K: Laser On [600 Min] &gt;gi|224036243|pdb|2ZT0|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 100 K: Laser On [750 Min] &gt;gi|224036244|pdb|2ZT1|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 100 K: Laser On [810 Min] &gt;gi|224036245|pdb|2ZT2|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 120 K: Laser On [600 Min] &gt;gi|224036246|pdb|2ZT3|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 120 K: Laser On [750 Min] &gt;gi|224036247|pdb|2ZT4|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 120 K: Laser On [810 Min] &gt;gi|224036328|pdb|3E4N|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 40 K: Laser Off &gt;gi|224036329|pdb|3E55|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 100 K: Laser Off &gt;gi|224036330|pdb|3E5I|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 120 K: Laser Off &gt;gi|224036331|pdb|3E5O|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 140 K: Laser Off &gt;gi|224036352|pdb|3ECL|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 40 K: Laser On &gt;gi|224036353|pdb|3ECX|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 100 K: Laser On [30 Min] &gt;gi|224036354|pdb|3ECZ|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 120 K: Laser On [30 Min] &gt;gi|224036355|pdb|3ED9|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 140 K: Laser On [30 Min] &gt;gi|224036356|pdb|3EDA|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 100 K: Laser On [150 Min] &gt;gi|224036357|pdb|3EDB|A Chain A, Carbonmonoxy Sperm Whale Myoglobin At 120 K: Laser On [150 Min] &gt;gi|253722780|pdb|1CQ2|A Chain A, Neutron Structure Of Fully Deuterated Sperm Whale Myoglobin At 2.0 Angstrom</Hit_def>
+  <Hit_accession>1BZ6_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.679</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>9.53888e-105</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPG+FGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|38492573|pdb|1O16|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Sperm Whale Myoglobin H64dV68SD122N MUTANT (Met)</Hit_def>
+  <Hit_accession>1O16_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.679</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>1.03169e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKDGVTSLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKK GVT LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|159794749|pdb|2E2Y|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of F43wH64DV68I MYOGLOBIN</Hit_def>
+  <Hit_accession>2E2Y_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.679</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>1.12636e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKWDRFKHLKTEAEMKASEDLKKDGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEK+DRFKHLKTEAEMKASEDLKK GVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|157832522|pdb|1OBM|A</Hit_id>
+  <Hit_def>Chain A, Recombinant Sperm Whale Myoglobin 29f64Q68F122N MUTANT (Met)</Hit_def>
+  <Hit_accession>1OBM_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.294</Hsp_bit-score>
+      <Hsp_score>778</Hsp_score>
+      <Hsp_evalue>1.22972e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>MVLSEGEWQLVLHVWAKVEADVAGHGQDIFIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKQGVTFLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>MVLSEGEWQLVLHVWAKVEADVAGHGQDI IRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKK GVT LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|66361559|pdb|2BLH|A</Hit_id>
+  <Hit_def>Chain A, Ligand Migration And Protein Fluctuations In Myoglobin Mutant L29w &gt;gi|66361560|pdb|2BLI|A Chain A, L29w Mb Deoxy &gt;gi|66361561|pdb|2BLJ|M Chain M, Structure Of L29w Mbco &gt;gi|73536312|pdb|2BW9|M Chain M, Laue Structure Of L29w Mbco &gt;gi|73536317|pdb|2BWH|A Chain A, Laue Structure Of A Short Lived State Of L29w Myoglobin</Hit_def>
+  <Hit_accession>2BLH_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.294</Hsp_bit-score>
+      <Hsp_score>778</Hsp_score>
+      <Hsp_evalue>1.32582e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTILTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_qseq>
+      <Hsp_hseq>VLSEGEWQLVLHVWAKVEADVAGHGQDIWIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_hseq>
+      <Hsp_midline>VLSEGEWQLVLHVWAKVEADVAGHGQDI IRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVT+LTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGNFGADAQGAMNKALELFRKDIAAKYKELGYQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>115476514</Statistics_db-num>
+      <Statistics_db-len>42330486778</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

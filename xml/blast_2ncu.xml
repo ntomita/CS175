@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_71667</BlastOutput_query-ID>
+  <BlastOutput_query-def>2NCU:A|PDBID|CHAIN|SEQUENCE</BlastOutput_query-def>
+  <BlastOutput_query-len>21</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_71667</Iteration_query-ID>
+  <Iteration_query-def>2NCU:A|PDBID|CHAIN|SEQUENCE</Iteration_query-def>
+  <Iteration_query-len>21</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1124010003|ref|XP_019565696.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 isoform X2 [Rhinolophus sinicus]</Hit_def>
+  <Hit_accession>XP_019565696</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.23229e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|635100612|ref|XP_007973123.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 isoform X1 [Chlorocebus sabaeus]</Hit_def>
+  <Hit_accession>XP_007973123</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.61656e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>220</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|829825706|ref|XP_012632137.1|</Hit_id>
+  <Hit_def>heparin cofactor 2 [Microcebus murinus] &gt;gi|1149730161|ref|XP_020140928.1| heparin cofactor 2 [Microcebus murinus]</Hit_def>
+  <Hit_accession>XP_012632137</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>1.668e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|847042585|ref|XP_012807189.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Jaculus jaculus]</Hit_def>
+  <Hit_accession>XP_012807189</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>1.67062e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1150667006|pdb|2NCW|A</Hit_id>
+  <Hit_def>Chain A, Nmr Structure Of Wwwkye21 Structure In Lps Micelles</Hit_def>
+  <Hit_accession>2NCW_A</Hit_accession>
+  <Hit_len>24</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>1.76413e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>24</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1124010001|ref|XP_019565695.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 isoform X1 [Rhinolophus sinicus]</Hit_def>
+  <Hit_accession>XP_019565695</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>1.98584e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>213</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|584048329|ref|XP_006768920.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Myotis davidii]</Hit_def>
+  <Hit_accession>XP_006768920</Hit_accession>
+  <Hit_len>511</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>1.9871e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|432094867|gb|ELK26275.1|</Hit_id>
+  <Hit_def>Heparin cofactor 2 [Myotis davidii]</Hit_def>
+  <Hit_accession>ELK26275</Hit_accession>
+  <Hit_len>489</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>1.99038e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|47678677|emb|CAG30459.1|</Hit_id>
+  <Hit_def>SERPIND1 [Homo sapiens] &gt;gi|109451484|emb|CAK54603.1| SERPIND1 [synthetic construct] &gt;gi|109452080|emb|CAK54902.1| SERPIND1, partial [synthetic construct] &gt;gi|208965506|dbj|BAG72767.1| serpin peptidase inhibitor, clade D (heparin cofactor), member 1, partial [synthetic construct]</Hit_def>
+  <Hit_accession>CAG30459</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>2.04396e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>220</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|820993616|ref|XP_012363597.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 isoform X1 [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>XP_012363597</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>2.08431e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>220</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1016666339|ref|XP_016059704.1|</Hit_id>
+  <Hit_def>PREDICTED: LOW QUALITY PROTEIN: heparin cofactor 2 [Miniopterus natalensis]</Hit_def>
+  <Hit_accession>XP_016059704</Hit_accession>
+  <Hit_len>675</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>2.08837e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|955542279|ref|XP_014652210.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Ceratotherium simum simum]</Hit_def>
+  <Hit_accession>XP_014652210</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>2.25885e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|537178355|gb|ERE75504.1|</Hit_id>
+  <Hit_def>heparin cofactor 2-like protein [Cricetulus griseus]</Hit_def>
+  <Hit_accession>ERE75504</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.28052e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|402883628|ref|XP_003905312.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Papio anubis]</Hit_def>
+  <Hit_accession>XP_003905312</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.37145e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|795171746|ref|XP_011842727.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Mandrillus leucophaeus]</Hit_def>
+  <Hit_accession>XP_011842727</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.44202e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|635100614|ref|XP_007973124.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 isoform X2 [Chlorocebus sabaeus]</Hit_def>
+  <Hit_accession>XP_007973124</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.49023e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|795400374|ref|XP_011942727.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Cercocebus atys]</Hit_def>
+  <Hit_accession>XP_011942727</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.58953e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|724914593|ref|XP_010380091.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Rhinopithecus roxellana] &gt;gi|1059163194|ref|XP_017738063.1| PREDICTED: heparin cofactor 2 [Rhinopithecus bieti] &gt;gi|1059163196|ref|XP_017738064.1| PREDICTED: heparin cofactor 2 [Rhinopithecus bieti]</Hit_def>
+  <Hit_accession>XP_010380091</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.64065e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|23273330|gb|AAH35028.1|</Hit_id>
+  <Hit_def>Serpin peptidase inhibitor, clade D (heparin cofactor), member 1 [Homo sapiens] &gt;gi|123980600|gb|ABM82129.1| serpin peptidase inhibitor, clade D (heparin cofactor), member 1 [synthetic construct] &gt;gi|123995421|gb|ABM85312.1| serpin peptidase inhibitor, clade D (heparin cofactor), member 1, partial [synthetic construct] &gt;gi|649119177|gb|AIC54531.1| SERPIND1, partial [synthetic construct] &gt;gi|1147693713|emb|SJX40322.1| unnamed protein product, partial [Human ORFeome Gateway entry vector]</Hit_def>
+  <Hit_accession>AAH35028</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.64065e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1040114036|gb|OBS63543.1|</Hit_id>
+  <Hit_def>hypothetical protein A6R68_07951 [Neotoma lepida]</Hit_def>
+  <Hit_accession>OBS63543</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.64371e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|426393625|ref|XP_004063116.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Gorilla gorilla gorilla]</Hit_def>
+  <Hit_accession>XP_004063116</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.6613e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>220</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|823669422|gb|AKI69923.1|</Hit_id>
+  <Hit_def>SERPIND1, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AKI69923</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.74595e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|354481362|ref|XP_003502870.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Cricetulus griseus] &gt;gi|625250069|ref|XP_007616339.1| PREDICTED: heparin cofactor 2 [Cricetulus griseus] &gt;gi|344253484|gb|EGW09588.1| Heparin cofactor 2 [Cricetulus griseus]</Hit_def>
+  <Hit_accession>XP_003502870</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.75022e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1150667005|pdb|2NCU|A</Hit_id>
+  <Hit_def>Chain A, Nmr Structure Of Kye21 In Lps Micelles</Hit_def>
+  <Hit_accession>2NCU_A</Hit_accession>
+  <Hit_len>21</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>2.79764e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|823669424|gb|AKI69924.1|</Hit_id>
+  <Hit_def>SERPIND1, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AKI69924</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.96931e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|327241790|gb|AEA40676.1|</Hit_id>
+  <Hit_def>serpin peptidase inhibitor clade D member 1, partial [Ceratotherium simum]</Hit_def>
+  <Hit_accession>AEA40676</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>3.05269e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|795644605|ref|XP_011738060.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Macaca nemestrina]</Hit_def>
+  <Hit_accession>XP_011738060</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.08771e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|23200176|pdb|1JMO|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Heparin Cofactor Ii-S195a Thrombin Complex</Hit_def>
+  <Hit_accession>1JMO_A</Hit_accession>
+  <Hit_len>480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>3.18429e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1028909305|pdb|2NAT|A</Hit_id>
+  <Hit_def>Chain A, Structural Insights Into Interaction Of Kye28 And Lipopolysachharide</Hit_def>
+  <Hit_accession>2NAT_A</Hit_accession>
+  <Hit_len>28</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>3.19538e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|388452866|ref|NP_001252689.1|</Hit_id>
+  <Hit_def>heparin cofactor 2 precursor [Macaca mulatta] &gt;gi|544463192|ref|XP_005567943.1| PREDICTED: heparin cofactor 2 [Macaca fascicularis] &gt;gi|966968141|ref|XP_015005232.1| PREDICTED: heparin cofactor 2 isoform X1 [Macaca mulatta] &gt;gi|355563486|gb|EHH20048.1| hypothetical protein EGK_02823 [Macaca mulatta] &gt;gi|355784813|gb|EHH65664.1| hypothetical protein EGM_02472 [Macaca fascicularis]</Hit_def>
+  <Hit_accession>NP_001252689</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>3.24238e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|795192396|ref|XP_011802701.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Colobus angolensis palliatus]</Hit_def>
+  <Hit_accession>XP_011802701</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>3.33888e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|488550083|ref|XP_004466498.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 isoform X2 [Dasypus novemcinctus]</Hit_def>
+  <Hit_accession>XP_004466498</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>3.37233e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>188</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEIATIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEI TIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|23200172|pdb|1JMJ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Native Heparin Cofactor Ii &gt;gi|23200173|pdb|1JMJ|B Chain B, Crystal Structure Of Native Heparin Cofactor Ii &gt;gi|1335104|emb|CAA27218.1| unnamed protein product, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>1JMJ_A</Hit_accession>
+  <Hit_len>480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>3.61579e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|562820630|ref|XP_006140256.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Tupaia chinensis] &gt;gi|444732276|gb|ELW72578.1| Heparin cofactor 2 [Tupaia chinensis]</Hit_def>
+  <Hit_accession>XP_006140256</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>5.23762e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYELTTVHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYE+TT+HNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|338727465|ref|XP_003365492.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Equus caballus] &gt;gi|664762847|ref|XP_008539065.1| PREDICTED: heparin cofactor 2 [Equus przewalskii] &gt;gi|958790455|ref|XP_014723545.1| PREDICTED: heparin cofactor 2 [Equus asinus]</Hit_def>
+  <Hit_accession>XP_003365492</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>5.49836e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|674066979|ref|XP_008840456.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Nannospalax galili]</Hit_def>
+  <Hit_accession>XP_008840456</Hit_accession>
+  <Hit_len>480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>5.50515e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|183910|gb|AAA52642.1|</Hit_id>
+  <Hit_def>heparin cofactor II precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>AAA52642</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>5.77254e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|73858566|ref|NP_000176.2|</Hit_id>
+  <Hit_def>heparin cofactor 2 precursor [Homo sapiens] &gt;gi|123055|sp|P05546.3|HEP2_HUMAN RecName: Full=Heparin cofactor 2; AltName: Full=Heparin cofactor II; Short=HC-II; AltName: Full=Protease inhibitor leuserpin-2; Short=HLS2; AltName: Full=Serpin D1; Flags: Precursor &gt;gi|183908|gb|AAA52641.1| heparin cofactor II [Homo sapiens] &gt;gi|119623346|gb|EAX02941.1| serpin peptidase inhibitor, clade D (heparin cofactor), member 1, isoform CRA_a [Homo sapiens] &gt;gi|119623347|gb|EAX02942.1| serpin peptidase inhibitor, clade D (heparin cofactor), member 1, isoform CRA_a [Homo sapiens] &gt;gi|189054358|dbj|BAG36878.1| unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_000176</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>5.77254e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|114685232|ref|XP_001167967.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Pan troglodytes] &gt;gi|397470646|ref|XP_003806929.1| PREDICTED: heparin cofactor 2 [Pan paniscus]</Hit_def>
+  <Hit_accession>XP_001167967</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>5.94437e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|332264931|ref|XP_003281482.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 isoform X2 [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>XP_003281482</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>6.00277e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|589961069|ref|XP_006993108.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Peromyscus maniculatus bairdii]</Hit_def>
+  <Hit_accession>XP_006993108</Hit_accession>
+  <Hit_len>480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>6.01151e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|13242285|ref|NP_077358.1|</Hit_id>
+  <Hit_def>heparin cofactor 2 precursor [Rattus norvegicus] &gt;gi|564377787|ref|XP_006248771.1| PREDICTED: heparin cofactor 2 isoform X1 [Rattus norvegicus] &gt;gi|2500775|sp|Q64268.1|HEP2_RAT RecName: Full=Heparin cofactor 2; AltName: Full=Heparin cofactor II; Short=HC-II; AltName: Full=Protease inhibitor leuserpin-2; AltName: Full=Serpin D1; Flags: Precursor &gt;gi|433613|emb|CAA52643.1| leuserpin-2 [Rattus norvegicus] &gt;gi|433615|emb|CAA52644.1| leuserpin-2 [Rattus norvegicus] &gt;gi|60551378|gb|AAH91145.1| Serine (or cysteine) peptidase inhibitor, clade D, member 1 [Rattus norvegicus] &gt;gi|149019738|gb|EDL77886.1| serine (or cysteine) peptidase inhibitor, clade D, member 1, isoform CRA_a [Rattus norvegicus] &gt;gi|149019739|gb|EDL77887.1| serine (or cysteine) peptidase inhibitor, clade D, member 1, isoform CRA_a [Rattus norvegicus] &gt;gi|149019740|gb|EDL77888.1| serine (or cysteine) peptidase inhibitor, clade D, member 1, isoform CRA_a [Rattus norvegicus]</Hit_def>
+  <Hit_accession>NP_077358</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>6.01199e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEVTTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYE+TTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|90085154|dbj|BAE91318.1|</Hit_id>
+  <Hit_def>unnamed protein product [Macaca fascicularis]</Hit_def>
+  <Hit_accession>BAE91318</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>6.06183e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|488550081|ref|XP_004466497.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 isoform X1 [Dasypus novemcinctus]</Hit_def>
+  <Hit_accession>XP_004466497</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>6.24404e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>188</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEIATIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEI TIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1147268390|ref|XP_020016338.1|</Hit_id>
+  <Hit_def>heparin cofactor 2 [Castor canadensis]</Hit_def>
+  <Hit_accession>XP_020016338</Hit_accession>
+  <Hit_len>480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>6.56446e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|984127967|ref|XP_015355843.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Marmota marmota marmota]</Hit_def>
+  <Hit_accession>XP_015355843</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>6.89444e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>171</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|532097786|ref|XP_005334543.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Ictidomys tridecemlineatus]</Hit_def>
+  <Hit_accession>XP_005334543</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>7.03059e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>171</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEITTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEITTIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|987419054|ref|XP_007091129.2|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Panthera tigris altaica]</Hit_def>
+  <Hit_accession>XP_007091129</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>8.12991e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEIMTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEI TIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1111234369|ref|XP_019292937.1|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Panthera pardus]</Hit_def>
+  <Hit_accession>XP_019292937</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>8.96503e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEIMTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEI TIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1126467206|ref|XP_006938807.3|</Hit_id>
+  <Hit_def>PREDICTED: heparin cofactor 2 [Felis catus]</Hit_def>
+  <Hit_accession>XP_006938807</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>9.14208e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>KYEITTIHNLFRKLTHRLFRR</Hsp_qseq>
+      <Hsp_hseq>KYEIMTIHNLFRKLTHRLFRR</Hsp_hseq>
+      <Hsp_midline>KYEI TIHNLFRKLTHRLFRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>115476514</Statistics_db-num>
+      <Statistics_db-len>42330486778</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

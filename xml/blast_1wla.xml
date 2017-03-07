@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_187521</BlastOutput_query-ID>
+  <BlastOutput_query-def>1WLA:A|PDBID|CHAIN|SEQUENCE</BlastOutput_query-def>
+  <BlastOutput_query-len>153</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_187521</Iteration_query-ID>
+  <Iteration_query-def>1WLA:A|PDBID|CHAIN|SEQUENCE</Iteration_query-def>
+  <Iteration_query-len>153</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|958814314|ref|XP_014688187.1|</Hit_id>
+  <Hit_def>PREDICTED: myoglobin [Equus asinus]</Hit_def>
+  <Hit_accession>XP_014688187</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.071</Hsp_bit-score>
+      <Hsp_score>793</Hsp_score>
+      <Hsp_evalue>2.84744e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|255683511|ref|NP_001157488.1|</Hit_id>
+  <Hit_def>myoglobin [Equus caballus] &gt;gi|664769016|ref|XP_008542050.1| PREDICTED: myoglobin [Equus przewalskii] &gt;gi|118595761|sp|P68083.2|MYG_EQUBU RecName: Full=Myoglobin &gt;gi|118595772|sp|P68082.2|MYG_HORSE RecName: Full=Myoglobin</Hit_def>
+  <Hit_accession>NP_001157488</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>9.05058e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|7546624|pdb|1DWR|A</Hit_id>
+  <Hit_def>Chain A, Myoglobin (Horse Heart) Wild-Type Complexed With Co &gt;gi|7546625|pdb|1DWS|A Chain A, Photolyzed Carbonmonoxy Myoglobin (Horse Heart) &gt;gi|7546626|pdb|1DWT|A Chain A, Photorelaxed Horse Heart Myoglobin Co Complex &gt;gi|20149830|pdb|1GJN|A Chain A, Hydrogen Peroxide Derived Myoglobin Compound Ii At Ph 5.2 &gt;gi|39654266|pdb|1NPF|A Chain A, Myoglobin (Horse Heart) Wild-Type Complexed With Nitric Oxide &gt;gi|39654267|pdb|1NPG|A Chain A, Myoglobin (Horse Heart) Wild-Type Complexed With Nitrosoethane &gt;gi|109157705|pdb|2FRF|A Chain A, Horse Heart Myoglobin, Nitrite Adduct, Crystal Soak &gt;gi|109157706|pdb|2FRI|X Chain X, Horse Heart Myoglobin, Nitrite Adduct, Co-crystallized &gt;gi|109157707|pdb|2FRJ|X Chain X, Nitrosyl Horse Heart Myoglobin, NitriteDITHIONITE METHOD &gt;gi|109157708|pdb|2FRK|X Chain X, Nitrosyl Horse Heart Myoglobin, Nitric Oxide Gas Method &gt;gi|118138485|pdb|2IN4|A Chain A, Crystal Structure Of Myoglobin With Charge Neutralized Heme, Zndmb-Dme &gt;gi|149243979|pdb|2V1E|A Chain A, Crystal Structure Of Radiation-Induced Myoglobin Compound Ii - Intermediate H At Ph 6.8 &gt;gi|149243982|pdb|2V1F|A Chain A, Crystal Structure Of Radiation-Induced Myoglobin Compound Ii - Intermediate H At Ph 8.7 &gt;gi|149243983|pdb|2V1G|A Chain A, Crystal Structure Of Radiation-Induced Myoglobin Compound Ii - Intermediate H At Ph 5.2 &gt;gi|149243986|pdb|2V1H|A Chain A, Crystal Structure Of Radiation-Induced Metmyoglobin - Aqua Ferrous Myoglobin At Ph 5.2 &gt;gi|149243987|pdb|2V1I|A Chain A, Crystal Structure Of Radiation-Induced Metmyoglobin - Aqua Ferrous Myoglobin At Ph 6.8 &gt;gi|149243990|pdb|2V1J|A Chain A, Crystal Structure Of Radiation-Induced Metmyoglobin - Aqua Ferrous Myoglobin At Ph 8.7 &gt;gi|149243991|pdb|2V1K|A Chain A, Crystal Structure Of Ferrous Deoxymyoglobin At Ph 6.8 &gt;gi|157830157|pdb|1AZI|A Chain A, Myoglobin (Horse Heart) Recombinant Wild-Type Complexed With Azide &gt;gi|157834213|pdb|1WLA|A Chain A, Myoglobin (horse Heart) Recombinant Wild-type &gt;gi|157834316|pdb|1YMB|A Chain A, High Resolution Study Of The Three-Dimensional Structure Of Horse Heart Metmyoglobin &gt;gi|157834317|pdb|1YMC|A Chain A, Three-Dimensional Structure Of Cyanomet-Sulfmyoglobin C &gt;gi|158429189|pdb|2O58|X Chain X, Horse Heart Met Manganese Myoglobin &gt;gi|158429190|pdb|2O5B|X Chain X, Manganese Horse Heart Myoglobin, Reduced &gt;gi|158429191|pdb|2O5L|X Chain X, Manganese Horse Heart Myoglobin, Methanol Modified &gt;gi|158429192|pdb|2O5M|X Chain X, Manganese Horse Heart Myoglobin, Azide Modified &gt;gi|158429195|pdb|2O5O|X Chain X, Manganese Horse Heart Myoglobin, Nitrite Modified &gt;gi|158429196|pdb|2O5Q|X Chain X, Manganese Horse Heart Myoglobin, Nitric Oxide Modified &gt;gi|158429197|pdb|2O5S|X Chain X, Cobalt Horse Heart Myoglobin, Nitrite Modified &gt;gi|158429198|pdb|2O5T|X Chain X, Cobalt Horse Heart Myoglobin, Oxidized &gt;gi|160285683|pdb|2NSR|A Chain A, Nitromethane Modified Horse Heart Myoglobin &gt;gi|160285685|pdb|2NSS|A Chain A, Nitrobenzene Modified Horse Heart Myoglobin &gt;gi|166235446|pdb|2VLY|A Chain A, Crystal Structure Of Myoglobin Compound Iii (Radiation- Induced) &gt;gi|166235447|pdb|2VLZ|A Chain A, Crystal Structure Of Peroxymyoglobin Generated By Cryoradiolytic Reduction Of Myoglobin Compound Iii &gt;gi|166235448|pdb|2VM0|A Chain A, Crystal Structure Of Radiation-Induced Myoglobin Compound Ii Generated After Annealing Of Peroxymyoglobin &gt;gi|212374929|pdb|3BA2|A Chain A, Cyanide Bound Chlorin Substituted Myoglobin &gt;gi|223365707|pdb|2VLX|A Chain A, Crystal Structure Of Peroxymyoglobin Generated By Cryoradiolytic Reduction Of Myoglobin Compound Iii &gt;gi|300193239|pdb|3LR7|A Chain A, Ferric Horse Heart Myoglobin, Nitrite Adduct &gt;gi|300193240|pdb|3LR9|A Chain A, X-Ray Photogenerated Ferrous Horse Heart Myoglobin, Nitrite Adduct &gt;gi|383875572|pdb|3VAU|A Chain A, Myoglobin Nitrite Structure: Nitriheme Modified &gt;gi|404312824|pdb|3VM9|A Chain A, Dimeric Horse Myoglobin &gt;gi|404312825|pdb|3VM9|B Chain B, Dimeric Horse Myoglobin &gt;gi|422919134|pdb|3V2V|A Chain A, Nitrite Bound Chlorin Substituted Myoglobin- Method 1 &gt;gi|422919135|pdb|3V2Z|A Chain A, Nitrite Bound Chlorin Substituted Myoglobin- Method 2 &gt;gi|597959939|pdb|3WI8|A Chain A, Crystal Structure Of Horse Heart Myoglobin Reconstituted With Manganese Porphycene &gt;gi|728055223|pdb|3WFT|A Chain A, Crystal Structure Of Horse Heart Myoglobin Reconstituted With Cobalt(ii) Tetradehydrocorrin &gt;gi|728055224|pdb|3WFU|A Chain A, Crystal Structure Of Horse Heart Myoglobin Reconstituted With Cobalt(i) Tetradehydrocorrin &gt;gi|974994542|pdb|5AZQ|A Chain A, Crystal Structure Of Cyano-cobalt(iii) Tetradehydrocorrin In The Heme Pocket Of Horse Heart Myoglobin &gt;gi|974994543|pdb|5AZR|A Chain A, Crystal Structure Of Aqua-cobalt(iii) Tetradehydrocorrin In The Heme Pocket Of Horse Heart Myoglobin</Hit_def>
+  <Hit_accession>1DWR_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.99</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>1.31231e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|157831380|pdb|1HRM|A</Hit_id>
+  <Hit_def>Chain A, The Proximal Ligand Variant His93tyr Of Horse Heart Myoglobin</Hit_def>
+  <Hit_accession>1HRM_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.449</Hsp_bit-score>
+      <Hsp_score>781</Hsp_score>
+      <Hsp_evalue>4.58567e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSYATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQS+ATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|157834315|pdb|1YMA|A</Hit_id>
+  <Hit_def>Chain A, Structural Characterization Of Heme Ligation In The His64-- &gt;tyr Variant Of Myoglobin</Hit_def>
+  <Hit_accession>1YMA_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.449</Hsp_bit-score>
+      <Hsp_score>781</Hsp_score>
+      <Hsp_evalue>4.58567e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKYGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKK+GTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|30749793|pdb|1NZ2|A</Hit_id>
+  <Hit_def>Chain A, K45e Variant Of Horse Heart Myoglobin</Hit_def>
+  <Hit_accession>1NZ2_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.449</Hsp_bit-score>
+      <Hsp_score>781</Hsp_score>
+      <Hsp_evalue>4.84434e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDEFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFD+FKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|443428086|pdb|4DC7|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Myoglobin Exposed To Excessive Sonicc Imaging Laser Dose. &gt;gi|443428087|pdb|4DC8|A Chain A, Crystal Structure Of Myoglobin Unexposed To Excessive Sonicc Imaging Laser Dose. &gt;gi|927774787|pdb|5CMV|A Chain A, Ultrafast Dynamics In Myoglobin: Dark-state, Co-ligated Structure &gt;gi|927774796|pdb|5CN4|A Chain A, Ultrafast Dynamics In Myoglobin: -0.1 Ps Time Delay &gt;gi|927774798|pdb|5CN5|A Chain A, Ultrafast Dynamics In Myoglobin: 0 Ps Time Delay &gt;gi|927774800|pdb|5CN6|A Chain A, Ultrafast Dynamics In Myoglobin: 0.1 Ps Time Delay &gt;gi|927774802|pdb|5CN7|A Chain A, Ultrafast Dynamics In Myoglobin: 0.2 Ps Time Delay &gt;gi|927774804|pdb|5CN8|A Chain A, Ultrafast Dynamics In Myoglobin: 0.3 Ps Time Delay &gt;gi|927774806|pdb|5CNB|A Chain A, Ultrafast Dynamics In Myoglobin: 0.5 Ps Time Delay &gt;gi|927774807|pdb|5CNC|A Chain A, Ultrafast Dynamics In Myoglobin: 0.6 Ps Time Delay &gt;gi|927774808|pdb|5CND|A Chain A, Ultrafast Dynamics In Myoglobin: 3 Ps Time Delay &gt;gi|927774809|pdb|5CNE|A Chain A, Ultrafast Dynamics In Myoglobin: 10 Ps Time Delay &gt;gi|927774810|pdb|5CNF|A Chain A, Ultrafast Dynamics In Myoglobin: 50 Ps Time Delay &gt;gi|927774811|pdb|5CNG|A Chain A, Ultrafast Dynamics In Myoglobin: 150 Ps Time Delay &gt;gi|927774880|pdb|5D5R|A Chain A, Horse-heart Myoglobin - Deoxy State &gt;gi|946926871|pdb|5CN9|A Chain A, Ultrafast Dynamics In Myoglobin: 0.4 Ps Time Delay</Hit_def>
+  <Hit_accession>4DC7_A</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.064</Hsp_bit-score>
+      <Hsp_score>780</Hsp_score>
+      <Hsp_evalue>6.29423e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQ</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQ</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|157833746|pdb|1RSE|A</Hit_id>
+  <Hit_def>Chain A, Myoglobin (horse Heart) Mutant With Ser 92 Replaced By Asp (s92d)</Hit_def>
+  <Hit_accession>1RSE_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.679</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>8.02575e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQDHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQ HATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|157834232|pdb|1XCH|A</Hit_id>
+  <Hit_def>Chain A, Myoglobin (Horse Heart) Mutant With Leu 104 Replaced By Asn (L104n)</Hit_def>
+  <Hit_accession>1XCH_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.294</Hsp_bit-score>
+      <Hsp_score>778</Hsp_score>
+      <Hsp_evalue>1.19144e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYNEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKY EFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|157830344|pdb|1BJE|A</Hit_id>
+  <Hit_def>Chain A, H64t Variant Of Myoglobin (Horse Heart) Recombinant Wild- Type Complexed With Azide &gt;gi|157831391|pdb|1HSY|A Chain A, Origin Of The Ph-Dependent Spectroscopic Properties Of Pentacoordinate Metmyoglobin Variants</Hit_def>
+  <Hit_accession>1BJE_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.294</Hsp_bit-score>
+      <Hsp_score>778</Hsp_score>
+      <Hsp_evalue>1.45166e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKTGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKK GTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|30749794|pdb|1NZ3|A</Hit_id>
+  <Hit_def>Chain A, K45e-K63e Variant Of Horse Heart Myoglobin &gt;gi|30749795|pdb|1NZ4|A Chain A, The Horse Heart Myoglobin Variant K45eK63E COMPLEXED WITH Cadmium &gt;gi|30749796|pdb|1NZ5|A Chain A, The Horse Heart Myoglobin Variant K45eK63E COMPLEXED WITH Manganese</Hit_def>
+  <Hit_accession>1NZ3_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.908</Hsp_bit-score>
+      <Hsp_score>777</Hsp_score>
+      <Hsp_evalue>1.67428e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDEFKHLKTEAEMKASEDLKEHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFD+FKHLKTEAEMKASEDLK+HGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|282403655|pdb|3HC9|A</Hit_id>
+  <Hit_def>Chain A, Ferric Horse Heart Myoglobin; H64v Mutant &gt;gi|282403688|pdb|3HEP|A Chain A, Ferric Horse Heart Myoglobin; H64v Mutant, Nitrite Modified</Hit_def>
+  <Hit_accession>3HC9_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.523</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>2.51293e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKVGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKK GTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|723586699|pdb|3WYO|B</Hit_id>
+  <Hit_def>Chain B, Heterodimeric Myoglobin Formed By Domain Swapping &gt;gi|723586701|pdb|3WYO|D Chain D, Heterodimeric Myoglobin Formed By Domain Swapping</Hit_def>
+  <Hit_accession>3WYO_B</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.523</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>2.83536e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKEDGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILK+ GHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1025734732|pdb|4TWV|A</Hit_id>
+  <Hit_def>Chain A, Horse Heart Myoglobin Mutant (k45e/k63e/k96e) With Zn-deuteroporphyrin Ix</Hit_def>
+  <Hit_accession>4TWV_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.753</Hsp_bit-score>
+      <Hsp_score>774</Hsp_score>
+      <Hsp_evalue>5.42618e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDEFKHLKTEAEMKASEDLKEHGTVVLTALGGILKKKGHHEAELKPLAQSHATEHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFD+FKHLKTEAEMKASEDLK+HGTVVLTALGGILKKKGHHEAELKPLAQSHAT+HKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|386783169|pdb|3RJ6|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Horse Heart Ferric Myoglobin; K45eK63EK96E Mutant &gt;gi|386783170|pdb|3RJ6|B Chain B, Crystal Structure Of Horse Heart Ferric Myoglobin; K45eK63EK96E Mutant</Hit_def>
+  <Hit_accession>3RJ6_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.368</Hsp_bit-score>
+      <Hsp_score>773</Hsp_score>
+      <Hsp_evalue>7.12807e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDEFKHLKTEAEMKASEDLKEHGTVVLTALGGILKKKGHHEAELKPLAQSHATEHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFD+FKHLKTEAEMKASEDLK+HGTVVLTALGGILKKKGHHEAELKPLAQSHAT+HKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|386783171|pdb|3RJN|B</Hit_id>
+  <Hit_def>Chain B, Horse Heart Myoglobin: D44kD60K MUTANT WITH ZINC (II) - Deuteroporphyrin Dimethyl Ester</Hit_def>
+  <Hit_accession>3RJN_B</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.597</Hsp_bit-score>
+      <Hsp_score>771</Hsp_score>
+      <Hsp_evalue>1.37703e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFKKFKHLKTEAEMKASEKLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKF KFKHLKTEAEMKASE LKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|282403686|pdb|3HEN|A</Hit_id>
+  <Hit_def>Chain A, Ferric Horse Heart Myoglobin; H64vV67R MUTANT &gt;gi|282403687|pdb|3HEO|A Chain A, Ferric Horse Heart Myoglobin; H64vV67R MUTANT, NITRITE Modified</Hit_def>
+  <Hit_accession>3HEN_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.827</Hsp_bit-score>
+      <Hsp_score>769</Hsp_score>
+      <Hsp_evalue>2.9043e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKVGTRVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKK GT VLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1025734731|pdb|4TWU|A</Hit_id>
+  <Hit_def>Chain A, Horse Heart Myoglobin Mutant (d44k/d60k/e85k) With Zn-deuteroporphyrin Ix</Hit_def>
+  <Hit_accession>4TWU_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>4.13259e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFKKFKHLKTEAEMKASEKLKKHGTVVLTALGGILKKKGHHEAKLKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKF KFKHLKTEAEMKASE LKKHGTVVLTALGGILKKKGHHEA+LKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|723586698|pdb|3WYO|A</Hit_id>
+  <Hit_def>Chain A, Heterodimeric Myoglobin Formed By Domain Swapping &gt;gi|723586700|pdb|3WYO|C Chain C, Heterodimeric Myoglobin Formed By Domain Swapping</Hit_def>
+  <Hit_accession>3WYO_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>3.83622e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKVGTVHLTALGGILKKKGHHEAKLKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNKIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKK GTV LTALGGILKKKGHHEA+LKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRN IAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|560915347|ref|XP_006183931.1|</Hit_id>
+  <Hit_def>PREDICTED: myoglobin [Camelus ferus] &gt;gi|743695965|ref|XP_010944343.1| PREDICTED: myoglobin [Camelus bactrianus] &gt;gi|744594070|ref|XP_010988224.1| PREDICTED: myoglobin [Camelus dromedarius]</Hit_def>
+  <Hit_accession>XP_006183931</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.5</Hsp_bit-score>
+      <Hsp_score>737</Hsp_score>
+      <Hsp_evalue>2.15915e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNVWGKVEADVAGHGQEVLIRLFTGHPETLEKFDKFKHLKTADEMKASEDLKKHGNTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPVKYLEFISDAIIHVLQSKHPGDFGADAQAAMNKALELFRNDMAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLNVWGKVEAD+AGHGQEVLIRLFTGHPETLEKFDKFKHLKT  EMKASEDLKKHG  VLTALGGILKKKGHHEAELKPLAQSHATKHKIP+KYLEFISDAIIHVL SKHPGDFGADAQ AM KALELFRND+AAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|478487503|ref|XP_004418145.1|</Hit_id>
+  <Hit_def>PREDICTED: myoglobin [Ceratotherium simum simum]</Hit_def>
+  <Hit_accession>XP_004418145</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.115</Hsp_bit-score>
+      <Hsp_score>736</Hsp_score>
+      <Hsp_evalue>3.24042e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDAEWQLVLNVWGKVEADVPGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHEAELKPLAHSHATKHKIPIKYLEFISDAIIHVLQSKHPGDFGADAQGAMKKALELFRNDIAAQYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSD EWQ VLNVWGKVEAD+ GHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHG  VLTALGGILKKKGHHEAELKPLA SHATKHKIPIKYLEFISDAIIHVL SKHPGDFGADAQGAM KALELFRNDIAA+YKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|826294909|ref|XP_012500179.1|</Hit_id>
+  <Hit_def>PREDICTED: myoglobin [Propithecus coquereli] &gt;gi|826294912|ref|XP_012500180.1| PREDICTED: myoglobin [Propithecus coquereli]</Hit_def>
+  <Hit_accession>XP_012500179</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.115</Hsp_bit-score>
+      <Hsp_score>736</Hsp_score>
+      <Hsp_evalue>3.82016e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNVWGKVEADIGGHGQEILIRLFTGHPETLEKFDKFKHLKTADEMKASEDLKKHGTTVLTALGGILKKKGQHEAEIKPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPGDFGADAQGAMKKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLNVWGKVEADI GHGQE+LIRLFTGHPETLEKFDKFKHLKT  EMKASEDLKKHGT VLTALGGILKKKG HEAE+KPLAQSHATKHKIPIKYLEFISDAIIHVL SKHPGDFGADAQGAM KALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|507866490|gb|AGM75750.1|</Hit_id>
+  <Hit_def>myoglobin [Balaena mysticetus]</Hit_def>
+  <Hit_accession>AGM75750</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.345</Hsp_bit-score>
+      <Hsp_score>734</Hsp_score>
+      <Hsp_evalue>6.68518e-98</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>LSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>LSDGEWQLVLNIWAKVEADVAGHGQDVLIRLFKGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>LSDGEWQ VLN+W KVEAD+AGHGQ+VLIRLF GHPETLEKFDKFKHLKTEAEMKASEDLKKHG  VLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHS+HPGDFGADAQGAM KALELFR DIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|829878018|ref|XP_012642551.1|</Hit_id>
+  <Hit_def>myoglobin [Microcebus murinus]</Hit_def>
+  <Hit_accession>XP_012642551</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.189</Hsp_bit-score>
+      <Hsp_score>731</Hsp_score>
+      <Hsp_evalue>2.23508e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNVWGKVEADVSGHGQEVLIRLFTGHPETLEKFDKFKHLKTADEMKASEDLKKHGTTVLTALGAILKKKGQHEAELKPLAQSHATKHKIPVKYLEFISDAIIHVLQSKHPADFGADAQGAMKKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLNVWGKVEAD++GHGQEVLIRLFTGHPETLEKFDKFKHLKT  EMKASEDLKKHGT VLTALG ILKKKG HEAELKPLAQSHATKHKIP+KYLEFISDAIIHVL SKHP DFGADAQGAM KALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|118595780|sp|P02169.2|MYG_LEPMU</Hit_id>
+  <Hit_def>RecName: Full=Myoglobin</Hit_def>
+  <Hit_accession>P02169</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.419</Hsp_bit-score>
+      <Hsp_score>729</Hsp_score>
+      <Hsp_evalue>4.76532e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNVWGKVEADVGGHGQEVLIRLFTGHPETLEKFDKFKHLKTADEMKASEDLKKHGTTVLTALGGILKKKGQHEAELKPLAQSHATKHKIPIKYLEFISDAIVHVLHSKHPAEFGADAQAAMKKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLNVWGKVEAD+ GHGQEVLIRLFTGHPETLEKFDKFKHLKT  EMKASEDLKKHGT VLTALGGILKKKG HEAELKPLAQSHATKHKIPIKYLEFISDAI+HVLHSKHP +FGADAQ AM KALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|118595800|sp|P02166.2|MYG_PERPO</Hit_id>
+  <Hit_def>RecName: Full=Myoglobin</Hit_def>
+  <Hit_accession>P02166</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.648</Hsp_bit-score>
+      <Hsp_score>727</Hsp_score>
+      <Hsp_evalue>7.47246e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQSVLNVWGKVEADLAGHGQEILIRLFTAHPETLEKFDKFKNLKTPDEMKASEDLKKHGVTVLTALGGILKKKGHHEAEIKPLAQSHATKHKIPVKYLEFISEAIIHVLQSKHPGDFGADAQGAMNKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLNVWGKVEAD+AGHGQE+LIRLFT HPETLEKFDKFK+LKT  EMKASEDLKKHG  VLTALGGILKKKGHHEAE+KPLAQSHATKHKIP+KYLEFIS+AIIHVL SKHPGDFGADAQGAM KALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|118595775|sp|P02181.2|MYG_INIGE</Hit_id>
+  <Hit_def>RecName: Full=Myoglobin</Hit_def>
+  <Hit_accession>P02181</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>1.18467e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNIWGKVEADLAGHGQDVLIRLFKGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQAAMNKALELFRKDIAAKYKELGFHG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLN+WGKVEAD+AGHGQ+VLIRLF GHPETLEKFDKFKHLKTEAEMKASEDLKKHG  VLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFIS+AIIHVLHS+HPGDFGADAQ AM KALELFR DIAAKYKELGF G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|47523546|ref|NP_999401.1|</Hit_id>
+  <Hit_def>myoglobin [Sus scrofa] &gt;gi|127688|sp|P02189.2|MYG_PIG RecName: Full=Myoglobin &gt;gi|164547|gb|AAA31073.1| myoglobin [Sus scrofa]</Hit_def>
+  <Hit_accession>NP_999401</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.41202e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNVWGKVEADVAGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGNTVLTALGGILKKKGHHEAELTPLAQSHATKHKIPVKYLEFISEAIIQVLQSKHPGDFGADAQGAMSKALELFRNDMAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLNVWGKVEAD+AGHGQEVLIRLF GHPETLEKFDKFKHLK+E EMKASEDLKKHG  VLTALGGILKKKGHHEAEL PLAQSHATKHKIP+KYLEFIS+AII VL SKHPGDFGADAQGAM+KALELFRND+AAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|230253|pdb|1PMB|A</Hit_id>
+  <Hit_def>Chain A, The Determination Of The Crystal Structure Of Recombinant Pig Myoglobin By Molecular Replacement And Its Refinement &gt;gi|230254|pdb|1PMB|B Chain B, The Determination Of The Crystal Structure Of Recombinant Pig Myoglobin By Molecular Replacement And Its Refinement &gt;gi|494385|pdb|1MYG|A Chain A, High Resolution X-Ray Structures Of Pig Metmyoglobin And Two Cd3 Mutants Mb(Lys45-&gt; Arg) And Mb(Lys45-&gt; Ser) &gt;gi|494386|pdb|1MYG|B Chain B, High Resolution X-Ray Structures Of Pig Metmyoglobin And Two Cd3 Mutants Mb(Lys45-&gt; Arg) And Mb(Lys45-&gt; Ser) &gt;gi|3660244|pdb|1MWC|A Chain A, Wild Type Myoglobin With Co &gt;gi|3660245|pdb|1MWC|B Chain B, Wild Type Myoglobin With Co &gt;gi|3660246|pdb|1MWD|A Chain A, Wild Type Deoxy Myoglobin &gt;gi|3660247|pdb|1MWD|B Chain B, Wild Type Deoxy Myoglobin</Hit_def>
+  <Hit_accession>1PMB_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.48968e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNVWGKVEADVAGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGNTVLTALGGILKKKGHHEAELTPLAQSHATKHKIPVKYLEFISEAIIQVLQSKHPGDFGADAQGAMSKALELFRNDMAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLNVWGKVEAD+AGHGQEVLIRLF GHPETLEKFDKFKHLK+E EMKASEDLKKHG  VLTALGGILKKKGHHEAEL PLAQSHATKHKIP+KYLEFIS+AII VL SKHPGDFGADAQGAM+KALELFRND+AAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|672717879|ref|NP_001288305.1|</Hit_id>
+  <Hit_def>myoglobin [Ursus maritimus] &gt;gi|507866564|gb|AGM75765.1| myoglobin [Ursus maritimus]</Hit_def>
+  <Hit_accession>NP_001288305</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.57577e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNVWGKVEADLAGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKGSEDLKKHGNTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIQVLQSKHPGDFGADAQGAMRKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLNVWGKVEAD+AGHGQEVLIRLF GHPETLEKFDKFKHLK+E EMK SEDLKKHG  VLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFIS+AII VL SKHPGDFGADAQGAM KALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1002635549|gb|AMN15046.1|</Hit_id>
+  <Hit_def>myoglobin, partial [Delphinapterus leucas]</Hit_def>
+  <Hit_accession>AMN15046</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.70156e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSEGEWQLVLNVWGKVEADLAGHGQDVLIRLFKGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHDAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGFHG</Hsp_hseq>
+      <Hsp_midline>GLS+GEWQ VLNVWGKVEAD+AGHGQ+VLIRLF GHPETLEKFDKFKHLKTEAEMKASEDLKKHG  VLTALGGILKKKGHH+AELKPLAQSHATKHKIPIKYLEFIS+AIIHVLHS+HPGDFGADAQGAM KALELFR DIAAKYKELGF G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|118573066|sp|Q0KIY1.3|MYG_BALBO</Hit_id>
+  <Hit_def>RecName: Full=Myoglobin &gt;gi|118573067|sp|Q0KIY2.3|MYG_BALED RecName: Full=Myoglobin &gt;gi|118595764|sp|P02177.2|MYG_ESCRO RecName: Full=Myoglobin &gt;gi|113374049|dbj|BAF03585.1| myoglobin [Balaenoptera edeni] &gt;gi|113374051|dbj|BAF03586.1| myoglobin [Balaenoptera borealis]</Hit_def>
+  <Hit_accession>Q0KIY1</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>2.4173e-96</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>LSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>LSDAEWQLVLNIWAKVEADVAGHGQDILIRLFKGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSRHPGDFGADAQAAMNKALELFRKDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>LSD EWQ VLN+W KVEAD+AGHGQ++LIRLF GHPETLEKFDKFKHLKTEAEMKASEDLKKHG  VLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHS+HPGDFGADAQ AM KALELFR DIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|494387|pdb|1MYH|A</Hit_id>
+  <Hit_def>Chain A, High Resolution X-ray Structures Of Pig Metmyoglobin And Two Cd3 Mutants Mb(lys45-&gt; Arg) And Mb(lys45-&gt; Ser) &gt;gi|494388|pdb|1MYH|B Chain B, High Resolution X-ray Structures Of Pig Metmyoglobin And Two Cd3 Mutants Mb(lys45-&gt; Arg) And Mb(lys45-&gt; Ser)</Hit_def>
+  <Hit_accession>1MYH_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>2.94124e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNVWGKVEADVAGHGQEVLIRLFKGHPETLEKFDRFKHLKSEDEMKASEDLKKHGNTVLTALGGILKKKGHHEAELTPLAQSHATKHKIPVKYLEFISEAIIQVLQSKHPGDFGADAQGAMSKALELFRNDMAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLNVWGKVEAD+AGHGQEVLIRLF GHPETLEKFD+FKHLK+E EMKASEDLKKHG  VLTALGGILKKKGHHEAEL PLAQSHATKHKIP+KYLEFIS+AII VL SKHPGDFGADAQGAM+KALELFRND+AAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|507866492|gb|AGM75751.1|</Hit_id>
+  <Hit_def>myoglobin [Monodon monoceros]</Hit_def>
+  <Hit_accession>AGM75751</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>3.01045e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSEGEWQLVLNVWGKVEADLAGHGQDVLIRLFKGHPETLEKFDKFRHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHDAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGFHG</Hsp_hseq>
+      <Hsp_midline>GLS+GEWQ VLNVWGKVEAD+AGHGQ+VLIRLF GHPETLEKFDKF+HLKTEAEMKASEDLKKHG  VLTALGGILKKKGHH+AELKPLAQSHATKHKIPIKYLEFIS+AIIHVLHS+HPGDFGADAQGAM KALELFR DIAAKYKELGF G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|494389|pdb|1MYI|A</Hit_id>
+  <Hit_def>Chain A, High Resolution X-Ray Structures Of Pig Metmyoglobin And Two Cd3 Mutants Mb(Lys45-&gt; Arg) And Mb(Lys45-&gt; Ser) &gt;gi|494390|pdb|1MYI|B Chain B, High Resolution X-Ray Structures Of Pig Metmyoglobin And Two Cd3 Mutants Mb(Lys45-&gt; Arg) And Mb(Lys45-&gt; Ser)</Hit_def>
+  <Hit_accession>1MYI_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.722</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>5.3192e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNVWGKVEADVAGHGQEVLIRLFKGHPETLEKFDSFKHLKSEDEMKASEDLKKHGNTVLTALGGILKKKGHHEAELTPLAQSHATKHKIPVKYLEFISEAIIQVLQSKHPGDFGADAQGAMSKALELFRNDMAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLNVWGKVEAD+AGHGQEVLIRLF GHPETLEKFD FKHLK+E EMKASEDLKKHG  VLTALGGILKKKGHHEAEL PLAQSHATKHKIP+KYLEFIS+AII VL SKHPGDFGADAQGAM+KALELFRND+AAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|494391|pdb|1MYJ|A</Hit_id>
+  <Hit_def>Chain A, Distal Polarity In Ligand Binding To Myoglobin: Structural And Functional Characterization Of A Threonine68(E11) Mutant &gt;gi|494392|pdb|1MYJ|B Chain B, Distal Polarity In Ligand Binding To Myoglobin: Structural And Functional Characterization Of A Threonine68(E11) Mutant &gt;gi|494707|pdb|1YCA|A Chain A, Distal Pocket Polarity In Ligand Binding To Myoglobin: Deoxy And Carbonmonoxy Forms Of A Threonine68 (E11) Mutant Investigated By X-Ray Crystallography And Infrared Spectroscopy &gt;gi|494708|pdb|1YCA|B Chain B, Distal Pocket Polarity In Ligand Binding To Myoglobin: Deoxy And Carbonmonoxy Forms Of A Threonine68 (E11) Mutant Investigated By X-Ray Crystallography And Infrared Spectroscopy &gt;gi|494709|pdb|1YCB|A Chain A, Distal Pocket Polarity In Ligand Binding To Myoglobin: Deoxy And Carbonmonoxy Forms Of A Threonine68 (E11) Mutant Investigated By X-Ray Crystallography And Infrared Spectroscopy &gt;gi|494710|pdb|1YCB|B Chain B, Distal Pocket Polarity In Ligand Binding To Myoglobin: Deoxy And Carbonmonoxy Forms Of A Threonine68 (E11) Mutant Investigated By X-Ray Crystallography And Infrared Spectroscopy</Hit_def>
+  <Hit_accession>1MYJ_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>5.61916e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNVWGKVEADVAGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGNTTLTALGGILKKKGHHEAELTPLAQSHATKHKIPVKYLEFISEAIIQVLQSKHPGDFGADAQGAMSKALELFRNDMAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLNVWGKVEAD+AGHGQEVLIRLF GHPETLEKFDKFKHLK+E EMKASEDLKKHG   LTALGGILKKKGHHEAEL PLAQSHATKHKIP+KYLEFIS+AII VL SKHPGDFGADAQGAM+KALELFRND+AAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|562885866|ref|XP_006170382.1|</Hit_id>
+  <Hit_def>PREDICTED: myoglobin isoform X2 [Tupaia chinensis] &gt;gi|118595819|sp|P02165.2|MYG_TUPGL RecName: Full=Myoglobin</Hit_def>
+  <Hit_accession>XP_006170382</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>6.48907e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNVWGKVEADVAGHGQEVLIRLFKGHPETLEKFDKFKHLKTEDEMKASEDLKKHGNTVLSALGGILKKKGQHEAEIKPLAQSHATKHKIPVKYLEFISEAIIQVLQSKHPGDFGADAQAAMSKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLNVWGKVEAD+AGHGQEVLIRLF GHPETLEKFDKFKHLKTE EMKASEDLKKHG  VL+ALGGILKKKG HEAE+KPLAQSHATKHKIP+KYLEFIS+AII VL SKHPGDFGADAQ AM+KALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|118595787|sp|P02178.2|MYG_MEGNO</Hit_id>
+  <Hit_def>RecName: Full=Myoglobin &gt;gi|507866568|gb|AGM75767.1| myoglobin [Megaptera novaeangliae] &gt;gi|1002635557|gb|AMN15050.1| myoglobin, partial [Balaenoptera omurai]</Hit_def>
+  <Hit_accession>P02178</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>7.56646e-96</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>LSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>LSDAEWQLVLNIWAKVEADVAGHGQDILIRLFKGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSRHPADFGADAQAAMNKALELFRKDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>LSD EWQ VLN+W KVEAD+AGHGQ++LIRLF GHPETLEKFDKFKHLKTEAEMKASEDLKKHG  VLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHS+HP DFGADAQ AM KALELFR DIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|118595791|sp|P02167.2|MYG_NYCCO</Hit_id>
+  <Hit_def>RecName: Full=Myoglobin</Hit_def>
+  <Hit_accession>P02167</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>9.73839e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQSVLNVWGKVEADLAGHGQEILIRLFTAHPETLEKFDKFKNLKTPDEMKASEDLKKHGVTVLTALGGILKKKGQHEAEIKPLAQSHATKHKIPVKYLEFISGAIIHVLQSKHPGDFGADAQGAMSKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLNVWGKVEAD+AGHGQE+LIRLFT HPETLEKFDKFK+LKT  EMKASEDLKKHG  VLTALGGILKKKG HEAE+KPLAQSHATKHKIP+KYLEFIS AIIHVL SKHPGDFGADAQGAM+KALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|507866560|gb|AGM75763.1|</Hit_id>
+  <Hit_def>myoglobin [Procyon lotor]</Hit_def>
+  <Hit_accession>AGM75763</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.567</Hsp_bit-score>
+      <Hsp_score>719</Hsp_score>
+      <Hsp_evalue>1.29532e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNVWGKVETDLAGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGNTVLTALGGILKKKGQHEAELKPLAQSHATKHKIPVKYLEFISDAIIQVLQSKHPGDFGADAQAAMKKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLNVWGKVE D+AGHGQEVLIRLF GHPETLEKFDKFKHLK+E EMKASEDLKKHG  VLTALGGILKKKG HEAELKPLAQSHATKHKIP+KYLEFISDAII VL SKHPGDFGADAQ AM KALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|602688189|ref|XP_007456317.1|</Hit_id>
+  <Hit_def>PREDICTED: myoglobin [Lipotes vexillifer] &gt;gi|1002635539|gb|AMN15041.1| myoglobin, partial [Lipotes vexillifer]</Hit_def>
+  <Hit_accession>XP_007456317</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.567</Hsp_bit-score>
+      <Hsp_score>719</Hsp_score>
+      <Hsp_evalue>1.56092e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNIWGKVEADLAGHGQDVLIRLFKGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGAILKKKGHHDAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIATKYKELGFHG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLN+WGKVEAD+AGHGQ+VLIRLF GHPETLEKFDKFKHLKTEAEMKASEDLKKHG  VLTALG ILKKKGHH+AELKPLAQSHATKHKIPIKYLEFIS+AIIHVLHS+HPGDFGADAQGAM KALELFR DIA KYKELGF G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|3660233|pdb|1M6C|A</Hit_id>
+  <Hit_def>Chain A, V68n Myoglobin With Co &gt;gi|3660234|pdb|1M6C|B Chain B, V68n Myoglobin With Co &gt;gi|3660235|pdb|1M6M|A Chain A, V68n Met Myoglobin &gt;gi|3660236|pdb|1M6M|B Chain B, V68n Met Myoglobin &gt;gi|3660237|pdb|1MDN|A Chain A, Wild Type Myoglobin With Co &gt;gi|3660238|pdb|1MDN|B Chain B, Wild Type Myoglobin With Co &gt;gi|3660242|pdb|1MNO|A Chain A, V68n Myoglobin Oxy Form &gt;gi|3660243|pdb|1MNO|B Chain B, V68n Myoglobin Oxy Form</Hit_def>
+  <Hit_accession>1M6C_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.182</Hsp_bit-score>
+      <Hsp_score>718</Hsp_score>
+      <Hsp_evalue>1.57611e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNVWGKVEADVAGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGNTNLTALGGILKKKGHHEAELTPLAQSHATKHKIPVKYLEFISEAIIQVLQSKHPGDFGADAQGAMSKALELFRNDMAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLNVWGKVEAD+AGHGQEVLIRLF GHPETLEKFDKFKHLK+E EMKASEDLKKHG   LTALGGILKKKGHHEAEL PLAQSHATKHKIP+KYLEFIS+AII VL SKHPGDFGADAQGAM+KALELFRND+AAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|557440845|ref|NP_001273527.1|</Hit_id>
+  <Hit_def>myoglobin [Pantholops hodgsonii] &gt;gi|548466988|ref|XP_005680660.1| PREDICTED: myoglobin [Capra hircus] &gt;gi|556764477|ref|XP_005977508.1| PREDICTED: myoglobin isoform X2 [Pantholops hodgsonii] &gt;gi|556764479|ref|XP_005977509.1| PREDICTED: myoglobin isoform X3 [Pantholops hodgsonii] &gt;gi|803030783|ref|XP_012015345.1| PREDICTED: myoglobin isoform X1 [Ovis aries] &gt;gi|926692318|ref|XP_013819521.1| PREDICTED: myoglobin [Capra hircus] &gt;gi|124078333|sp|P02190.2|MYG_SHEEP RecName: Full=Myoglobin &gt;gi|1133968651|sp|C0HJR0.1|MYG_RANTA RecName: Full=Myoglobin &gt;gi|149349469|gb|ABR24111.1| myoglobin [Pantholops hodgsonii] &gt;gi|344330948|gb|AEN19341.1| myoglobin [Pantholops hodgsonii]</Hit_def>
+  <Hit_accession>NP_001273527</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>2.39449e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNAWGKVEADVAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHEAEVKHLAESHANKHKIPVKYLEFISDAIIHVLHAKHPSDFGADAQGAMSKALELFRNDMAAQYKVLGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLN WGKVEAD+AGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHG  VLTALGGILKKKGHHEAE+K LA+SHA KHKIP+KYLEFISDAIIHVLH+KHP DFGADAQGAM+KALELFRND+AA+YK LGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|507866566|gb|AGM75766.1|</Hit_id>
+  <Hit_def>myoglobin [Hexaprotodon liberiensis]</Hit_def>
+  <Hit_accession>AGM75766</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>2.58563e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNVWGKVEADVAGHGQEVLIRLFTGHPETLEKFEKFKNLKTEDEMRACENLKKHGNTVLTALGGILKKKGHHEEELKPLAHSHATKHKIPIKYLEFISEAIIHVLQSKHPGDFGADAQGAMNKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLNVWGKVEAD+AGHGQEVLIRLFTGHPETLEKF+KFK+LKTE EM+A E+LKKHG  VLTALGGILKKKGHHE ELKPLA SHATKHKIPIKYLEFIS+AIIHVL SKHPGDFGADAQGAM KALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1048490600|ref|XP_017523061.1|</Hit_id>
+  <Hit_def>PREDICTED: myoglobin [Manis javanica]</Hit_def>
+  <Hit_accession>XP_017523061</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>3.04818e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNIWGKVEADVAGHGQEVLIRLFKGHPETLEKFDKFKHLKTEDEMRASEDLKKHGCTVLTALGGILKKKGHHDAELKPLAQSHATKHKIPVKYLEFISEAILQVLQSKHPGDFGADTQGAVSKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLN+WGKVEAD+AGHGQEVLIRLF GHPETLEKFDKFKHLKTE EM+ASEDLKKHG  VLTALGGILKKKGHH+AELKPLAQSHATKHKIP+KYLEFIS+AI+ VL SKHPGDFGAD QGA++KALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|118595782|sp|P11343.3|MYG_LUTLU</Hit_id>
+  <Hit_def>RecName: Full=Myoglobin</Hit_def>
+  <Hit_accession>P11343</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>3.2915e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNVWGKVEADLAGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKGSEDLKKHGNTVLTALGGILKKKGKHEAELKPLAQSHATKHKIPIKYLEFISEAIIQVLQSKHPGDFGADAQGAMKRALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLNVWGKVEAD+AGHGQEVLIRLF GHPETLEKFDKFKHLK+E EMK SEDLKKHG  VLTALGGILKKKG HEAELKPLAQSHATKHKIPIKYLEFIS+AII VL SKHPGDFGADAQGAM +ALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|759103120|ref|XP_011385524.1|</Hit_id>
+  <Hit_def>PREDICTED: myoglobin isoform X2 [Pteropus vampyrus] &gt;gi|759103123|ref|XP_011385531.1| PREDICTED: myoglobin isoform X2 [Pteropus vampyrus] &gt;gi|989963513|ref|XP_015447018.1| PREDICTED: myoglobin isoform X2 [Pteropus alecto] &gt;gi|989963517|ref|XP_015447019.1| PREDICTED: myoglobin isoform X2 [Pteropus alecto]</Hit_def>
+  <Hit_accession>XP_011385524</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>3.92133e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNVWGKVEADIPGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGGILKKKGQHEAELKPLAQSHATKHKIPVKYLEFISEVIIQVLQSKHPGDFGADAQGAMKKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLNVWGKVEADI GHGQEVLIRLF GHPETLEKFDKFKHLK+E EMKASEDLKKHG  VLTALGGILKKKG HEAELKPLAQSHATKHKIP+KYLEFIS+ II VL SKHPGDFGADAQGAM KALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|586562604|ref|XP_006914556.1|</Hit_id>
+  <Hit_def>PREDICTED: myoglobin isoform X3 [Pteropus alecto] &gt;gi|759103127|ref|XP_011385537.1| PREDICTED: myoglobin isoform X3 [Pteropus vampyrus] &gt;gi|759103130|ref|XP_011385541.1| PREDICTED: myoglobin isoform X3 [Pteropus vampyrus] &gt;gi|759103133|ref|XP_011385547.1| PREDICTED: myoglobin isoform X3 [Pteropus vampyrus] &gt;gi|759103136|ref|XP_011385553.1| PREDICTED: myoglobin isoform X3 [Pteropus vampyrus] &gt;gi|759103139|ref|XP_011385560.1| PREDICTED: myoglobin isoform X3 [Pteropus vampyrus] &gt;gi|989963523|ref|XP_015447020.1| PREDICTED: myoglobin isoform X3 [Pteropus alecto] &gt;gi|989963527|ref|XP_015447021.1| PREDICTED: myoglobin isoform X3 [Pteropus alecto] &gt;gi|989963531|ref|XP_015447022.1| PREDICTED: myoglobin isoform X3 [Pteropus alecto] &gt;gi|431905233|gb|ELK10278.1| Myoglobin [Pteropus alecto]</Hit_def>
+  <Hit_accession>XP_006914556</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>4.0544e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDGEWQLVLNVWGKVEADIPGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGGILKKKGQHEAELKPLAQSHATKHKIPVKYLEFISEVIIQVLQSKHPGDFGADAQGAMKKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSDGEWQ VLNVWGKVEADI GHGQEVLIRLF GHPETLEKFDKFKHLK+E EMKASEDLKKHG  VLTALGGILKKKG HEAELKPLAQSHATKHKIP+KYLEFIS+ II VL SKHPGDFGADAQGAM KALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|562885864|ref|XP_006170381.1|</Hit_id>
+  <Hit_def>PREDICTED: myoglobin isoform X1 [Tupaia chinensis]</Hit_def>
+  <Hit_accession>XP_006170381</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>4.09913e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GRSDGEWQLVLNVWGKVEADVAGHGQEVLIRLFKGHPETLEKFDKFKHLKTEDEMKASEDLKKHGNTVLSALGGILKKKGQHEAEIKPLAQSHATKHKIPVKYLEFISEAIIQVLQSKHPGDFGADAQAAMSKALELFRNDIAAKYKELGFQG</Hsp_hseq>
+      <Hsp_midline>G SDGEWQ VLNVWGKVEAD+AGHGQEVLIRLF GHPETLEKFDKFKHLKTE EMKASEDLKKHG  VL+ALGGILKKKG HEAE+KPLAQSHATKHKIP+KYLEFIS+AII VL SKHPGDFGADAQ AM+KALELFRNDIAAKYKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|118595808|sp|P02170.2|MYG_RABIT</Hit_id>
+  <Hit_def>RecName: Full=Myoglobin</Hit_def>
+  <Hit_accession>P02170</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.026</Hsp_bit-score>
+      <Hsp_score>715</Hsp_score>
+      <Hsp_evalue>4.83242e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG</Hsp_qseq>
+      <Hsp_hseq>GLSDAEWQLVLNVWGKVEADLAGHGQEVLIRLFHTHPETLEKFDKFKHLKSEDEMKASEDLKKHGNTVLTALGAILKKKGHHEAEIKPLAQSHATKHKIPVKYLEFISEAIIHVLHSKHPGDFGADAQAAMSKALELFRNDIAAQYKELGFQG</Hsp_hseq>
+      <Hsp_midline>GLSD EWQ VLNVWGKVEAD+AGHGQEVLIRLF  HPETLEKFDKFKHLK+E EMKASEDLKKHG  VLTALG ILKKKGHHEAE+KPLAQSHATKHKIP+KYLEFIS+AIIHVLHSKHPGDFGADAQ AM+KALELFRNDIAA+YKELGFQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>115476514</Statistics_db-num>
+      <Statistics_db-len>42330486778</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

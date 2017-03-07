@@ -116,12 +116,12 @@ def produce(target, dict_path, num_mutate=2, method='min', output_path='rosetta_
 
 
 if __name__ == '__main__':
+
     #target = "1c20"
     #target = "1a7s"
     #target = "1b9o"
     #target = "1bkr"
     #target = "1ctq"
     #target = "1jsf"
-    target = "1mfm"
+    target = "1l24"
     produce(target=target, dict_path="stabilityScoreFile.txt")
-
