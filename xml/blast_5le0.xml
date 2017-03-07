@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_183463</BlastOutput_query-ID>
+  <BlastOutput_query-def>5LE0:B|PDBID|CHAIN|SEQUENCE</BlastOutput_query-def>
+  <BlastOutput_query-len>150</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_183463</Iteration_query-ID>
+  <Iteration_query-def>5LE0:B|PDBID|CHAIN|SEQUENCE</Iteration_query-def>
+  <Iteration_query-len>150</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1059271141|pdb|5LPN|B</Hit_id>
+  <Hit_def>Chain B, Structure Of Human Rab10 In Complex With The Bmerb Domain Of Mical-1</Hit_def>
+  <Hit_accession>5LPN_B</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.656</Hsp_bit-score>
+      <Hsp_score>740</Hsp_score>
+      <Hsp_evalue>6.29679e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|119568724|gb|EAW48339.1|</Hit_id>
+  <Hit_def>microtubule associated monoxygenase, calponin and LIM domain containing 1, isoform CRA_a [Homo sapiens] &gt;gi|119568728|gb|EAW48343.1| microtubule associated monoxygenase, calponin and LIM domain containing 1, isoform CRA_a [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW48339</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>6.34369e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|10440520|dbj|BAB15790.1|</Hit_id>
+  <Hit_def>FLJ00109 protein, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAB15790</Hit_accession>
+  <Hit_len>332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>7.87994e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|119568725|gb|EAW48340.1|</Hit_id>
+  <Hit_def>microtubule associated monoxygenase, calponin and LIM domain containing 1, isoform CRA_b [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW48340</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>9.05294e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1150667188|pdb|5LE0|B</Hit_id>
+  <Hit_def>Chain B, Mical1 Cterminal Domain</Hit_def>
+  <Hit_accession>5LE0_B</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.567</Hsp_bit-score>
+      <Hsp_score>719</Hsp_score>
+      <Hsp_evalue>1.21802e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEXKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELXITVQELNLEEKQWQLDQELRGYXNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEE KRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAEL ITVQELNLEEKQWQLDQELRGY NREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|47077693|dbj|BAD18727.1|</Hit_id>
+  <Hit_def>FLJ00407 protein, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAD18727</Hit_accession>
+  <Hit_len>591</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>1.73844e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>442</Hsp_hit-from>
+      <Hsp_hit-to>591</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELPLRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLEL LRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|6102914|emb|CAB59266.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>CAB59266</Hit_accession>
+  <Hit_len>646</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.59</Hsp_bit-score>
+      <Hsp_score>758</Hsp_score>
+      <Hsp_evalue>3.50517e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>497</Hsp_hit-from>
+      <Hsp_hit-to>646</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|31417628|gb|AAH09972.2|</Hit_id>
+  <Hit_def>MICAL1 protein [Homo sapiens] &gt;gi|649154182|gb|AIC63549.1| MICAL1, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAH09972</Hit_accession>
+  <Hit_len>981</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>5.37549e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>832</Hsp_hit-from>
+      <Hsp_hit-to>981</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|226530313|ref|NP_001152763.1|</Hit_id>
+  <Hit_def>[F-actin]-methionine sulfoxide oxidase MICAL1 isoform 2 [Homo sapiens] &gt;gi|119568726|gb|EAW48341.1| microtubule associated monoxygenase, calponin and LIM domain containing 1, isoform CRA_c [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001152763</Hit_accession>
+  <Hit_len>981</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>5.54625e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>832</Hsp_hit-from>
+      <Hsp_hit-to>981</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|221041248|dbj|BAH12301.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>BAH12301</Hit_accession>
+  <Hit_len>1086</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.59</Hsp_bit-score>
+      <Hsp_score>758</Hsp_score>
+      <Hsp_evalue>1.20234e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>937</Hsp_hit-from>
+      <Hsp_hit-to>1086</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|19570335|dbj|BAB86289.1|</Hit_id>
+  <Hit_def>CasL interacting molecule MICAL [Homo sapiens]</Hit_def>
+  <Hit_accession>BAB86289</Hit_accession>
+  <Hit_len>1067</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>1.5536e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>918</Hsp_hit-from>
+      <Hsp_hit-to>1067</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|557636673|ref|NP_001273542.1|</Hit_id>
+  <Hit_def>[F-actin]-methionine sulfoxide oxidase MICAL1 isoform 3 [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001273542</Hit_accession>
+  <Hit_len>1086</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>1.57177e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>937</Hsp_hit-from>
+      <Hsp_hit-to>1086</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|10437898|dbj|BAB15124.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>BAB15124</Hit_accession>
+  <Hit_len>1067</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>1.58602e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>918</Hsp_hit-from>
+      <Hsp_hit-to>1067</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|205360947|ref|NP_073602.3|</Hit_id>
+  <Hit_def>[F-actin]-methionine sulfoxide oxidase MICAL1 isoform 1 [Homo sapiens] &gt;gi|45593495|sp|Q8TDZ2.2|MICA1_HUMAN RecName: Full=[F-actin]-methionine sulfoxide oxidase MICAL1; AltName: Full=Molecule interacting with CasL protein 1; Short=MICAL-1; AltName: Full=NEDD9-interacting protein with calponin homology and LIM domains &gt;gi|27503142|gb|AAH42144.1| Microtubule associated monoxygenase, calponin and LIM domain containing 1 [Homo sapiens] &gt;gi|119568729|gb|EAW48344.1| microtubule associated monoxygenase, calponin and LIM domain containing 1, isoform CRA_e [Homo sapiens] &gt;gi|119568730|gb|EAW48345.1| microtubule associated monoxygenase, calponin and LIM domain containing 1, isoform CRA_e [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_073602</Hit_accession>
+  <Hit_len>1067</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>1.74047e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>918</Hsp_hit-from>
+      <Hsp_hit-to>1067</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|31419730|gb|AAH52983.1|</Hit_id>
+  <Hit_def>Microtubule associated monoxygenase, calponin and LIM domain containing 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAH52983</Hit_accession>
+  <Hit_len>1067</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>1.77679e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>918</Hsp_hit-from>
+      <Hsp_hit-to>1067</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1145587748|gb|AQN67636.1|</Hit_id>
+  <Hit_def>protein-methionine sulfoxide oxidase [Homo sapiens]</Hit_def>
+  <Hit_accession>AQN67636</Hit_accession>
+  <Hit_len>1058</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>2.0372e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>909</Hsp_hit-from>
+      <Hsp_hit-to>1058</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|694917775|ref|XP_009450087.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X6 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_009450087</Hit_accession>
+  <Hit_len>1038</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.278</Hsp_bit-score>
+      <Hsp_score>752</Hsp_score>
+      <Hsp_evalue>4.58859e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>889</Hsp_hit-from>
+      <Hsp_hit-to>1038</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|332825238|ref|XP_001153132.2|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X4 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_001153132</Hit_accession>
+  <Hit_len>1086</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>5.99761e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>937</Hsp_hit-from>
+      <Hsp_hit-to>1086</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|10433309|dbj|BAB13949.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>BAB13949</Hit_accession>
+  <Hit_len>1067</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.893</Hsp_bit-score>
+      <Hsp_score>751</Hsp_score>
+      <Hsp_evalue>8.10162e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>918</Hsp_hit-from>
+      <Hsp_hit-to>1067</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKNNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDK NSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1034177254|ref|XP_016811621.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X3 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_016811621</Hit_accession>
+  <Hit_len>1088</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.893</Hsp_bit-score>
+      <Hsp_score>751</Hsp_score>
+      <Hsp_evalue>1.15014e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>939</Hsp_hit-from>
+      <Hsp_hit-to>1088</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1034177248|ref|XP_016811618.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X1 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_016811618</Hit_accession>
+  <Hit_len>1116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.278</Hsp_bit-score>
+      <Hsp_score>752</Hsp_score>
+      <Hsp_evalue>1.16598e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>967</Hsp_hit-from>
+      <Hsp_hit-to>1116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1099281845|ref|XP_004044555.2|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 [Gorilla gorilla gorilla] &gt;gi|1099281850|ref|XP_018885205.1| PREDICTED: protein-methionine sulfoxide oxidase MICAL1 [Gorilla gorilla gorilla]</Hit_def>
+  <Hit_accession>XP_004044555</Hit_accession>
+  <Hit_len>1067</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>1.30218e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>918</Hsp_hit-from>
+      <Hsp_hit-to>1067</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|397467727|ref|XP_003805558.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 [Pan paniscus] &gt;gi|675681242|ref|XP_008970340.1| PREDICTED: protein-methionine sulfoxide oxidase MICAL1 [Pan paniscus]</Hit_def>
+  <Hit_accession>XP_003805558</Hit_accession>
+  <Hit_len>1067</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>1.32933e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>918</Hsp_hit-from>
+      <Hsp_hit-to>1067</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|114608825|ref|XP_001153612.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X5 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_001153612</Hit_accession>
+  <Hit_len>1067</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>1.34311e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>918</Hsp_hit-from>
+      <Hsp_hit-to>1067</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1034177250|ref|XP_016811619.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X2 [Pan troglodytes] &gt;gi|1034177252|ref|XP_016811620.1| PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X2 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_016811619</Hit_accession>
+  <Hit_len>1097</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.893</Hsp_bit-score>
+      <Hsp_score>751</Hsp_score>
+      <Hsp_evalue>1.412e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>948</Hsp_hit-from>
+      <Hsp_hit-to>1097</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|686723001|ref|XP_009240409.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 [Pongo abelii]</Hit_def>
+  <Hit_accession>XP_009240409</Hit_accession>
+  <Hit_len>1067</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.582</Hsp_bit-score>
+      <Hsp_score>745</Hsp_score>
+      <Hsp_evalue>7.43814e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>918</Hsp_hit-from>
+      <Hsp_hit-to>1067</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNQEETLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMN+EE LKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|55732566|emb|CAH92983.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Pongo abelii]</Hit_def>
+  <Hit_accession>CAH92983</Hit_accession>
+  <Hit_len>1039</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.812</Hsp_bit-score>
+      <Hsp_score>743</Hsp_score>
+      <Hsp_evalue>9.52998e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>890</Hsp_hit-from>
+      <Hsp_hit-to>1039</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNQEETLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMN+EE LKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|795236952|ref|XP_011808199.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 [Colobus angolensis palliatus]</Hit_def>
+  <Hit_accession>XP_011808199</Hit_accession>
+  <Hit_len>1092</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.96</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>3.95163e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>943</Hsp_hit-from>
+      <Hsp_hit-to>1092</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFHKAQTIQRRLNEIEGALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1059155695|ref|XP_017734206.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X1 [Rhinopithecus bieti] &gt;gi|1059155697|ref|XP_017734208.1| PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X1 [Rhinopithecus bieti] &gt;gi|1059155699|ref|XP_017734209.1| PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X1 [Rhinopithecus bieti]</Hit_def>
+  <Hit_accession>XP_017734206</Hit_accession>
+  <Hit_len>1075</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.189</Hsp_bit-score>
+      <Hsp_score>731</Hsp_score>
+      <Hsp_evalue>8.0232e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>926</Hsp_hit-from>
+      <Hsp_hit-to>1075</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFRKAQTIQRRLNEIEGALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|724866207|ref|XP_010369918.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X1 [Rhinopithecus roxellana] &gt;gi|724866210|ref|XP_010369919.1| PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X1 [Rhinopithecus roxellana]</Hit_def>
+  <Hit_accession>XP_010369918</Hit_accession>
+  <Hit_len>1075</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.804</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>8.44609e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>926</Hsp_hit-from>
+      <Hsp_hit-to>1075</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFRKAQTIQRRLNEIEGALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|724866213|ref|XP_010369920.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X2 [Rhinopithecus roxellana]</Hit_def>
+  <Hit_accession>XP_010369920</Hit_accession>
+  <Hit_len>1070</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.804</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>9.71259e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>921</Hsp_hit-from>
+      <Hsp_hit-to>1070</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFRKAQTIQRRLNEIEGALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1059155701|ref|XP_017734210.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X2 [Rhinopithecus bieti]</Hit_def>
+  <Hit_accession>XP_017734210</Hit_accession>
+  <Hit_len>1070</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.804</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>1.00167e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>921</Hsp_hit-from>
+      <Hsp_hit-to>1070</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFRKAQTIQRRLNEIEGALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|795115111|ref|XP_011831354.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X2 [Mandrillus leucophaeus]</Hit_def>
+  <Hit_accession>XP_011831354</Hit_accession>
+  <Hit_len>980</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.46251e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>831</Hsp_hit-from>
+      <Hsp_hit-to>980</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEGALRELEAEGVKLELALRCQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRLQEERRLSELALGIGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIE ALRELEAEGVKLELALR QSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIR QEERRLSELALG GAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|795115104|ref|XP_011831353.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X1 [Mandrillus leucophaeus]</Hit_def>
+  <Hit_accession>XP_011831353</Hit_accession>
+  <Hit_len>1066</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>3.99734e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>917</Hsp_hit-from>
+      <Hsp_hit-to>1066</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQTIQRRLNEIEGALRELEAEGVKLELALRCQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRLQEERRLSELALGIGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQTIQRRLNEIE ALRELEAEGVKLELALR QSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIR QEERRLSELALG GAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|795548941|ref|XP_011905854.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X4 [Cercocebus atys]</Hit_def>
+  <Hit_accession>XP_011905854</Hit_accession>
+  <Hit_len>1072</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>6.67868e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>923</Hsp_hit-from>
+      <Hsp_hit-to>1072</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFRKAQTIQRRLNEIEGALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRLQEERRLSELALGIGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIR QEERRLSELALG GAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|795548936|ref|XP_011905853.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X3 [Cercocebus atys]</Hit_def>
+  <Hit_accession>XP_011905853</Hit_accession>
+  <Hit_len>1073</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>7.32661e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>924</Hsp_hit-from>
+      <Hsp_hit-to>1073</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFRKAQTIQRRLNEIEGALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRLQEERRLSELALGIGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIR QEERRLSELALG GAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966941447|ref|XP_014993087.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X2 [Macaca mulatta] &gt;gi|966941449|ref|XP_014993088.1| PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X2 [Macaca mulatta]</Hit_def>
+  <Hit_accession>XP_014993087</Hit_accession>
+  <Hit_len>1074</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>7.63548e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>925</Hsp_hit-from>
+      <Hsp_hit-to>1074</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFRKAQTIQRRLNEIEGALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRLQEERRLSELALGIGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIR QEERRLSELALG GAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|982242985|ref|XP_015304035.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X1 [Macaca fascicularis] &gt;gi|982242987|ref|XP_015304036.1| PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X1 [Macaca fascicularis] &gt;gi|982242989|ref|XP_015304037.1| PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X1 [Macaca fascicularis] &gt;gi|982242991|ref|XP_015304039.1| PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X1 [Macaca fascicularis]</Hit_def>
+  <Hit_accession>XP_015304035</Hit_accession>
+  <Hit_len>1074</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>7.71414e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>925</Hsp_hit-from>
+      <Hsp_hit-to>1074</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFRKAQTIQRRLNEIEGALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRLQEERRLSELALGIGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIR QEERRLSELALG GAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|982242993|ref|XP_015304040.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X2 [Macaca fascicularis]</Hit_def>
+  <Hit_accession>XP_015304040</Hit_accession>
+  <Hit_len>1069</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>7.78052e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>920</Hsp_hit-from>
+      <Hsp_hit-to>1069</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFRKAQTIQRRLNEIEGALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRLQEERRLSELALGIGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIR QEERRLSELALG GAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|795409835|ref|XP_011757209.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X1 [Macaca nemestrina] &gt;gi|795409840|ref|XP_011757210.1| PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X1 [Macaca nemestrina]</Hit_def>
+  <Hit_accession>XP_011757209</Hit_accession>
+  <Hit_len>1074</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>7.79362e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>925</Hsp_hit-from>
+      <Hsp_hit-to>1074</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFRKAQTIQRRLNEIEGALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRLQEERRLSELALGIGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIR QEERRLSELALG GAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|795548930|ref|XP_011905852.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X2 [Cercocebus atys]</Hit_def>
+  <Hit_accession>XP_011905852</Hit_accession>
+  <Hit_len>1082</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>7.80445e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>933</Hsp_hit-from>
+      <Hsp_hit-to>1082</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFRKAQTIQRRLNEIEGALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRLQEERRLSELALGIGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIR QEERRLSELALG GAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|355748985|gb|EHH53468.1|</Hit_id>
+  <Hit_def>hypothetical protein EGM_14115 [Macaca fascicularis]</Hit_def>
+  <Hit_accession>EHH53468</Hit_accession>
+  <Hit_len>1066</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>9.1564e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>917</Hsp_hit-from>
+      <Hsp_hit-to>1066</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFRKAQTIQRRLNEIEGALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRLQEERRLSELALGIGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIR QEERRLSELALG GAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|795409854|ref|XP_011757211.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X2 [Macaca nemestrina]</Hit_def>
+  <Hit_accession>XP_011757211</Hit_accession>
+  <Hit_len>1069</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>9.16789e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>920</Hsp_hit-from>
+      <Hsp_hit-to>1069</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFRKAQTIQRRLNEIEGALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRLQEERRLSELALGIGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIR QEERRLSELALG GAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|966941445|ref|XP_014993086.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X1 [Macaca mulatta]</Hit_def>
+  <Hit_accession>XP_014993086</Hit_accession>
+  <Hit_len>1069</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>9.26238e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>920</Hsp_hit-from>
+      <Hsp_hit-to>1069</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFRKAQTIQRRLNEIEGALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRLQEERRLSELALGIGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIR QEERRLSELALG GAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|795548912|ref|XP_011905848.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X1 [Cercocebus atys] &gt;gi|795548916|ref|XP_011905849.1| PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X1 [Cercocebus atys] &gt;gi|795548922|ref|XP_011905850.1| PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X1 [Cercocebus atys] &gt;gi|795548925|ref|XP_011905851.1| PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X1 [Cercocebus atys]</Hit_def>
+  <Hit_accession>XP_011905848</Hit_accession>
+  <Hit_len>1086</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>9.57812e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>937</Hsp_hit-from>
+      <Hsp_hit-to>1086</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFRKAQTIQRRLNEIEGALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRLQEERRLSELALGIGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIR QEERRLSELALG GAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|355562155|gb|EHH18787.1|</Hit_id>
+  <Hit_def>hypothetical protein EGK_15454 [Macaca mulatta]</Hit_def>
+  <Hit_accession>EHH18787</Hit_accession>
+  <Hit_len>1066</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.026</Hsp_bit-score>
+      <Hsp_score>715</Hsp_score>
+      <Hsp_evalue>1.29774e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>917</Hsp_hit-from>
+      <Hsp_hit-to>1066</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFRKAQTIQRRLNEIEGALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRLQEERRLSELALGLGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIR QEERRLSELALG GAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|635077136|ref|XP_008005561.1|</Hit_id>
+  <Hit_def>PREDICTED: LOW QUALITY PROTEIN: protein-methionine sulfoxide oxidase MICAL1 [Chlorocebus sabaeus]</Hit_def>
+  <Hit_accession>XP_008005561</Hit_accession>
+  <Hit_len>1097</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.256</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>3.06374e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>948</Hsp_hit-from>
+      <Hsp_hit-to>1097</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFRKAQTIQRRLNEIEGALRELEAEGMKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRLQEERRLSELALGIGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEG+KLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIR QEERRLSELALG GAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1060570332|ref|XP_017813907.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X5 [Papio anubis]</Hit_def>
+  <Hit_accession>XP_017813907</Hit_accession>
+  <Hit_len>997</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.715</Hsp_bit-score>
+      <Hsp_score>709</Hsp_score>
+      <Hsp_evalue>3.40557e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>848</Hsp_hit-from>
+      <Hsp_hit-to>997</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFRKAQTIQRRLNEIEGALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMIMVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRLQEERRLSELALGIGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMI VQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIR QEERRLSELALG GAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|402868586|ref|XP_003898377.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-methionine sulfoxide oxidase MICAL1 isoform X6 [Papio anubis]</Hit_def>
+  <Hit_accession>XP_003898377</Hit_accession>
+  <Hit_len>979</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.33</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>3.89579e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>830</Hsp_hit-from>
+      <Hsp_hit-to>979</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFRKAQTIQRRLNEIEGALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMIMVQELNLEEKQWQLDQELRGYMNREETLKTAADRQAEDQVLRKLVDLVNQRDALIRLQEERRLSELALGIGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRF KAQTIQRRLNEIE ALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMI VQELNLEEKQWQLDQELRGYMNREE LKTAADRQAEDQVLRKLVDLVNQRDALIR QEERRLSELALG GAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|344242747|gb|EGV98850.1|</Hit_id>
+  <Hit_def>NEDD9-interacting protein with calponin-likey and LIM domains [Cricetulus griseus]</Hit_def>
+  <Hit_accession>EGV98850</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.603</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>8.34167e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KEEEMKRFCKAQTIQRRLNEIEAALRELEAEGVKLELALRRQSSSPEQQKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRDALIRFQEERRLSELALGTGAQG</Hsp_qseq>
+      <Hsp_hseq>KEEEMKRFCKAQAIQRRLHEIEAAMRDLETEGTKLELALRRQSSSPEQQKKLWLEQLLQLIQKKNSLVSEEAELMITVQELDLEEKQWQLDQELRGYMNREETLKTEADRQSEDRVLRKLLDVVNQRDALIRFQEERRLSEMASETGAQG</Hsp_hseq>
+      <Hsp_midline>KEEEMKRFCKAQ IQRRL+EIEAA+R+LE EG KLELALRRQSSSPEQQKKLW+ QLLQL+ KKNSLV+EEAELMITVQEL+LEEKQWQLDQELRGYMNREE LKT ADRQ+ED+VLRKL+D+VNQRDALIRFQEERRLSE+A  TGAQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>115488495</Statistics_db-num>
+      <Statistics_db-len>42334050416</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
