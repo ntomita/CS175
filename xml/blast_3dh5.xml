@@ -1,0 +1,1499 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_70315</BlastOutput_query-ID>
+  <BlastOutput_query-def>3DH5:A|PDBID|CHAIN|SEQUENCE</BlastOutput_query-def>
+  <BlastOutput_query-len>124</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_70315</Iteration_query-ID>
+  <Iteration_query-def>3DH5:A|PDBID|CHAIN|SEQUENCE</Iteration_query-def>
+  <Iteration_query-len>124</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|68299789|ref|NP_001014408.2|</Hit_id>
+  <Hit_def>ribonuclease pancreatic precursor [Bos taurus] &gt;gi|528965426|ref|XP_005211519.1| PREDICTED: ribonuclease pancreatic isoform X1 [Bos taurus] &gt;gi|742116129|ref|XP_010837737.1| PREDICTED: ribonuclease pancreatic [Bison bison bison] &gt;gi|1131151951|ref|XP_019823985.1| PREDICTED: ribonuclease pancreatic [Bos indicus] &gt;gi|1131151955|ref|XP_019823986.1| PREDICTED: ribonuclease pancreatic [Bos indicus] &gt;gi|48429071|sp|P61823.1|RNAS1_BOVIN RecName: Full=Ribonuclease pancreatic; AltName: Full=RNase 1; AltName: Full=RNase A; Flags: Precursor &gt;gi|672|emb|CAA30263.1| ribonuclease [Bos taurus] &gt;gi|151554381|gb|AAI49637.1| RNASE1 protein [Bos taurus] &gt;gi|151555873|gb|AAI49530.1| RNASE1 protein [Bos taurus] &gt;gi|296483355|tpg|DAA25470.1| TPA: ribonuclease pancreatic precursor [Bos taurus]</Hit_def>
+  <Hit_accession>NP_001014408</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>2.2445e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|573014712|tpe|CDG32088.1|</Hit_id>
+  <Hit_def>TPA: ribonuclease A C2 [Bos taurus]</Hit_def>
+  <Hit_accession>CDG32088</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.848</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>2.94513e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|387884|gb|AAA72757.1|</Hit_id>
+  <Hit_def>RNase A [synthetic construct]</Hit_def>
+  <Hit_accession>AAA72757</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.536</Hsp_bit-score>
+      <Hsp_score>667</Hsp_score>
+      <Hsp_evalue>3.95112e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|555980014|ref|XP_005901936.1|</Hit_id>
+  <Hit_def>PREDICTED: ribonuclease pancreatic [Bos mutus] &gt;gi|942072951|ref|XP_014335660.1| PREDICTED: ribonuclease pancreatic [Bos mutus] &gt;gi|440900911|gb|ELR51936.1| Ribonuclease pancreatic [Bos mutus]</Hit_def>
+  <Hit_accession>XP_005901936</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.381</Hsp_bit-score>
+      <Hsp_score>664</Hsp_score>
+      <Hsp_evalue>7.75675e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSSASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTS+ASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|6435672|pdb|1C0B|A</Hit_id>
+  <Hit_def>Chain A, Bovine Pancreatic Ribonuclease A Desiccated For 2.5 Days &gt;gi|6435673|pdb|1C0C|A Chain A, Bovine Pancreatic Ribonuclease A Desiccated For 4.0 Days &gt;gi|333944248|pdb|3MZQ|A Chain A, Rnase Crystals Grown By The Hanging Drop Method &gt;gi|333944249|pdb|3MZR|A Chain A, Rnase Crystals Grown In Loops/micromounts &gt;gi|1245826|gb|AAB35594.1| ribonuclease A, partial [Bos taurus]</Hit_def>
+  <Hit_accession>1C0B_A</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>2.11682e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|94|emb|CAA33801.1|</Hit_id>
+  <Hit_def>unnamed protein product [Bos taurus]</Hit_def>
+  <Hit_accession>CAA33801</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>2.137e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|48429195|sp|P61824.1|RNAS1_BISBI</Hit_id>
+  <Hit_def>RecName: Full=Ribonuclease pancreatic; AltName: Full=RNase 1; AltName: Full=RNase A &gt;gi|67326|pir||NRBOB pancreatic ribonuclease (EC 3.1.27.5) - American bison  (tentative sequence) &gt;gi|7435261|pir||JC5560 pancreatic ribonuclease (EC 3.1.27.5) A - Aspergillus niger var. macrosporus &gt;gi|230282|pdb|1RBB|A Chain A, The Crystal Structure Of Ribonuclease B At 2.5-Angstroms Resolution &gt;gi|230283|pdb|1RBB|B Chain B, The Crystal Structure Of Ribonuclease B At 2.5-Angstroms Resolution &gt;gi|231309|pdb|8RSA|A Chain A, Crystal Structure Of Two Covalent Nucleoside Derivatives Of Ribonuclease A &gt;gi|231310|pdb|8RSA|B Chain B, Crystal Structure Of Two Covalent Nucleoside Derivatives Of Ribonuclease A &gt;gi|231336|pdb|9RSA|A Chain A, Crystal Structure Of Two Covalent Nucleoside Derivatives Of Ribonuclease A &gt;gi|231337|pdb|9RSA|B Chain B, Crystal Structure Of Two Covalent Nucleoside Derivatives Of Ribonuclease A &gt;gi|443242|pdb|1RTA|E Chain E, Crystal Structure Disposition Of Thymidylic Acid Tetramer In Complex With Ribonuclease A &gt;gi|640369|pdb|1RCN|E Chain E, Crystal Structure Of The Ribonuclease A D(Aptpapapg) Complex : Direct Evidence For Extended Substrate Recognition &gt;gi|1310972|pdb|1RBJ|A Chain A, Ribonuclease B Complex With D(Tetra-(Deoxy-Adenylate)) &gt;gi|1421092|pdb|1RNM|E Chain E, Ribonuclease A Complex With Cytidylic Acid (5&apos;cmp) Crystallized From 80% Ammonium Sulphate &gt;gi|1421097|pdb|1RNN|E Chain E, Ribonuclease A Complex With Cytidylic Acid (5&apos;cmp) Crystallized From 8m Sodium Formate &gt;gi|1942712|pdb|1DFJ|E Chain E, Ribonuclease Inhibitor Complexed With Ribonuclease A &gt;gi|2981688|pdb|1AFK|A Chain A, Crystal Structure Of Ribonuclease A In Complex With 5&apos;- Diphosphoadenosine-3&apos;-Phosphate &gt;gi|2981689|pdb|1AFK|B Chain B, Crystal Structure Of Ribonuclease A In Complex With 5&apos;- Diphosphoadenosine-3&apos;-Phosphate &gt;gi|2981690|pdb|1AFL|A Chain A, Ribonuclease A In Complex With 5&apos;-Diphosphoadenosine 2&apos;- Phosphate At 1.7 Angstrom Resolution &gt;gi|2981691|pdb|1AFL|B Chain B, Ribonuclease A In Complex With 5&apos;-Diphosphoadenosine 2&apos;- Phosphate At 1.7 Angstrom Resolution &gt;gi|2981692|pdb|1AFU|A Chain A, Structure Of Ribonuclease A At 2.0 Angstroms From Monoclinic Crystals &gt;gi|2981693|pdb|1AFU|B Chain B, Structure Of Ribonuclease A At 2.0 Angstroms From Monoclinic Crystals &gt;gi|3212281|pdb|1A2W|A Chain A, Crystal Structure Of A 3d Domain-Swapped Dimer Of Bovine Pancreatic Ribonuclease A &gt;gi|3212282|pdb|1A2W|B Chain B, Crystal Structure Of A 3d Domain-Swapped Dimer Of Bovine Pancreatic Ribonuclease A &gt;gi|3212647|pdb|1XPS|A Chain A, Bovine Ribonuclease A (Phosphate-Free) (93 % Humidity) &gt;gi|3212648|pdb|1XPS|B Chain B, Bovine Ribonuclease A (Phosphate-Free) (93 % Humidity) &gt;gi|3212649|pdb|1XPT|A Chain A, Bovine Ribonuclease A (Phosphate-Free) &gt;gi|3212650|pdb|1XPT|B Chain B, Bovine Ribonuclease A (Phosphate-Free) &gt;gi|3891456|pdb|1BZQ|A Chain A, Complex Of A Dromedary Single-Domain Vhh Antibody Fragment With Rnase A &gt;gi|3891457|pdb|1BZQ|B Chain B, Complex Of A Dromedary Single-Domain Vhh Antibody Fragment With Rnase A &gt;gi|3891458|pdb|1BZQ|C Chain C, Complex Of A Dromedary Single-Domain Vhh Antibody Fragment With Rnase A &gt;gi|3891459|pdb|1BZQ|D Chain D, Complex Of A Dromedary Single-Domain Vhh Antibody Fragment With Rnase A &gt;gi|5821817|pdb|1BEL|A Chain A, Hydrolase Phosphoric Diester, Rna &gt;gi|6137737|pdb|1QHC|A Chain A, Crystal Structure Of Ribonuclease A In Complex With 5&apos;- Phospho-2&apos;-Deoxyuridine-3&apos;-Pyrophosphate Adenosine-3&apos;- Phosphate &gt;gi|6137738|pdb|1QHC|B Chain B, Crystal Structure Of Ribonuclease A In Complex With 5&apos;- Phospho-2&apos;-Deoxyuridine-3&apos;-Pyrophosphate Adenosine-3&apos;- Phosphate &gt;gi|10120602|pdb|1EOS|A Chain A, Crystal Structure Of Ribonuclease A Complexed With Uridylyl(2&apos;,5&apos;)guanosine (Productive Binding) &gt;gi|10120603|pdb|1EOS|B Chain B, Crystal Structure Of Ribonuclease A Complexed With Uridylyl(2&apos;,5&apos;)guanosine (Productive Binding) &gt;gi|11513665|pdb|1EOW|A Chain A, Crystal Structure Of Ribonuclease A Complexed With Uridylyl(2&apos;,5&apos;)guanosine (Non-Productive Binding) &gt;gi|13399688|pdb|1F0V|A Chain A, Crystal Structure Of An Rnase A Dimer Displaying A New Type Of 3d Domain Swapping &gt;gi|13399689|pdb|1F0V|B Chain B, Crystal Structure Of An Rnase A Dimer Displaying A New Type Of 3d Domain Swapping &gt;gi|13399690|pdb|1F0V|C Chain C, Crystal Structure Of An Rnase A Dimer Displaying A New Type Of 3d Domain Swapping &gt;gi|13399691|pdb|1F0V|D Chain D, Crystal Structure Of An Rnase A Dimer Displaying A New Type Of 3d Domain Swapping &gt;gi|18159003|pdb|1KF2|A Chain A, Atomic Resolution Structure Of Rnase A At Ph 5.2 &gt;gi|18159004|pdb|1KF3|A Chain A, Atomic Resolution Structure Of Rnase A At Ph 5.9 &gt;gi|18159005|pdb|1KF4|A Chain A, Atomic Resolution Structure Of Rnase A At Ph 6.3 &gt;gi|18159006|pdb|1KF5|A Chain A, Atomic Resolution Structure Of Rnase A At Ph 7.1 &gt;gi|18159007|pdb|1KF7|A Chain A, Atomic Resolution Structure Of Rnase A At Ph 8.0 &gt;gi|18159008|pdb|1KF8|A Chain A, Atomic Resolution Structure Of Rnase A At Ph 8.8 &gt;gi|20149820|pdb|1FS3|A Chain A, Crystal Structure Of Wild-Type Bovine Pancreatic Ribonuclease A &gt;gi|20150522|pdb|1JS0|A Chain A, Crystal Structure Of 3d Domain-Swapped Rnase A Minor Trimer &gt;gi|20150523|pdb|1JS0|B Chain B, Crystal Structure Of 3d Domain-Swapped Rnase A Minor Trimer &gt;gi|20150524|pdb|1JS0|C Chain C, Crystal Structure Of 3d Domain-Swapped Rnase A Minor Trimer &gt;gi|21465751|pdb|1JVT|A Chain A, Crystal Structure Of Ribonuclease A (Ligand-Free Form) &gt;gi|21465752|pdb|1JVT|B Chain B, Crystal Structure Of Ribonuclease A (Ligand-Free Form) &gt;gi|21465753|pdb|1JVU|A Chain A, Crystal Structure Of Ribonuclease A (Complexed Form) &gt;gi|21465754|pdb|1JVU|B Chain B, Crystal Structure Of Ribonuclease A (Complexed Form) &gt;gi|21465755|pdb|1JVV|A Chain A, Crystal Structure Of Ribonuclease A (Retro-Soaked Form) &gt;gi|21465756|pdb|1JVV|B Chain B, Crystal Structure Of Ribonuclease A (Retro-Soaked Form) &gt;gi|31615453|pdb|1JN4|A Chain A, The Crystal Structure Of Ribonuclease A In Complex With 2&apos;- Deoxyuridine 3&apos;-Pyrophosphate (P&apos;-5&apos;) Adenosine &gt;gi|31615454|pdb|1JN4|B Chain B, The Crystal Structure Of Ribonuclease A In Complex With 2&apos;- Deoxyuridine 3&apos;-Pyrophosphate (P&apos;-5&apos;) Adenosine &gt;gi|40889147|pdb|1O0F|A Chain A, Rnase A In Complex With 3&apos;,5&apos;-Adp &gt;gi|40889148|pdb|1O0F|B Chain B, Rnase A In Complex With 3&apos;,5&apos;-Adp &gt;gi|40889149|pdb|1O0H|A Chain A, Ribonuclease A In Complex With 5&apos;-Adp &gt;gi|40889150|pdb|1O0H|B Chain B, Ribonuclease A In Complex With 5&apos;-Adp &gt;gi|40889151|pdb|1O0M|A Chain A, Ribonuclease A In Complex With Uridine-2&apos;-Phosphate &gt;gi|40889152|pdb|1O0M|B Chain B, Ribonuclease A In Complex With Uridine-2&apos;-Phosphate &gt;gi|40889153|pdb|1O0N|A Chain A, Ribonuclease A In Complex With Uridine-3&apos;-phosphate &gt;gi|40889154|pdb|1O0N|B Chain B, Ribonuclease A In Complex With Uridine-3&apos;-phosphate &gt;gi|40889155|pdb|1O0O|A Chain A, Ribonuclease A In Complex With Adenosine-2&apos;,5&apos;-Diphosphate &gt;gi|40889156|pdb|1O0O|B Chain B, Ribonuclease A In Complex With Adenosine-2&apos;,5&apos;-Diphosphate &gt;gi|60593868|pdb|1WBU|A Chain A, Fragment Based Lead Discovery Using Crystallography &gt;gi|60593869|pdb|1WBU|B Chain B, Fragment Based Lead Discovery Using Crystallography &gt;gi|61680149|pdb|1W4O|A Chain A, Binding Of Nonnatural 3&apos;-Nucleotides To Ribonuclease A &gt;gi|61680150|pdb|1W4O|B Chain B, Binding Of Nonnatural 3&apos;-Nucleotides To Ribonuclease A &gt;gi|61680151|pdb|1W4P|A Chain A, Binding Of Nonnatural 3&apos;-Nucleotides To Ribonuclease A &gt;gi|61680152|pdb|1W4P|B Chain B, Binding Of Nonnatural 3&apos;-Nucleotides To Ribonuclease A &gt;gi|61680153|pdb|1W4Q|A Chain A, Binding Of Nonnatural 3&apos;-Nucleotides To Ribonuclease A &gt;gi|61680154|pdb|1W4Q|B Chain B, Binding Of Nonnatural 3&apos;-Nucleotides To Ribonuclease A &gt;gi|71041645|pdb|1U1B|A Chain A, Structure Of Bovine Pancreatic Ribonuclease A In Complex With 3&apos;-phosphothymidine (3&apos;-5&apos;)-pyrophosphate Adenosine 3&apos;-phosphate &gt;gi|71041646|pdb|1U1B|B Chain B, Structure Of Bovine Pancreatic Ribonuclease A In Complex With 3&apos;-phosphothymidine (3&apos;-5&apos;)-pyrophosphate Adenosine 3&apos;-phosphate &gt;gi|75765677|pdb|1Z6D|A Chain A, Ribonuclease A- Imp Complex &gt;gi|75765678|pdb|1Z6D|B Chain B, Ribonuclease A- Imp Complex &gt;gi|75765679|pdb|1Z6S|A Chain A, Ribonuclease A- Amp Complex &gt;gi|75765680|pdb|1Z6S|B Chain B, Ribonuclease A- Amp Complex &gt;gi|78101612|pdb|2BLP|A Chain A, Rnase Before Unattenuated X-Ray Burn &gt;gi|78101620|pdb|2BLZ|A Chain A, Rnase After A High Dose X-Ray &quot;burn&quot; &gt;gi|114793981|pdb|2G8Q|A Chain A, The Crystal Structure Of Rnase A From Monoclinic Crystals At 100 K &gt;gi|114793982|pdb|2G8Q|B Chain B, The Crystal Structure Of Rnase A From Monoclinic Crystals At 100 K &gt;gi|114793983|pdb|2G8R|A Chain A, The Crystal Structure Of The Rnase A- 3-N-Piperidine-4- Carboxyl-3-Deoxy-Ara-Uridine Complex &gt;gi|114793984|pdb|2G8R|B Chain B, The Crystal Structure Of The Rnase A- 3-N-Piperidine-4- Carboxyl-3-Deoxy-Ara-Uridine Complex &gt;gi|134104350|pdb|2G4W|A Chain A, Anomalous Substructure Of Ribonuclease A (c2) &gt;gi|134104351|pdb|2G4W|B Chain B, Anomalous Substructure Of Ribonuclease A (c2) &gt;gi|134104352|pdb|2G4X|A Chain A, Anomalous Substructure Od Ribonuclease A (P3221) &gt;gi|145579301|pdb|2E33|B Chain B, Structural Basis For Selection Of Glycosylated Substrate By Scffbs1 Ubiquitin Ligase &gt;gi|151568003|pdb|2QCA|A Chain A, A New Crystal Form Of Bovine Pancreatic Rnase A In Complex With 2&apos;- Deoxyguanosine-5&apos;-Monophosphate &gt;gi|157830026|pdb|1AQP|A Chain A, Ribonuclease A Copper Complex &gt;gi|157833631|pdb|1RAT|A Chain A, Effects Of Temperature On Protein Structure And Dynamics: X- Ray Crystallographic Studies Of The Protein Ribonuclease-A At Nine Different Temperatures From 98 To 320 K &gt;gi|157833636|pdb|1RBN|A Chain A, The Structure Of Ribonuclease A Derivative Ii At 2.1 Angstroms Resolution &gt;gi|157833643|pdb|1RBW|A Chain A, Ribonuclease A (E.C.3.1.27.5) With Guanidinium &gt;gi|157833644|pdb|1RBX|A Chain A, Ribonuclease A (E.C.3.1.27.5) Control &gt;gi|157833646|pdb|1RCA|A Chain A, Structure Of The Crystalline Complex Of Deoxycytidylyl-3&apos;, 5&apos;-Guanosine (3&apos;,5&apos;-Dcpdg) Co-Crystalised With Ribonuclease At 1.9 Angstroms Resolution. Retrobinding In Pancreatic Rnasea Is Independent Of Mode Of Inhibitor Intromission &gt;gi|157833687|pdb|1RHA|A Chain A, Water Dependent Domain Motion And Flexibility In Ribonuclease A And The Invariant Features In Its Hydration Shell. An X-Ray Study Of Two Low Humidity Crystal Forms Of The Enzyme &gt;gi|157833688|pdb|1RHB|A Chain A, Water Dependent Domain Motion And Flexibility In Ribonuclease A And The Invariant Features In Its Hydration Shell. An X-Ray Study Of Two Low Humidity Crystal Forms Of The Enzyme &gt;gi|157833708|pdb|1RNC|A Chain A, Newly Observed Binding Mode In Pancreatic Ribonuclease &gt;gi|157833709|pdb|1RND|A Chain A, Newly Observed Binding Mode In Pancreatic Ribonuclease &gt;gi|157833715|pdb|1RNO|A Chain A, Ribonuclease A Crystallized From 80% Ammonium Sulphate &gt;gi|157833716|pdb|1RNQ|A Chain A, Ribonuclease A Crystallized From 8m Sodium Formate &gt;gi|157833718|pdb|1RNU|A Chain A, Refinement Of The Crystal Structure Of Ribonuclease S. Comparison With And Between The Various Ribonuclease A Structures &gt;gi|157833719|pdb|1RNV|A Chain A, Refinement Of The Crystal Structure Of Ribonuclease S. Comparison With And Between The Various Ribonuclease A Structures &gt;gi|157833720|pdb|1RNW|A Chain A, Recombinant Ribonuclease A Crystallized From 80% Ammonium Sulphate &gt;gi|157833721|pdb|1RNX|A Chain A, Ribonuclease A Crystallized From 3m Sodium Chloride, 30% Ammonium Sulfate &gt;gi|157833722|pdb|1RNY|A Chain A, Ribonuclease A Crystallized From 3m Cesium Chloride, 30% Ammonium Sulfate &gt;gi|157833723|pdb|1RNZ|A Chain A, Ribonuclease A Crystallized From 2.5m Sodium Chloride, 3.3m Sodium Formate &gt;gi|157833724|pdb|1ROB|A Chain A, Structure Of The Crystalline Complex Of Cytidylic Acid (2&apos;- Cmp) With Ribonuclease At 1.6 Angstroms Resolution &gt;gi|157833736|pdb|1RPF|A Chain A, The Structures Of Rnase Complexed With 3&apos;-Cmp And D(Cpa): Active Site Conformation And Conserved Water Molecules &gt;gi|157833737|pdb|1RPG|A Chain A, Structures Of Rnase A Complexed With 3&apos;-Cmp And D(Cpa): Active Site Conformation And Conserved Water Molecules &gt;gi|157833738|pdb|1RPH|A Chain A, Structures Of Rnase A Complexed With 3&apos;-Cmp And D(Cpa): Active Site Conformation And Conserved Water Molecules &gt;gi|157833747|pdb|1RSM|A Chain A, The 2-Angstroms Resolution Structure Of A Thermostable Ribonuclease A Chemically Cross-Linked Between Lysine Residues 7 And 41 &gt;gi|157833750|pdb|1RTB|A Chain A, Crystal Structure Disposition Of Thymidylic Acid Tetramer In Complex With Ribonuclease A &gt;gi|157833754|pdb|1RUV|A Chain A, Ribonuclease A-Uridine Vanadate Complex: High Resolution Resolution X-Ray Structure (1.3 A) &gt;gi|157834523|pdb|2AAS|A Chain A, High-Resolution Three-Dimensional Structure Of Ribonuclease A In Solution By Nuclear Magnetic Resonance Spectroscopy &gt;gi|157836329|pdb|2RAT|A Chain A, Effects Of Temperature On Protein Structure And Dynamics: X- Ray Crystallographic Studies Of The Protein Ribonuclease-A At Nine Different Temperatures From 98 To 320 K &gt;gi|157836339|pdb|2RNS|A Chain A, Refinement Of The Crystal Structure Of Ribonuclease S. Comparison With And Between The Various Ribonuclease A Structures &gt;gi|157836881|pdb|3RAT|A Chain A, Effects Of Temperature On Protein Structure And Dynamics: X- Ray Crystallographic Studies Of The Protein Ribonuclease-A At Nine Different Temperatures From 98 To 320 K &gt;gi|157836885|pdb|3RN3|A Chain A, Segmented Anisotropic Refinement Of Bovine Ribonuclease A By The Application Of The Rigid-Body Tls Model &gt;gi|157836991|pdb|4RAT|A Chain A, Effects Of Temperature On Protein Structure And Dynamics: X- Ray Crystallographic Studies Of The Protein Ribonuclease-A At Nine Different Temperatures From 98 To 320 K &gt;gi|157837072|pdb|5RAT|A Chain A, Effects Of Temperature On Protein Structure And Dynamics: X- Ray Crystallographic Studies Of The Protein Ribonuclease-A At Nine Different Temperatures From 98 To 320 K &gt;gi|157837121|pdb|6RAT|A Chain A, Effects Of Temperature On Protein Structure And Dynamics: X-Ray Crystallographic Studies Of The Protein Ribonuclease-A At Nine Different Temperatures From 98 To 320 K &gt;gi|157837156|pdb|7RAT|A Chain A, Effects Of Temperature On Protein Structure And Dynamics: X- Ray Crystallographic Studies Of The Protein Ribonuclease-A At Nine Different Temperatures From 98 To 320 K &gt;gi|157837158|pdb|7RSA|A Chain A, Structure Of Phosphate-Free Ribonuclease A Refined At 1.26 Angstroms &gt;gi|157837182|pdb|8RAT|A Chain A, Effects Of Temperature On Protein Structure And Dynamics: X- Ray Crystallographic Studies Of The Protein Ribonuclease-A At Nine Different Temperatures From 98 To 320 K &gt;gi|157837192|pdb|9RAT|A Chain A, Effects Of Temperature On Protein Structure And Dynamics: X-Ray Crystallographic Studies Of The Protein Ribonuclease-A At Nine Different Temperatures From 98 To 320 K &gt;gi|158429300|pdb|2P49|A Chain A, Complex Of A Camelid Single-Domain Vhh Antibody Fragment With Rnase A At 1.4a Resolution: Native Mono_1 Crystal Form &gt;gi|158429302|pdb|2P4A|A Chain A, X-Ray Structure Of A Camelid Affinity Matured Single-Domain Vhh Antibody Fragment In Complex With Rnase A &gt;gi|158429304|pdb|2P4A|C Chain C, X-Ray Structure Of A Camelid Affinity Matured Single-Domain Vhh Antibody Fragment In Complex With Rnase A &gt;gi|159794751|pdb|2E3W|A Chain A, X-Ray Structure Of Native Rnase A &gt;gi|169791661|pdb|2P42|A Chain A, Complex Of A Camelid Single-Domain Vhh Antibody Fragment With Rnase A At 1.8a Resolution: Se3-Mono-2 Crystal Form With Three Se-Met Sites (M34, M51, M83) In Vhh Scaffold &gt;gi|169791663|pdb|2P42|C Chain C, Complex Of A Camelid Single-Domain Vhh Antibody Fragment With Rnase A At 1.8a Resolution: Se3-Mono-2 Crystal Form With Three Se-Met Sites (M34, M51, M83) In Vhh Scaffold &gt;gi|169791665|pdb|2P43|A Chain A, Complex Of A Camelid Single-Domain Vhh Antibody Fragment With Rnase A At 1.65a Resolution: Se3-Mono-1 Crystal Form With Three Se-Met Sites (M34, M51, M83) In Vhh Scaffold &gt;gi|169791667|pdb|2P44|A Chain A, Complex Of A Camelid Single-Domain Vhh Antibody Fragment With Rnase A At 1.8a Resolution: Se5a-Mono-1 Crystal Form With Five Se-Met Sites (M34, M51, F68m, M83, L86m) In Vhh Scaffold &gt;gi|169791669|pdb|2P45|A Chain A, Complex Of A Camelid Single-domain Vhh Antibody Fragment With Rnase A At 1.1a Resolution: Se5b-ortho-1 Crystal Form With Five Se-met Sites (l4m, M34, M51, F68m, M83) In Vhh Scaffold. &gt;gi|169791671|pdb|2P46|A Chain A, Complex Of A Camelid Single-Domain Vhh Antibody Fragment With Rnase A At 2.5a Resolution: Se5b-Ortho-2 Crystal Form With Five Se-Met Sites (L4m, M34, M51, F68m, M83) In Vhh Scaffold. &gt;gi|169791673|pdb|2P46|C Chain C, Complex Of A Camelid Single-Domain Vhh Antibody Fragment With Rnase A At 2.5a Resolution: Se5b-Ortho-2 Crystal Form With Five Se-Met Sites (L4m, M34, M51, F68m, M83) In Vhh Scaffold. &gt;gi|169791675|pdb|2P47|A Chain A, Complex Of A Camelid Single-Domain Vhh Antibody Fragment With Rnase A At 2.5a Resolution: Se5b-Tri Crystal Form With Five Se-Met Sites (L4m, M34, M51, F68m, M83) In Vhh Scaffold. &gt;gi|169791677|pdb|2P48|A Chain A, Complex Of A Camelid Single-Domain Vhh Antibody Fragment With Rnase A At 2.3a Resolution: Se5b-Tetra Crystal Form With Five Se-Met Sites (L4m, M34, M51, F68m, M83) In Vhh Scaffold. &gt;gi|194320099|pdb|3DH5|A Chain A, Crystal Structure Of Bovine Pancreatic Ribonuclease A (Wild- Type) &gt;gi|223365819|pdb|3D6O|A Chain A, The Rnase A- 5&apos;-Deoxy-5&apos;-N-(Ethyl Isonipecotatyl)uridine Complex &gt;gi|223365820|pdb|3D6O|B Chain B, The Rnase A- 5&apos;-Deoxy-5&apos;-N-(Ethyl Isonipecotatyl)uridine Complex &gt;gi|223365821|pdb|3D6P|A Chain A, Rnase A- 5&apos;-Deoxy-5&apos;-N-Morpholinouridine Complex &gt;gi|223365822|pdb|3D6P|B Chain B, Rnase A- 5&apos;-Deoxy-5&apos;-N-Morpholinouridine Complex &gt;gi|223365823|pdb|3D6Q|A Chain A, The Rnase A- 5&apos;-Deoxy-5&apos;-N-Piperidinouridine Complex &gt;gi|223365824|pdb|3D6Q|B Chain B, The Rnase A- 5&apos;-Deoxy-5&apos;-N-Piperidinouridine Complex &gt;gi|223365828|pdb|3D7B|A Chain A, The Ribonuclease A- 5&apos;-Deoxy-5&apos;-N-Pyrrolidinouridine Complex &gt;gi|223365829|pdb|3D7B|B Chain B, The Ribonuclease A- 5&apos;-Deoxy-5&apos;-N-Pyrrolidinouridine Complex &gt;gi|223365830|pdb|3D8Y|A Chain A, Rnase A- 5&apos;-deoxy-5&apos;-n-piperidinothymidine Complex &gt;gi|223365831|pdb|3D8Y|B Chain B, Rnase A- 5&apos;-deoxy-5&apos;-n-piperidinothymidine Complex &gt;gi|223365832|pdb|3D8Z|A Chain A, Rnase A- 5&apos;-deoxy-5&apos;-n-pyrrolidinothymidine Complex &gt;gi|223365833|pdb|3D8Z|B Chain B, Rnase A- 5&apos;-deoxy-5&apos;-n-pyrrolidinothymidine Complex &gt;gi|223673818|pdb|2W5G|A Chain A, Rnase A-5&apos;-Atp Complex &gt;gi|223673819|pdb|2W5G|B Chain B, Rnase A-5&apos;-Atp Complex &gt;gi|223673820|pdb|2W5I|A Chain A, Rnase A-Ap3a Complex &gt;gi|223673821|pdb|2W5I|B Chain B, Rnase A-Ap3a Complex &gt;gi|223673822|pdb|2W5K|A Chain A, Rnase A-Nadph Complex &gt;gi|223673823|pdb|2W5K|B Chain B, Rnase A-Nadph Complex &gt;gi|223673824|pdb|2W5L|A Chain A, Rnase A-Nadp Complex &gt;gi|223673825|pdb|2W5L|B Chain B, Rnase A-Nadp Complex &gt;gi|223673826|pdb|2W5M|A Chain A, Rnase A-Pyrophosphate Ion Complex &gt;gi|223673827|pdb|2W5M|B Chain B, Rnase A-Pyrophosphate Ion Complex &gt;gi|240104343|pdb|3DXG|A Chain A, Ribonuclease A- Uridine 5&apos; Phosphate Complex &gt;gi|240104344|pdb|3DXG|B Chain B, Ribonuclease A- Uridine 5&apos; Phosphate Complex &gt;gi|240104345|pdb|3DXH|A Chain A, Ribonuclease A Uridine 5&apos; Diphosphate Complex &gt;gi|240104346|pdb|3DXH|B Chain B, Ribonuclease A Uridine 5&apos; Diphosphate Complex &gt;gi|241913189|pdb|3EUX|A Chain A, Crystal Structure Of Crosslinked Ribonuclease A &gt;gi|241913190|pdb|3EUX|B Chain B, Crystal Structure Of Crosslinked Ribonuclease A &gt;gi|241913191|pdb|3EUY|A Chain A, Crystal Structure Of Ribonuclease A In 50% Dioxane &gt;gi|241913192|pdb|3EUY|B Chain B, Crystal Structure Of Ribonuclease A In 50% Dioxane &gt;gi|241913193|pdb|3EUZ|A Chain A, Crystal Structure Of Ribonuclease A In 50% Dimethylformamide &gt;gi|241913194|pdb|3EUZ|B Chain B, Crystal Structure Of Ribonuclease A In 50% Dimethylformamide &gt;gi|241913195|pdb|3EV0|A Chain A, Crystal Structure Of Ribonuclease A In 70% Dimethyl Sulfoxide &gt;gi|241913196|pdb|3EV0|B Chain B, Crystal Structure Of Ribonuclease A In 70% Dimethyl Sulfoxide &gt;gi|241913197|pdb|3EV1|A Chain A, Crystal Structure Of Ribonuclease A In 70% Hexanediol &gt;gi|241913198|pdb|3EV1|B Chain B, Crystal Structure Of Ribonuclease A In 70% Hexanediol &gt;gi|241913199|pdb|3EV2|A Chain A, Crystal Structure Of Ribonuclease A In 70% Isopropanol &gt;gi|241913200|pdb|3EV2|B Chain B, Crystal Structure Of Ribonuclease A In 70% Isopropanol &gt;gi|241913201|pdb|3EV3|A Chain A, Crystal Structure Of Ribonuclease A In 70% T-Butanol &gt;gi|241913202|pdb|3EV3|B Chain B, Crystal Structure Of Ribonuclease A In 70% T-Butanol &gt;gi|241913203|pdb|3EV4|A Chain A, Crystal Structure Of Ribonuclease A In 50% Trifluoroethanol &gt;gi|241913204|pdb|3EV4|B Chain B, Crystal Structure Of Ribonuclease A In 50% Trifluoroethanol &gt;gi|241913205|pdb|3EV5|A Chain A, Crystal Structure Of Ribonuclease A In 1m Trimethylamine N-Oxide &gt;gi|241913206|pdb|3EV5|B Chain B, Crystal Structure Of Ribonuclease A In 1m Trimethylamine N-Oxide &gt;gi|241913207|pdb|3EV6|A Chain A, Crystal Structure Of Ribonuclease A In 50% R,S,R-Bisfuranol &gt;gi|241913208|pdb|3EV6|B Chain B, Crystal Structure Of Ribonuclease A In 50% R,S,R-Bisfuranol &gt;gi|255311926|pdb|3I7W|A Chain A, High Pressure Structure Of Wild-Type Rnase A (0.67 Gpa) &gt;gi|260656428|pdb|3JW1|A Chain A, Crystal Structure Of Bovine Pancreatic Ribonuclease Complexed With Uridine-5&apos;-monophosphate At 1.60 A Resolution &gt;gi|260656429|pdb|3JW1|B Chain B, Crystal Structure Of Bovine Pancreatic Ribonuclease Complexed With Uridine-5&apos;-monophosphate At 1.60 A Resolution &gt;gi|295321931|pdb|3LXO|A Chain A, The Crystal Structure Of Ribonuclease A In Complex With Thymidine-3&apos;- Monophosphate &gt;gi|300193160|pdb|3I67|A Chain A, Ribonuclease A By Lb Nanotemplate Method After High X-Ray Dose On Esrf Id14-2 Beamline &gt;gi|300193161|pdb|3I6F|A Chain A, Ribonuclease A By Classical Hanging Drop Method Before High X-Ray Dose On Esrf Id14-2 Beamline &gt;gi|300193162|pdb|3I6H|A Chain A, Ribonuclease A By Lb Nanotemplate Method Before High X-Ray Dose On Esrf Id14-2 Beamline &gt;gi|300193163|pdb|3I6J|A Chain A, Ribonuclease A By Classical Hanging Drop Method After High X-Ray Dose On Esrf Id14-2 Beamline &gt;gi|319443318|pdb|2XOG|A Chain A, Functional And Structural Analyses Of N-Acylsulfonamide- Linked Dinucleoside Inhibitors Of Ribonuclease A &gt;gi|319443319|pdb|2XOG|B Chain B, Functional And Structural Analyses Of N-Acylsulfonamide- Linked Dinucleoside Inhibitors Of Ribonuclease A &gt;gi|319443320|pdb|2XOI|A Chain A, Functional And Structural Analyses Of N-Acylsulfonamide- Linked Dinucleoside Inhibitors Of Ribonuclease A &gt;gi|319443321|pdb|2XOI|B Chain B, Functional And Structural Analyses Of N-Acylsulfonamide- Linked Dinucleoside Inhibitors Of Ribonuclease A &gt;gi|343197338|pdb|3QSK|A Chain A, 5 Histidine Variant Of The Anti-Rnase A Vhh In Complex With Rnase A &gt;gi|349587964|pdb|6RSA|A Chain A, Nuclear Magnetic Resonance And Neutron Diffraction Studies Of The Complex Of RibonucleaseA With Uridine Vanadate, A Transition-State Analogue &gt;gi|353529988|pdb|3A1R|A Chain A, Neutron Crystal Structure Analysis Of Bovine Pancreatic Ribonuclease A &gt;gi|395759333|pdb|4AO1|A Chain A, High Resolution Crystal Structure Of Bovine Pancreatic Ribonuclease Crystallized Using Ionic Liquid &gt;gi|422920028|pdb|4G8V|A Chain A, Crystal Structure Of Ribonuclease A In Complex With 5a &gt;gi|422920029|pdb|4G8V|B Chain B, Crystal Structure Of Ribonuclease A In Complex With 5a &gt;gi|422920030|pdb|4G8Y|A Chain A, Crystal Structure Of Ribonuclease A In Complex With 5b &gt;gi|422920031|pdb|4G8Y|B Chain B, Crystal Structure Of Ribonuclease A In Complex With 5b &gt;gi|422920032|pdb|4G90|A Chain A, Crystal Structure Of Ribonuclease A In Complex With 5e &gt;gi|422920033|pdb|4G90|B Chain B, Crystal Structure Of Ribonuclease A In Complex With 5e &gt;gi|568786778|pdb|4MXF|A Chain A, X-ray Structure Of The Adduct Between Bovine Pancreatic Ribonuclease And Auoxo6, A Dinuclear Gold(iii) Complex With -dioxo Bridges Linking The Two Metal Centers &gt;gi|568786779|pdb|4MXF|B Chain B, X-ray Structure Of The Adduct Between Bovine Pancreatic Ribonuclease And Auoxo6, A Dinuclear Gold(iii) Complex With -dioxo Bridges Linking The Two Metal Centers &gt;gi|575403264|pdb|4J5Z|A Chain A, Crystal Structure Of Ribonuclease A In Aqueous Solution: One Of Twelve In Mscs Set &gt;gi|575403265|pdb|4J60|A Chain A, Crystal Structure Of Ribonuclease A Soaked In 25% Cyclopentanol: One Of Twelve In Mscs Set &gt;gi|575403266|pdb|4J61|A Chain A, Crystal Structure Of Ribonuclease A Soaked In 40% Cyclopentanone: One Of Twelve In Mscs Set &gt;gi|575403267|pdb|4J62|A Chain A, Crystal Structure Of Ribonuclease A Soaked In 40% Cyclohexanol: One Of Twelve In Mscs Set &gt;gi|575403268|pdb|4J63|A Chain A, Crystal Structure Of Ribonuclease A Soaked In 40% Cyclohexanone: One Of Twelve In Mscs Set &gt;gi|575403269|pdb|4J64|A Chain A, Crystal Structure Of Ribonuclease A Soaked In 40% Dioxane: One Of Twelve In Mscs Set &gt;gi|575403270|pdb|4J65|A Chain A, Crystal Structure Of Ribonuclease A Soaked In 40% Dimethylformamide: One Of Twelve In Mscs Set &gt;gi|575403271|pdb|4J66|A Chain A, Crystal Structure Of Ribonuclease A Soaked In 25% Dimethyl Sulfoxide: One Of Twelve In Mscs Set &gt;gi|575403272|pdb|4J67|A Chain A, Crystal Structure Of Ribonuclease A Soaked In 50% 1,6-hexanediol: One Of Twelve In Mscs Set &gt;gi|575403273|pdb|4J68|A Chain A, Crystal Structure Of Ribonuclease A Soaked In 40% Isopropanol: One Of Twelve In Mscs Set &gt;gi|575403274|pdb|4J69|A Chain A, Crystal Structure Of Ribonuclease A Soaked In 50% S,r,s-bisfuranol: One Of Twelve In Mscs Set &gt;gi|575403275|pdb|4J6A|A Chain A, Crystal Structure Of Ribonuclease A Soaked In 40% 2,2,2- Trifluoroethanol: One Of Twelve In Mscs Set &gt;gi|576865200|pdb|4L55|A Chain A, X-ray Structure Of The Adduct Between Bovine Pancreatic Ribonuclease And Aziru &gt;gi|576865201|pdb|4L55|B Chain B, X-ray Structure Of The Adduct Between Bovine Pancreatic Ribonuclease And Aziru &gt;gi|659835466|pdb|4PEQ|A Chain A, Structure Of Bovine Ribonuclease Inhibitor Complexed With Bovine Ribonuclease I &gt;gi|659835468|pdb|4PEQ|C Chain C, Structure Of Bovine Ribonuclease Inhibitor Complexed With Bovine Ribonuclease I &gt;gi|662702233|pdb|4OT4|A Chain A, X-ray Structure Of The Adduct Formed Between Cisplatin And Ribonuclease A &gt;gi|662702234|pdb|4OT4|B Chain B, X-ray Structure Of The Adduct Formed Between Cisplatin And Ribonuclease A &gt;gi|672883668|pdb|4QH3|A Chain A, X-ray Structure Of The Adduct Formed Between Bovine Pancreatic Ribonuclease And Trans-dimethylamine Methylamine Dichlorido Platinum(ii) &gt;gi|672883669|pdb|4QH3|B Chain B, X-ray Structure Of The Adduct Formed Between Bovine Pancreatic Ribonuclease And Trans-dimethylamine Methylamine Dichlorido Platinum(ii) &gt;gi|694270168|pdb|4POU|A Chain A, Vhh-metal In Complex With Rnase A &gt;gi|761232621|pdb|4OOH|A Chain A, Structure Of Ribonuclease A At 40c &gt;gi|783282971|pdb|4RTE|A Chain A, The X-ray Structure Of Bovine Pancreatic Ribonuclease Incubated In The Presence Of An Excess Of Cisplatin (1:10 Ratio) &gt;gi|953267377|pdb|4S0Q|A Chain A, The X-ray Structure Of The Adduct Formed In The Reaction Between Bovine Pancreatic Ribonuclease And Carboplatin &gt;gi|953267378|pdb|4S0Q|B Chain B, The X-ray Structure Of The Adduct Formed In The Reaction Between Bovine Pancreatic Ribonuclease And Carboplatin &gt;gi|955264613|pdb|4S18|A Chain A, The X-ray Structure Of The Adduct Formed In The Reaction Between Bovine Pancreatic Ribonuclease And Oxaliplatin &gt;gi|955264614|pdb|4S18|B Chain B, The X-ray Structure Of The Adduct Formed In The Reaction Between Bovine Pancreatic Ribonuclease And Oxaliplatin &gt;gi|960515596|pdb|5E5E|A Chain A, X-ray Structure Of The Adduct Formed In The Reaction Between Rnase A And A Neutral Organometallic Derivative [pt(pbi)(me)(dmso)], Pbi=2- (2&apos;-pyridil)benzimidazole (compound 3) &gt;gi|960515597|pdb|5E5E|B Chain B, X-ray Structure Of The Adduct Formed In The Reaction Between Rnase A And A Neutral Organometallic Derivative [pt(pbi)(me)(dmso)], Pbi=2- (2&apos;-pyridil)benzimidazole (compound 3) &gt;gi|960515598|pdb|5E5F|A Chain A, X-ray Structure Of The Complex Between Rnase A And Compound 4-pf6 ([(pph3)au(mi-pbi)pt(me)(dmso)][pf6]), The Heterobimetallic Derivative Obtained In The Reaction Between The Organometallic Compound [pt(pbi)(me)(dmso)], Pbi=2-(2&apos;-pyridil)benzimidazole (compound 3) And The Gold(i) Compound [au(ph3p)][pf6] &gt;gi|960515599|pdb|5E5F|B Chain B, X-ray Structure Of The Complex Between Rnase A And Compound 4-pf6 ([(pph3)au(mi-pbi)pt(me)(dmso)][pf6]), The Heterobimetallic Derivative Obtained In The Reaction Between The Organometallic Compound [pt(pbi)(me)(dmso)], Pbi=2-(2&apos;-pyridil)benzimidazole (compound 3) And The Gold(i) Compound [au(ph3p)][pf6] &gt;gi|1015812850|pdb|4ZZ4|A Chain A, Neutron Crystal Structure Of Ribonuclease A Determined By The Real Space D/h Contrast Method &gt;gi|1015813107|pdb|5D6U|A Chain A, X-ray Crystal Structure Of Ribonuclease A Determined For The Real Space D/h Contrast Method &gt;gi|1015813121|pdb|5D97|A Chain A, Neutron Crystal Structure Of H2o-solvent Ribonuclease A &gt;gi|1048349284|pdb|5JMG|A Chain A, X-ray Structure Of The Complex Between Bovine Pancreatic Ribonuclease And Pentachlorocarbonyliridate(iii) (4 Days Of Soaking) &gt;gi|1048349285|pdb|5JMG|B Chain B, X-ray Structure Of The Complex Between Bovine Pancreatic Ribonuclease And Pentachlorocarbonyliridate(iii) (4 Days Of Soaking) &gt;gi|1048349286|pdb|5JML|A Chain A, X-ray Structure Of The Complex Between Bovine Pancreatic Ribonuclease And Penthachlorocarbonyliridate(iii) (2 Months Of Soaking) &gt;gi|1048349287|pdb|5JML|B Chain B, X-ray Structure Of The Complex Between Bovine Pancreatic Ribonuclease And Penthachlorocarbonyliridate(iii) (2 Months Of Soaking) &gt;gi|1049306174|pdb|5JLG|A Chain A, The X-ray Structure Of The Adduct Formed In The Reaction Between Bovine Pancreatic Ribonuclease And Compound I, A Piano-stool Organometallic Ru(ii) Arene Compound Containing An O,s-chelating Ligand &gt;gi|1049306175|pdb|5JLG|B Chain B, The X-ray Structure Of The Adduct Formed In The Reaction Between Bovine Pancreatic Ribonuclease And Compound I, A Piano-stool Organometallic Ru(ii) Arene Compound Containing An O,s-chelating Ligand &gt;gi|1438976|gb|AAB36134.1| pancreatic-type ribonuclease, partial [Bos taurus] &gt;gi|229155|prf||630436A RNase</Hit_def>
+  <Hit_accession>P61824</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>2.18347e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|24138414|emb|CAB37066.1|</Hit_id>
+  <Hit_def>artificial [synthetic construct]</Hit_def>
+  <Hit_accession>CAB37066</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>2.26094e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|953267420|pdb|4WYN|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of The A109g Mutant Of Rnase A &gt;gi|953267421|pdb|4WYN|B Chain B, The Crystal Structure Of The A109g Mutant Of Rnase A &gt;gi|953267422|pdb|4WYP|A Chain A, The Crystal Structure Of The A109g Mutant Of Rnase A In Complex With 5&apos;amp &gt;gi|953267423|pdb|4WYP|B Chain B, The Crystal Structure Of The A109g Mutant Of Rnase A In Complex With 5&apos;amp &gt;gi|953267424|pdb|4WYZ|A Chain A, The Crystal Structure Of The A109g Mutant Of Rnase A In Complex With 3&apos;ump &gt;gi|953267425|pdb|4WYZ|B Chain B, The Crystal Structure Of The A109g Mutant Of Rnase A In Complex With 3&apos;ump</Hit_def>
+  <Hit_accession>4WYN_A</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.299</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>6.91752e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVGCEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIV CEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|20149802|pdb|1EIE|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of F120w Mutant Of Bovine Pancreatic Ribonuclease A</Hit_def>
+  <Hit_accession>1EIE_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.299</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>7.06808e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHWDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVH+DASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|39654061|pdb|1IZP|A</Hit_id>
+  <Hit_def>Chain A, F46l Mutant Of Bovine Pancreatic Ribonuclease A</Hit_def>
+  <Hit_accession>1IZP_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.0494e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTLVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNT VHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|194320105|pdb|3DIC|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Bovine Pancreatic Ribonuclease A Variant (V108a)</Hit_def>
+  <Hit_accession>3DIC_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.14573e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIAACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHII ACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|194320102|pdb|3DI8|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Bovine Pancreatic Ribonuclease A Variant (V57a)</Hit_def>
+  <Hit_accession>3DI8_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.14573e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAACSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQA CSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|194320101|pdb|3DI7|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Bovine Pancreatic Ribonuclease A Variant (V54a)</Hit_def>
+  <Hit_accession>3DI7_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.14573e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADAQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLAD QAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|194320100|pdb|3DH6|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Bovine Pancreatic Ribonuclease A Variant (V47a)</Hit_def>
+  <Hit_accession>3DH6_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.14573e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFAHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTF HESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|157833629|pdb|1RAR|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Fluorescent Derivative Of Rnase A &gt;gi|157833630|pdb|1RAS|A Chain A, Crystal Structure Of A Fluorescent Derivative Of Rnase A</Hit_def>
+  <Hit_accession>1RAR_A</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.26422e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>ETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>ETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>ETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|157837075|pdb|5RSA|A</Hit_id>
+  <Hit_def>Chain A, Comparison Of Two Independently Refined Models Of Ribonuclease-A</Hit_def>
+  <Hit_accession>5RSA_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.30706e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>ETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>ETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>ETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|157836887|pdb|3RSD|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The D121n Variant Of Ribonuclease A</Hit_def>
+  <Hit_accession>3RSD_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.32149e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFNASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHF+ASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|88191846|pdb|1YMN|A</Hit_id>
+  <Hit_def>Chain A, The Study Of Reductive Unfolding Pathways Of Rnase A (Y92l Mutant)</Hit_def>
+  <Hit_accession>1YMN_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>1.73883e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKLPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSK PNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|194320104|pdb|3DIB|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Bovine Pancreatic Ribonuclease A Variant (I106a) &gt;gi|255311927|pdb|3I7X|A Chain A, High Pressure Structure Of I106a Rnase A Variant (0.35 Gpa) &gt;gi|255311928|pdb|3I7Y|A Chain A, High Pressure Structure Of I106a Variant Of Rnase A (0.48 Gpa)</Hit_def>
+  <Hit_accession>3DIB_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>2.0277e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHAIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKH IVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|194320103|pdb|3DI9|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Bovine Pancreatic Ribonuclease A Variant (I81a)</Hit_def>
+  <Hit_accession>3DI9_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>2.0277e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSATDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMS TDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|39654062|pdb|1IZQ|A</Hit_id>
+  <Hit_def>Chain A, F46v Mutant Of Bovine Pancreatic Ribonuclease A</Hit_def>
+  <Hit_accession>1IZQ_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>2.05008e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTVVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNT VHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|345100504|pdb|1LSQ|A</Hit_id>
+  <Hit_def>Chain A, Ribonuclease A With Asn 67 Replaced By A Beta-Aspartyl Residue &gt;gi|345100505|pdb|1LSQ|B Chain B, Ribonuclease A With Asn 67 Replaced By A Beta-Aspartyl Residue &gt;gi|440923781|pdb|1DY5|A Chain A, Deamidated Derivative Of Bovine Pancreatic Ribonuclease &gt;gi|440923782|pdb|1DY5|B Chain B, Deamidated Derivative Of Bovine Pancreatic Ribonuclease</Hit_def>
+  <Hit_accession>1LSQ_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.758</Hsp_bit-score>
+      <Hsp_score>652</Hsp_score>
+      <Hsp_evalue>2.09559e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKXGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACK GQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|20663516|pdb|1C8W|A</Hit_id>
+  <Hit_def>Chain A, Thr45gly Variant Of Ribonuclease A</Hit_def>
+  <Hit_accession>1C8W_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.758</Hsp_bit-score>
+      <Hsp_score>652</Hsp_score>
+      <Hsp_evalue>2.28796e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNGFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVN FVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|157829693|pdb|1A5Q|A</Hit_id>
+  <Hit_def>Chain A, P93a Variant Of Bovine Pancreatic Ribonuclease A</Hit_def>
+  <Hit_accession>1A5Q_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.758</Hsp_bit-score>
+      <Hsp_score>652</Hsp_score>
+      <Hsp_evalue>2.44374e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYANCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKY NCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|375332392|pdb|3RH1|A</Hit_id>
+  <Hit_def>Chain A, X-ray Structure Of A Cis-proline (p114) To Alanine Variant Of Ribonuclease A &gt;gi|375332393|pdb|3RID|A Chain A, X-ray Structure Of The C-terminal Swapped Dimer Of P114a Variant Of Ribonuclease A &gt;gi|375332394|pdb|3RID|B Chain B, X-ray Structure Of The C-terminal Swapped Dimer Of P114a Variant Of Ribonuclease A &gt;gi|375332395|pdb|3RID|C Chain C, X-ray Structure Of The C-terminal Swapped Dimer Of P114a Variant Of Ribonuclease A &gt;gi|375332396|pdb|3RID|D Chain D, X-ray Structure Of The C-terminal Swapped Dimer Of P114a Variant Of Ribonuclease A</Hit_def>
+  <Hit_accession>3RH1_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.758</Hsp_bit-score>
+      <Hsp_score>652</Hsp_score>
+      <Hsp_evalue>2.44374e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNAYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGN YVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|33357236|pdb|1KH8|A</Hit_id>
+  <Hit_def>Chain A, Structure Of A Cis-Proline (P114) To Glycine Variant Of Ribonuclease A</Hit_def>
+  <Hit_accession>1KH8_A</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.373</Hsp_bit-score>
+      <Hsp_score>651</Hsp_score>
+      <Hsp_evalue>3.4358e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNGYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGN YVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|88191847|pdb|1YMR|A</Hit_id>
+  <Hit_def>Chain A, The Study Of Reductive Unfolding Pathways Of Rnase A (Y92a Mutant)</Hit_def>
+  <Hit_accession>1YMR_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.373</Hsp_bit-score>
+      <Hsp_score>651</Hsp_score>
+      <Hsp_evalue>3.54941e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKAPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSK PNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|157836889|pdb|3RSP|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The P93g Variant Of Ribonuclease A</Hit_def>
+  <Hit_accession>3RSP_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.373</Hsp_bit-score>
+      <Hsp_score>651</Hsp_score>
+      <Hsp_evalue>3.66825e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYGNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKY NCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|157836994|pdb|4RSD|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The D121a Variant Of Ribonuclease A</Hit_def>
+  <Hit_accession>4RSD_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.373</Hsp_bit-score>
+      <Hsp_score>651</Hsp_score>
+      <Hsp_evalue>3.83292e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFAASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHF ASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|159794930|pdb|2NUI|A</Hit_id>
+  <Hit_def>Chain A, X-Ray Structure Of Synthetic [d83a]rnase A</Hit_def>
+  <Hit_accession>2NUI_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.373</Hsp_bit-score>
+      <Hsp_score>651</Hsp_score>
+      <Hsp_evalue>3.83292e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITACRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSIT CRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|39654063|pdb|1IZR|A</Hit_id>
+  <Hit_def>Chain A, F46a Mutant Of Bovine Pancreatic Ribonuclease A</Hit_def>
+  <Hit_accession>1IZR_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>4.77401e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTAVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNT VHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|20149800|pdb|1EIC|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of F120a Mutant Of Bovine Pancreatic Ribonuclease A</Hit_def>
+  <Hit_accession>1EIC_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>4.77401e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHADASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVH DASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|14719516|pdb|1C9X|A</Hit_id>
+  <Hit_def>Chain A, H119a Variant Of Ribonuclease A</Hit_def>
+  <Hit_accession>1C9X_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>5.04338e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVAFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPV FDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|14719515|pdb|1C9V|A</Hit_id>
+  <Hit_def>Chain A, H12a Variant Of Ribonuclease A</Hit_def>
+  <Hit_accession>1C9V_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>5.04338e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQAMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQ MDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|88191848|pdb|1YMW|A</Hit_id>
+  <Hit_def>Chain A, The Study Of Reductive Unfolding Pathways Of Rnase A (Y92g Mutant)</Hit_def>
+  <Hit_accession>1YMW_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>5.09905e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKGPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSK PNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|20149801|pdb|1EID|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of F120g Mutant Of Bovine Pancreatic Ribonuclease A</Hit_def>
+  <Hit_accession>1EID_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>5.44622e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHGDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVH DASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|322812413|pdb|3MWR|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Ribonuclease A Tandem Enzymes And Their Interaction With The Cytosolic Ribonuclease Inhibitor</Hit_def>
+  <Hit_accession>3MWR_A</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>1.45599e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>1.45599e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|157829692|pdb|1A5P|A</Hit_id>
+  <Hit_def>Chain A, C[40,95]a Variant Of Bovine Pancreatic Ribonuclease A</Hit_def>
+  <Hit_accession>1A5P_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.832</Hsp_bit-score>
+      <Hsp_score>647</Hsp_score>
+      <Hsp_evalue>1.47893e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRAKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNAAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDR KPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPN AYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|426232852|ref|XP_004010433.1|</Hit_id>
+  <Hit_def>PREDICTED: ribonuclease pancreatic [Ovis aries] &gt;gi|803336827|ref|XP_012026480.1| PREDICTED: ribonuclease pancreatic [Ovis aries musimon]</Hit_def>
+  <Hit_accession>XP_004010433</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.603</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>1.61882e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KESAAAKFERQHMDSSTSSASSSNYCNQMMKSRNLTQDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQAEKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KE+AAAKFERQHMDSSTS+ASSSNYCNQMMKSRNLT+DRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQA KHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|548482124|ref|XP_005685450.1|</Hit_id>
+  <Hit_def>PREDICTED: ribonuclease pancreatic [Capra hircus]</Hit_def>
+  <Hit_accession>XP_005685450</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.603</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>1.69146e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KESAAAKFERQHMDSSTSSASSSNYCNQMMKSRNLTQDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQAEKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KE+AAAKFERQHMDSSTS+ASSSNYCNQMMKSRNLT+DRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQA KHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|322812412|pdb|3MWQ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Ribonuclease A Tandem Enzymes And Their Interaction With The Cytosolic Ribonuclease Inhibitor</Hit_def>
+  <Hit_accession>3MWQ_A</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>1.69694e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>1.69694e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|322812414|pdb|3MX8|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Ribonuclease A Tandem Enzymes And Their Interaction With The Cytosolic Ribonuclease Inhibitor</Hit_def>
+  <Hit_accession>3MX8_A</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.07</Hsp_bit-score>
+      <Hsp_score>658</Hsp_score>
+      <Hsp_evalue>2.13559e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>258.07</Hsp_bit-score>
+      <Hsp_score>658</Hsp_score>
+      <Hsp_evalue>2.13559e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1109303971|pdb|5ET4|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Rnase A-k7h/r10h In Complex With 3&apos;-cmp &gt;gi|1109303972|pdb|5ET4|B Chain B, Structure Of Rnase A-k7h/r10h In Complex With 3&apos;-cmp &gt;gi|1109303973|pdb|5ET4|C Chain C, Structure Of Rnase A-k7h/r10h In Complex With 3&apos;-cmp &gt;gi|1109303974|pdb|5ET4|D Chain D, Structure Of Rnase A-k7h/r10h In Complex With 3&apos;-cmp</Hit_def>
+  <Hit_accession>5ET4_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>2.21998e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAHFEHQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAA FE QHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|167744841|pdb|2OQF|A</Hit_id>
+  <Hit_def>Chain A, Structure Of A Synthetic, Non-Natural Analogue Of Rnase A: [n71k(Ade), D83a]rnase A &gt;gi|167744842|pdb|2OQF|B Chain B, Structure Of A Synthetic, Non-Natural Analogue Of Rnase A: [n71k(Ade), D83a]rnase A &gt;gi|167744843|pdb|2OQF|C Chain C, Structure Of A Synthetic, Non-Natural Analogue Of Rnase A: [n71k(Ade), D83a]rnase A &gt;gi|167744844|pdb|2OQF|D Chain D, Structure Of A Synthetic, Non-Natural Analogue Of Rnase A: [n71k(Ade), D83a]rnase A</Hit_def>
+  <Hit_accession>2OQF_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.062</Hsp_bit-score>
+      <Hsp_score>645</Hsp_score>
+      <Hsp_evalue>3.22438e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTXCYQSYSTMSITACRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQT CYQSYSTMSIT CRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|54039260|sp|P67926.1|RNAS1_CAPHI</Hit_id>
+  <Hit_def>RecName: Full=Ribonuclease pancreatic; AltName: Full=RNase 1; AltName: Full=RNase A &gt;gi|54039261|sp|P67927.1|RNAS1_SHEEP RecName: Full=Ribonuclease pancreatic; AltName: Full=RNase 1; AltName: Full=RNase A &gt;gi|1438978|gb|AAB36135.1| pancreatic-type ribonuclease, partial [Ovis aries] &gt;gi|1438980|gb|AAB36136.1| pancreatic-type ribonuclease, partial [Capra hircus]</Hit_def>
+  <Hit_accession>P67926</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.677</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>3.92882e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KESAAAKFERQHMDSSTSSASSSNYCNQMMKSRNLTQDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQAEKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KE+AAAKFERQHMDSSTS+ASSSNYCNQMMKSRNLT+DRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQA KHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|225734134|pdb|3FL0|A</Hit_id>
+  <Hit_def>Chain A, X-Ray Structure Of The Non Covalent Swapped Form Of The Q28lK31CS32C MUTANT OF BOVINE PANCREATIC RIBONUCLEASE IN Complex With 2&apos;-Deoxycytidine-2&apos;-Deoxyguanosine-3&apos;,5&apos;- Monophosphate &gt;gi|225734135|pdb|3FL0|B Chain B, X-Ray Structure Of The Non Covalent Swapped Form Of The Q28lK31CS32C MUTANT OF BOVINE PANCREATIC RIBONUCLEASE IN Complex With 2&apos;-Deoxycytidine-2&apos;-Deoxyguanosine-3&apos;,5&apos;- Monophosphate</Hit_def>
+  <Hit_accession>3FL0_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>7.50839e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNLMMXXRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCN MM  RNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|378792092|pdb|3QL1|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Ribonuclease A Variant A4c/d83e/v118c &gt;gi|378792093|pdb|3QL2|A Chain A, Crystal Structure Of Ribonuclease A Variant A4c/d83e/v118c &gt;gi|378792094|pdb|3QL2|B Chain B, Crystal Structure Of Ribonuclease A Variant A4c/d83e/v118c</Hit_def>
+  <Hit_accession>3QL1_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.521</Hsp_bit-score>
+      <Hsp_score>641</Hsp_score>
+      <Hsp_evalue>1.05521e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETCAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITECRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPCHFDASV</Hsp_hseq>
+      <Hsp_midline>KET AAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSIT+CRETGSSKYPNCAYKTTQANKHIIVACEGNPYVP HFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|159794980|pdb|2OP2|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Rnase Double-Mutant V43c R85c With Extra Disulphide Bond</Hit_def>
+  <Hit_accession>2OP2_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.521</Hsp_bit-score>
+      <Hsp_score>641</Hsp_score>
+      <Hsp_evalue>1.28574e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPCNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCCETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKP NTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDC ETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|157836888|pdb|3RSK|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The K7aR10AK66A VARIANT OF RIBONUCLEASE A &gt;gi|157836995|pdb|4RSK|A Chain A, Structure Of The K7aR10AK66A VARIANT OF RIBONUCLEASE A Complexed With 3&apos;-Ump</Hit_def>
+  <Hit_accession>3RSK_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.521</Hsp_bit-score>
+      <Hsp_score>641</Hsp_score>
+      <Hsp_evalue>1.32879e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KETAAAKFERQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACKNGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_qseq>
+      <Hsp_hseq>KETAAAAFEAQHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVACANGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>KETAAA FE QHMDSSTSAASSSNYCNQMMKSRNLTKDRCKPVNTFVHESLADVQAVCSQKNVAC NGQTNCYQSYSTMSITDCRETGSSKYPNCAYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>115476514</Statistics_db-num>
+      <Statistics_db-len>42330486778</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
