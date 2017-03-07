@@ -123,5 +123,5 @@ if __name__ == '__main__':
     #target = "1bkr"
     #target = "1ctq"
     #target = "1jsf"
-    target = "1l24"
+    target = "1c98"
     produce(target=target, dict_path="stabilityScoreFile.txt")
