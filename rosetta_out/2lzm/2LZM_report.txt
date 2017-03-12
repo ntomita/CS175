@@ -1,0 +1,35 @@
+2LZM
+
+List of Top 10 Mutation Candidates (1-indexed):
+to A at 77
+to A at 113
+to I at 157
+to H at 96
+to V at 98
+to P at 82
+to I at 6
+to D at 38
+to P at 60
+to E at 105
+Score: 1623.8
+
+Top 2 mutations has applied and following score has obtained through rosetta.
+Score decreased:
+SCORE:    -350.321
+SCORE:    -351.694
+
+10 mutations found in empirical research
+(http://www.abren.net/protherm/protherm_result.php)
+K 60 P
+G 77 A
+A 82 P
+A 93 P
+G 113 A
+K 60 P
+S 38 D
+T 115 E
+N 116 D
+R 119 M
+
+4 out of 10 has matched.
+(77A, 82P, 38D, 60P)

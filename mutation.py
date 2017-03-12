@@ -1,8 +1,13 @@
 import operator
 from score import calculate_score
+import math
 
 
-def probable_mutations(original, pmf, location_param_dict, n=2, method='min'):
+def weight(value, regularize=True):
+    return math.log(math.exp(1) + value) if regularize else value
+
+
+def probable_mutations(original, pmf, location_param_dict, n=2, method='min', regularize=True):
     """Based on hsp sequences and Location parameters values of Amino acids,
     calculate the probable mutations depending on a threshold value
 
@@ -24,7 +29,7 @@ def probable_mutations(original, pmf, location_param_dict, n=2, method='min'):
         # Step 2: for every character of the original string, look at the corresponding
         # dictionary in the PMF
         pmf_dict = pmf.get_distribution(itr)
-        str_char = original[itr]
+        original_key = original[itr]
         if method == 'min':
             curr_tuple = (None, float('Inf'), None)
         else:
@@ -38,18 +43,19 @@ def probable_mutations(original, pmf, location_param_dict, n=2, method='min'):
             #  b. the original character is not in the location_param_dict, the mutated character is in the location_param_dict
             #  c. both are not in the dictionary
             #  d. both are in the dictionary
-            if str_char not in location_param_dict and key not in location_param_dict:
+            if original_key not in location_param_dict and key not in location_param_dict:
                 continue
-        #    if str_char in location_param_dict and key not in location_param_dict:  TODO
-        #   if str_char not in location_param_dict and key in location_param_dict:
-            if str_char in location_param_dict and key in location_param_dict:
-                delta = location_param_dict[key]-location_param_dict[str_char] # TODO: need null handle
+            original_score = location_param_dict[original_key] * weight(pmf_dict[original_key])
+            if original_key in location_param_dict and key in location_param_dict:
+                mutated_score = location_param_dict[key] * weight(pmf_dict[key])
+                delta = mutated_score - original_score
                 # Taking conservation of each residue into consideration
                 # pmf_dict[key] serves as weight of each residue
+
                 if method == 'min' and delta < 0 and curr_tuple[1] > delta:
-                    curr_tuple = (key, delta*pmf_dict[key], itr)
+                    curr_tuple = (key, delta, itr)
                 elif method == 'max' and delta > 0 and curr_tuple[1] < delta:
-                    curr_tuple = (key, delta*pmf_dict[key], itr)
+                    curr_tuple = (key, delta, itr)
 
         # Step 5: add the tuples into the corresponding index of the list of
         # deltas for the original string
@@ -66,6 +72,11 @@ def probable_mutations(original, pmf, location_param_dict, n=2, method='min'):
     for i in xrange(n):
         curr_t = sorted_delta_tuples[i]
         list_orig[curr_t[2]] = curr_t[0]
+
+    print "List of Mutation Candidate:"
+    for i in range(10):
+        curr_t = sorted_delta_tuples[i]
+        print "to {} at {}".format(curr_t[0], curr_t[2]+1)
 
     mutated_string ="".join(list_orig)
     score = calculate_score(mutated_string, location_param_dict)

@@ -29,14 +29,14 @@ def test():
     print ""
 
     # Now construct a character-distribution for each position
-    pmf = blast.build_positional_distributions(record_index=0)
+    pmf = blast.build_positional_distributions(record_index=0, min_length_ratio=0.9)
     for i in range(10):
         print "at {}: {}".format(i, pmf.get_distribution(i))  # showing first 10 distributions
 
     # Load the dictionary.
     stability_dict = generate_dictionary(os.path.join("data", "stabilityScoreFile.txt"))
 
-    (mutated, score) = probable_mutations(original_string, pmf, stability_dict, 2, method='min')
+    (mutated, score) = probable_mutations(original_string, pmf, stability_dict, 2, method='max')
     print mutated
     print score
 
@@ -72,8 +72,10 @@ def produce(target, dict_path, num_mutate=2, method='min', output_path='rosetta_
     """
         2. Generate a possible mutation dictionary based on blasted results
     """
-    pmf = blast.build_positional_distributions(record_index=0)
+    pmf = blast.build_positional_distributions(record_index=0, min_length_ratio=0.9)
     stability_dict = generate_dictionary(os.path.join("data", dict_path))
+    for i in range(len(pmf.bins)):
+        print "at {}: {}".format(i, pmf.get_distribution(i))  # showing first 10 distributions
 
     """
         3. Apply mutation and store it in fasta file
@@ -126,4 +128,6 @@ if __name__ == '__main__':
     target = "1mfm"
     target = '5le0'
     target = "1c98"
-    produce(target=target, dict_path="stabilityScoreFile.txt")
+    target = '1lz1'
+    target = '2lzm'
+    produce(target=target, method='max', dict_path="stabilityScoreFile.txt")
