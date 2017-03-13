@@ -23,6 +23,12 @@ def relax(rosetta_path, pdb_path, outfolder='./rosetta_out'):
         '\''+pdb_path+'\'',
         '\''+outfolder+'\'',
         '\''+outfolder+'\'')
+    command = "{} -database {} -s {} -overwrite -nstruct 1 -relax:constrain_relax_to_start_coords -out:path:pdb {} -out:path:score {}".format(
+        '\''+binary_path+'\'',
+        '\''+database_path+'\'',
+        '\''+pdb_path+'\'',
+        '\''+outfolder+'\'',
+        '\''+outfolder+'\'')
     print command
     subprocess.check_output(command,
                             stderr=subprocess.STDOUT,

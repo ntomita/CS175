@@ -130,4 +130,5 @@ if __name__ == '__main__':
     target = "1c98"
     target = '1lz1'
     target = '2lzm'
+    target = '1qlp'
     produce(target=target, method='max', dict_path="stabilityScoreFile.txt")
