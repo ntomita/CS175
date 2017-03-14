@@ -64,7 +64,7 @@ def produce(target, dict_path, num_mutate=2, method='min', output_path='rosetta_
     blast = Blast()
     if not os.path.exists(xml_file):
         print "Blast using NCBI..."
-        blast.blast(fasta_file_path=fasta_file, xml_file_path=xml_file)
+        blast.blast(fasta_file_path=fasta_file, xml_file_path=xml_file, hitlist_size=500)
     else:
         blast.load_xml(xml_file)
         blast.load_sequences(fasta_file)
@@ -74,16 +74,16 @@ def produce(target, dict_path, num_mutate=2, method='min', output_path='rosetta_
     """
     pmf = blast.build_positional_distributions(record_index=0, min_length_ratio=0.9)
     stability_dict = generate_dictionary(os.path.join("data", dict_path))
+    """
     for i in range(len(pmf.bins)):
         print "at {}: {}".format(i, pmf.get_distribution(i))  # showing first 10 distributions
-
+    """
     """
         3. Apply mutation and store it in fasta file
     """
     print "Mutating a sequence..."
     (mutated, score) = probable_mutations(original_string, pmf, stability_dict, num_mutate, method=method)
     print "Score: {}".format(score)
-
     save_in_fasta(os.path.join(output_path, target, "{}_mutated.fasta".format(target)),
                   extract_fasta_header(fasta_file),
                   mutated)
@@ -119,16 +119,5 @@ def produce(target, dict_path, num_mutate=2, method='min', output_path='rosetta_
 
 if __name__ == '__main__':
 
-    #target = "1c20"
-    #target = "1a7s"
-    #target = "1b9o"
-    #target = "1bkr"
-    #target = "1ctq"
-    #target = "1jsf"
-    target = "1mfm"
-    target = '5le0'
-    target = "1c98"
-    target = '1lz1'
-    target = '2lzm'
     target = '1qlp'
     produce(target=target, method='max', dict_path="stabilityScoreFile.txt")

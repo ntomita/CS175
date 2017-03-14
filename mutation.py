@@ -74,9 +74,9 @@ def probable_mutations(original, pmf, location_param_dict, n=2, method='min', re
         list_orig[curr_t[2]] = curr_t[0]
 
     print "List of Mutation Candidate:"
-    for i in range(10):
+    for i in range(30):
         curr_t = sorted_delta_tuples[i]
-        print "to {} at {}".format(curr_t[0], curr_t[2]+1)
+        print "to {} at {} with positional delta score {}".format(curr_t[0], curr_t[2]+1, curr_t[1])
 
     mutated_string ="".join(list_orig)
     score = calculate_score(mutated_string, location_param_dict)

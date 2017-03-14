@@ -17,12 +17,7 @@ def relax(rosetta_path, pdb_path, outfolder='./rosetta_out'):
     binary_path = os.path.join(rosetta_path, "main", "source", "bin", binary_name)
     database_path = os.path.join(rosetta_path, "main", "database")
 
-    command = "{} -database {} -s {} -ignore_unrecognized_res -overwrite -nstruct 1 -relax:constrain_relax_to_start_coords -out:path:pdb {} -out:path:score {}".format(
-        '\''+binary_path+'\'',
-        '\''+database_path+'\'',
-        '\''+pdb_path+'\'',
-        '\''+outfolder+'\'',
-        '\''+outfolder+'\'')
+    # removed: -ignore_unrecognized_res
     command = "{} -database {} -s {} -overwrite -nstruct 1 -relax:constrain_relax_to_start_coords -out:path:pdb {} -out:path:score {}".format(
         '\''+binary_path+'\'',
         '\''+database_path+'\'',
